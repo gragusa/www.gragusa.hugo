@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Publications on gragusa.org </title>
+    <link>https://gragusa.org/publications/</link>
+    <language>en-us</language>
+    <author>Giuseppe Ragusa</author>
+    <rights>Copyright (c) Giuseppe Ragusa.</rights>
+    <updated>Tue, 01 Nov 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Anchoring the Yield Curve Using Survey Expectations</title>
+      <link>https://gragusa.org/publications/anchoring/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/anchoring/</guid>
+      <description>&lt;p&gt;The dynamic behavior of the term structure of interest rates is difficult to replicate with mod- els, and even models with a proven track record of empirical performance have underperformed since the early 2000s. On the other hand, survey expectations can accurately predict yields, but they are typically not available for all maturities and/or forecast horizons. We show how survey expectations can be exploited to improve the accuracy of yield curve forecasts given by a base model. We do so by employing a flexible exponential tilting method that anchors the model forecasts to the survey expectations, and we develop a test to guide the choice of the anchoring points. The method implicitly incorporates into yield curve forecasts any information that survey participants have access to - such as information about the current state of the economy or forward-looking information contained in monetary policy announcements - without the need to explicitly model it. We document that anchoring delivers large and significant gains in forecast accuracy relative to the class of models that are widely adopted by financial and policy institutions for forecasting the term structure of interest rates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)</title>
+      <link>https://gragusa.org/publications/moment-conditions-sensitivity/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/moment-conditions-sensitivity/</guid>
+      <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Estimation of State Space Models Using Moment Conditions</title>
+      <link>https://gragusa.org/publications/bayesian-state-space/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/bayesian-state-space/</guid>
+      <description>&lt;p&gt;We consider Bayesian estimation of state space models when the measurement density is not available but estimating equations for the parameters of the measurement density are available from moment conditions. The most common applications are partial equilibrium models involving moment conditions that depend on dynamic latent variables (e.g., timevarying parameters, stochastic volatility) and dynamic general equilibrium models when moment equations from the first order conditions are available but computing an accurate approximation to the measurement density is difficult.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Existence and Characterization of Conditional Density Projections</title>
+      <link>https://gragusa.org/publications/density-projection/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/density-projection/</guid>
+      <description>&lt;p&gt;In this paper we propose primitive conditions under which a projection of a conditional density onto a set defined by conditional moment restrictions exists and is unique. Moreover, we provide an analytic expression of the obtained projection. The range of applications where conditional density projections are used is wide. The derived results are potentially useful in a variety of areas including: semiparametric efficient estimation and optimal testing in (conditional) moment models, Bayesian prior determination and inference in semiparametric models, density forecasting, and simulation-based econometric analysis. Regarding existence, we propose three different combinations of assumptions that are all sufficient to show that the projection exists and is unique. The proposed conditions exhibit a clear trade off between restrictions put on the divergence between the conditional densities and on the moment function which defines the projection set. Depending on the nature of the application, the researcher can pick and choose which set of conditions to use. Our second set of results characterizes the projection. The expression for the projected density is new though not surprising given the previously obtained results for the unconditional case. The projection is characterized by the dual of the original projection problem. In establishing the strong duality, however, we work with a constraint qualification condition that is weaker than that used by Borwein and Lewis (1991a, 1992a, 1993) in their seminal work concerning the unconditional case.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unexplored dimensions of discrimination in Europe: Religion, homosexuality and physical appearance</title>
+      <link>https://gragusa.org/publications/unuxplored-discrimination-book/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/unuxplored-discrimination-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unconditional and Conditional Wage Polarization in Europe</title>
+      <link>https://gragusa.org/publications/cond-uncond-polarization/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/cond-uncond-polarization/</guid>
+      <description>&lt;p&gt;This paper investigates the dynamics of the distribution of unconditional and conditional -on technology—wages in Europe, using both industry and individual level data for the period 1995-2007. We find that the unconditional wage distribution shows scant signs of polariza- tion in Europe. On the other hand, the effect of technology is more nuanced. At the industry level, technological changes have an effect on polarization of jobs, but not on polarization of wages. At the individual level, we use a counterfactual distributional analysis which accounts for the heterogeneity of tasks across occupations, and we find only mild evidence of wage polarization. Technology affects the lower and upper part of the wage distribution in different ways, with service tasks affecting the lower quantiles and abstract tasks affecting the higher ones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Approximate Bayesian Inference in Models Defined Through Estimating Equations</title>
+      <link>https://gragusa.org/publications/bayesian-estimating-equations/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/bayesian-estimating-equations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Method of Moments with latent variables</title>
+      <link>https://gragusa.org/publications/gmm-with-latent/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/gmm-with-latent/</guid>
+      <description>&lt;p&gt;The contribution of generalized method of moments (Hansen and Singleton, 1982) was to
+allow frequentist inference regarding the parameters of a nonlinear structural model without
+having to solve the model. Provided there were no latent variables. The contribution of this
+paper is the same. With latent variables.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Theory-coherent forecasting</title>
+      <link>https://gragusa.org/publications/theory-coherent/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/theory-coherent/</guid>
+      <description>&lt;p&gt;We consider a method for producing multivariate density forecasts that satisfy moment restrictions implied by economic theory, such as Euler conditions. The method starts from a base forecast that might not satisfy the theoretical restrictions and forces it to satisfy the moment conditions using exponential tilting. Although exponential tilting has been considered before in a Bayesian context (Robertson et al. 2005), our main contributions are: (1) to adapt the method to a classical inferential context with out-of-sample evaluation objectives and parameter estimation uncertainty; and (2) to formally discuss the conditions under which the method delivers improvements in forecast accuracy. An empirical illustration which incorporates Euler conditions into forecasts produced by Bayesian vector autoregressions shows that the improvements in accuracy can be sizable and significant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unexplored Dimensions of Discrimination in Europe: Homosexuality and Physical Appearance</title>
+      <link>https://gragusa.org/publications/unexplored-discrimination-jpop/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/publications/unexplored-discrimination-jpop/</guid>
+      <description>&lt;p&gt;We study labor-market discrimination of individuals with &amp;ldquo;specific&amp;ldquo; characteristics in Italy. We conduct a field experiment in two Italian cities: Rome and Milan, by sending &amp;ldquo;fake&amp;ldquo; CVs to real ads. We find that there is a strong penalty for homosexuals, i.e., about 30% less chance to be called back compared to a heterosexual male and even more so if they are highly skilled. On the other hand, we find no penalty for homosexual females. We also find a beauty premium for females only but this premium is much lower when the &amp;ldquo;pretty&amp;ldquo; woman is skilled.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
