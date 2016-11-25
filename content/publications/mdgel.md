@@ -4,7 +4,7 @@ title: "Minimum divergence, generalized empirical likelihoods, and higher order 
 author: Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Minimum divergence, generalized empirical likelihoods, and higher order expansions.&ldquo; Econometric Reviews, 30(4):406-456"
+citation: "&ldquo;Minimum divergence, generalized empirical likelihoods, and higher order expansions.&rdquo; Econometric Reviews, 30(4):406-456"
 tag:
 subjects:
 comments: no

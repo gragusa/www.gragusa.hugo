@@ -4,7 +4,7 @@ title: "Unexplored Dimensions of Discrimination in Europe: Homosexuality and Phy
 author: Eleonora Patacchini, Giuseppe Ragusa, and Yves Zenou
 status: Published
 type: published
-citation: "&ldquo;Unexplored Dimensions of Discrimination in Europe: Homosexuality and Physical Appearance.&ldquo; Journal of Population Economics, 28(4):1045-1073"
+citation: "&ldquo;Unexplored Dimensions of Discrimination in Europe: Homosexuality and Physical Appearance.&rdquo; Journal of Population Economics, 28(4):1045-1073"
 tag:
 subjects:
 comments: no

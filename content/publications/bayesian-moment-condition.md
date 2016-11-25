@@ -4,11 +4,11 @@ title: "Bayesian likelihoods for moment condition models"
 author: Giuseppe Ragusa
 status: Retired
 type: retired
-citation: "&ldquo;Bayesian likelihoods for moment condition models.&ldquo;&ldquo;"
+citation: "&ldquo;Bayesian likelihoods for moment condition models.&rdquo;"
 tag:
 subjects:
 comments: no
-file: 
+file: momcondbayes.pdf
 date: 2011-02-01
 publishdate: 2011-02-01
 doi: 

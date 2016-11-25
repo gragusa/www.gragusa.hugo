@@ -4,7 +4,7 @@ title: "Bayesian Estimation of State Space Models Using Moment Conditions"
 author: Ron Gallant, Raffaella Giacomini, and Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Bayesian Estimation of State Space Models Using Moment Conditions.&ldquo; Forthcoming in Journal of Econometrics"
+citation: "&ldquo;Bayesian Estimation of State Space Models Using Moment Conditions.&rdquo; Forthcoming in Journal of Econometrics"
 tag:
 subjects:
 comments: no

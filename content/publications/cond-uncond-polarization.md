@@ -4,11 +4,11 @@ title: "Unconditional and Conditional Wage Polarization in Europe"
 author: Paolo Naticchioni, Giuseppe Ragusa, and Riccardo Massari
 status: Publishedwp
 type: publishedwp
-citation: "&ldquo;Unconditional and Conditional Wage Polarization in Europe.&ldquo; Discussion Paper Series, Forschungsinstitut zur Zukunft der Arbeit (IZA), No. 8465"
+citation: "&ldquo;Unconditional and Conditional Wage Polarization in Europe.&rdquo; Discussion Paper Series, Forschungsinstitut zur Zukunft der Arbeit (IZA), No. 8465"
 tag:
 subjects:
 comments: no
-file: 
+file: condpolarization.pdf
 date: 2014-12-01
 publishdate: 2014-12-01
 doi: 

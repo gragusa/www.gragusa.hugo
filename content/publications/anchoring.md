@@ -4,7 +4,7 @@ title: "Anchoring the Yield Curve Using Survey Expectations"
 author: Carlo Altavilla, Raffaella Giacomini, and G. Ragusa
 status: Published
 type: published
-citation: "&ldquo;Anchoring the Yield Curve Using Survey Expectations.&ldquo; Forthcoming in Journal of Applied Econometrics"
+citation: "&ldquo;Anchoring the Yield Curve Using Survey Expectations.&rdquo; Forthcoming in Journal of Applied Econometrics"
 tag:
 subjects:
 comments: no

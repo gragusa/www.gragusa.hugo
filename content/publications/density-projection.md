@@ -4,7 +4,7 @@ title: "Existence and Characterization of Conditional Density Projections"
 author: Ivana Komunjer and Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Existence and Characterization of Conditional Density Projections.&ldquo; Econometric Theory, 32(4):947-987"
+citation: "&ldquo;Existence and Characterization of Conditional Density Projections.&rdquo; Econometric Theory, 32(4):947-987"
 tag:
 subjects:
 comments: no

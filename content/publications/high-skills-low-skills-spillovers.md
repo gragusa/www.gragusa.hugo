@@ -4,7 +4,7 @@ title: "Spillovers from high-skill consumption to low-skill labor markets"
 author: Francesca Mazzolari and Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Spillovers from high-skill consumption to low-skill labor markets.&ldquo; Review of Economics and Statistics, 95(1):74-86"
+citation: "&ldquo;Spillovers from high-skill consumption to low-skill labor markets.&rdquo; Review of Economics and Statistics, 95(1):74-86"
 tag:
 subjects:
 comments: no

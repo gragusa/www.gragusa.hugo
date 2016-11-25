@@ -4,11 +4,11 @@ title: "Time limits: The effects on welfare use and other consumption-smoothing 
 author: Francesca Mazzolari and Giuseppe Ragusa
 status: Publishedwp
 type: publishedwp
-citation: "&ldquo;Time limits: The effects on welfare use and other consumption-smoothing mechanisms.&ldquo; Discussion Paper Series, Forschungsinstitut zur Zukunft der Arbeit (IZA), No. 6993 "
+citation: "&ldquo;Time limits: The effects on welfare use and other consumption-smoothing mechanisms.&rdquo; Discussion Paper Series, Forschungsinstitut zur Zukunft der Arbeit (IZA), No. 6993 "
 tag:
 subjects:
 comments: no
-file: 
+file: timelimits.pdf
 date: 2012-11-01
 publishdate: 2012-11-01
 doi: 

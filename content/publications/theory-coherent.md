@@ -4,7 +4,7 @@ title: "Theory-coherent forecasting"
 author: Raffaella Giacomini and Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Theory-coherent forecasting.&ldquo; Journal of Econometrics, 182(1):145-155"
+citation: "&ldquo;Theory-coherent forecasting.&rdquo; Journal of Econometrics, 182(1):145-155"
 tag:
 subjects:
 comments: no

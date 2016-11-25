@@ -4,11 +4,11 @@ title: "Generalized Method of Moments with latent variables"
 author: Raffaella Giacomini, Ron Gallant, and Giuseppe Ragusa
 status: Publishedwp
 type: publishedwp
-citation: "&ldquo;Generalized Method of Moments with latent variables.&ldquo; CEPR discussion paper, No. 9692"
+citation: "&ldquo;Generalized Method of Moments with latent variables.&rdquo; CEPR discussion paper, No. 9692"
 tag:
 subjects:
 comments: no
-file: 
+file: liml.pdf
 date: 2014-10-01
 publishdate: 2014-10-01
 doi: 
