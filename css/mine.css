@@ -1,6 +1,6 @@
 /* =Typography
 -----------------------------------------------------------------------------*/
-body {
+/*body {
 	font-family: 'Alegreya', 'Hoefler Text', Times, Serif;
 	font-size: 1.05em;
 	line-height: 1.6em;
@@ -19,61 +19,91 @@ h2, h3 {
 	text-transform: lowercase;
 	font-family: 'Alegreya SC';
 	font-style: normal;
-}
+}*/
+
 
 /*************************************************
- *  Button Primary: Color Override
+ *  Biography
  **************************************************/
 
-.btn-primary {
-  border-color: #0095eb;
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  background: #0095eb;
+#profile .portrait {
+  background-image: url('../img/portrait.jpg');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
 }
 
-/*************************************************
- *  Button Outlines
- **************************************************/
-
-.btn-outline {
-  background-color: transparent;
-  color: inherit;
-  transition: all .5s;
+#profile .portrait-title h2 {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
 }
 
-.btn-primary.btn-outline {
-  color: #0095eb;
-  border-color: #0095eb;
+#profile .portrait-title h3 {
+  font-size: 1.13em;
+  font-weight: 300;
+  color: #AAAAAA;
+  margin: 0px 0 10px 0;
 }
 
-.btn-success.btn-outline {
-  color: #5cb85c;
+#profile ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
-.btn-info.btn-outline {
-  color: #5bc0de;
+#profile .social-icon li {
+  margin-right: 10px;
 }
 
-.btn-warning.btn-outline {
-  color: #f0ad4e;
+#profile .social-icon li:last-of-type {
+  margin-right: 0;
 }
 
-.btn-danger.btn-outline {
-  color: #d9534f;
+#profile .social-icon li:hover {
+  transform: scale(1.2)
 }
 
-.btn-primary.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-  color: #fff;
+.big-icon {
+  font-size: 2rem;
 }
 
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
 
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
