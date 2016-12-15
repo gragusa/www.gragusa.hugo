@@ -483,9 +483,11 @@ pre code {
   font-size: 100%;
   border: none;
   padding: 0;
-  background: none;
+  background: hsla(206, 18%, 40%, 0.07);
   line-height: 1.65em;
+  width: 95%;
 }
+
 var {
   color: rgba(0, 0, 0, 0.5);
 }
