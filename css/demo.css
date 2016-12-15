@@ -24,6 +24,11 @@ h2, h3 {
 	font-style: normal;
 }
 
+h2 code {
+	text-transform: none;
+}
+
+
 .label-red {
   background-color: #36454f;
 }
@@ -77,7 +82,12 @@ hr {border-top: 1px solid #b3cde0; margin-top:5ex; margin-bottom: 5ex;}
 
 h2 {border-bottom: 1px solid #b3cde0;}
 
-h2 a {border-bottom: none;}
+h2 a {
+	border-bottom: none;
+	text-transform: none;
+}
+
+
 
 /* =Layout
 -----------------------------------------------------------------------------*/
@@ -436,3 +446,9 @@ ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
   color: rgba(0,0,0,0.6);
 }
+
+code.has-jax {font: inherit;
+              font-size: 100%;
+              background: inherit;
+              border: inherit;
+              color: #515151;}

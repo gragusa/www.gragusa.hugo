@@ -132,8 +132,29 @@ When you first start Emacs after installing the starter-kit, it will try to cont
       
     &lt;li&gt;
       &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/www.gragusa.hugo&#34; target=&#34;_blank&#34;&gt;www.gragusa.hugo:&lt;/a&gt;&lt;/strong&gt;
-      Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 15077 &amp;middot; Type: HTML &lt;br /&gt;
+      Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 15180 &amp;middot; Type: HTML &lt;br /&gt;
       &lt;/p&gt; 
+    &lt;/li&gt;
+    
+      
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/CovarianceMatrices.jl&#34; target=&#34;_blank&#34;&gt;CovarianceMatrices.jl:&lt;/a&gt;&lt;/strong&gt;
+      Stars: 7 &amp;middot; Forks: 3 &amp;middot; Size: 174 &amp;middot; Type: Julia &lt;br /&gt;
+      Heteroskedasticity and Autocorrelation Consistent Covariance Matrix Estimation for Julia.&lt;/p&gt; 
+    &lt;/li&gt;
+    
+      
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/grpack&#34; target=&#34;_blank&#34;&gt;grpack:&lt;/a&gt;&lt;/strong&gt;
+      Stars: 1 &amp;middot; Forks: 0 &amp;middot; Size: 3756 &amp;middot; Type: R &lt;br /&gt;
+      Useful R functions and methods for econometricians.&lt;/p&gt; 
+    &lt;/li&gt;
+    
+      
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/BayesianTools.jl&#34; target=&#34;_blank&#34;&gt;BayesianTools.jl:&lt;/a&gt;&lt;/strong&gt;
+      Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 9 &amp;middot; Type: Julia &lt;br /&gt;
+      Julia package designed to handle product distributions&lt;/p&gt; 
     &lt;/li&gt;
     
       
@@ -183,20 +204,6 @@ When you first start Emacs after installing the starter-kit, it will try to cont
       &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/METADATA.jl&#34; target=&#34;_blank&#34;&gt;METADATA.jl:&lt;/a&gt;&lt;/strong&gt;
       Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 11384 &amp;middot; Type: Julia &lt;br /&gt;
       Metadata for registered Julia packages.&lt;/p&gt; 
-    &lt;/li&gt;
-    
-      
-    &lt;li&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/CovarianceMatrices.jl&#34; target=&#34;_blank&#34;&gt;CovarianceMatrices.jl:&lt;/a&gt;&lt;/strong&gt;
-      Stars: 7 &amp;middot; Forks: 3 &amp;middot; Size: 175 &amp;middot; Type: Julia &lt;br /&gt;
-      Heteroskedasticity and Autocorrelation Consistent Covariance Matrix Estimation for Julia.&lt;/p&gt; 
-    &lt;/li&gt;
-    
-      
-    &lt;li&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/BayesianTools.jl&#34; target=&#34;_blank&#34;&gt;BayesianTools.jl:&lt;/a&gt;&lt;/strong&gt;
-      Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 8 &amp;middot; Type: Julia &lt;br /&gt;
-      Julia package designed to handle product distributions&lt;/p&gt; 
     &lt;/li&gt;
     
       
@@ -332,13 +339,6 @@ When you first start Emacs after installing the starter-kit, it will try to cont
       Unofficial repository for MARSS package&lt;/p&gt; 
     &lt;/li&gt;
     
-      
-    &lt;li&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/gragusa/KFAS&#34; target=&#34;_blank&#34;&gt;KFAS:&lt;/a&gt;&lt;/strong&gt;
-      Stars: 0 &amp;middot; Forks: 0 &amp;middot; Size: 2047 &amp;middot; Type: R &lt;br /&gt;
-      KFAS: R Package for Exponential Family State Space Models&lt;/p&gt; 
-    &lt;/li&gt;
-    
 &lt;/ul&gt;
 
 </description>
@@ -350,9 +350,139 @@ When you first start Emacs after installing the starter-kit, it will try to cont
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>https://gragusa.org/resources/</guid>
-      <description>&lt;h4&gt;&lt;a href=&#34;https://gragusa.org/resources/github/&#34;&gt;All GitHub Projects&lt;/a&gt;&lt;/h4&gt;
-    &lt;p&gt;Here is a &lt;a href=&#34;https://gragusa.org/resources/github/&#34;&gt;full list of the various public code and data repositories&lt;/a&gt; that I have put on GitHub. 
-  &lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
+
+&lt;p&gt;On this page I will keep a running list of computation/programming projects I work on from time to time.&lt;/p&gt;
+
+&lt;p&gt;My interests range from estimation of nonlinear moment condition models, approximate bayesian inference, lerge optimization,
+high-performance computing in econometrics and finance. Below you will find a list of stuff I have been working on. Some
+of the Julia packages are &amp;ldquo;registered&amp;rdquo;, meaning that you can install it from Julia by &lt;code&gt;Pkg.add&lt;/code&gt;. Others are at an early
+stage and are not registered.&lt;/p&gt;
+
+&lt;h2 id=&#34;covariancematrices-jl-http-github-com-gragusa-covariancematrices-jl&#34;&gt;&lt;a href=&#34;http:://github.com/gragusa/CovarianceMatrices.jl&#34;&gt;&lt;code&gt;CovarianceMatrices.jl&lt;/code&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/gragusa/CovarianceMatrices.jl/master/LICENSE.md&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/license-MIT-blue.svg&#34; alt=&#34;license&#34; /&gt;&lt;/a&gt;  &lt;a href=&#34;http://pkg.julialang.org/?pkg=CovarianceMatrices&amp;amp;ver=0.5&#34;&gt;&lt;img src=&#34;http://pkg.julialang.org/badges/CovarianceMatrices_0.5.svg&#34; alt=&#34;CovarianceMatrices&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://travis-ci.org/gragusa/CovarianceMatrices.jl&#34;&gt;&lt;img src=&#34;https://travis-ci.org/gragusa/CovarianceMatrices.jl.svg?branch=master&#34; alt=&#34;Build Status&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://coveralls.io/github/gragusa/CovarianceMatrices.jl?branch=master&#34;&gt;&lt;img src=&#34;https://coveralls.io/repos/gragusa/CovarianceMatrices.jl/badge.svg?branch=master&amp;amp;service=github&#34; alt=&#34;Coverage Status&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;CovarianceMatrices&lt;/code&gt; is a package for estimating variance covariance matrices in situations where the standard assumptions of independence is violated. It provides heteroskedasticity consistent (HC); heteroskedasticity and autocorrelation consistent (HAC); and cluster robust (CRVE) estimators of the variance matrices. An interface for &lt;code&gt;GLM.jl&lt;/code&gt; is given so that they can be integrated easily  into standard regression analysis. It is also easy to integrated these estimators into new inferential procedures or applications.&lt;/p&gt;
+
+
+
+using CovarianceMatrices
+## Simulated AR(1) and estimate it using OLS
+srand(1)
+y = zeros(Float64, 100)
+rho = 0.8
+y[1] = randn()
+for j = 2:100
+  y[j] = rho * y[j-1] + randn()
+end
+
+data = DataFrame(y = y[2:100], yl = y[1:99])
+AR1  = fit(GeneralizedLinearModel, y~yl, data, Normal())
+
+## Truncated Kernel with optimal bandwidth
+vcov(AR1, TruncatedKernel())
+
+
+
+
+&lt;h2 id=&#34;divergences-jl&#34;&gt;&lt;code&gt;Divergences.jl&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/gragusa/CovarianceMatrices.jl/master/LICENSE.md&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/license-MIT-blue.svg&#34; alt=&#34;license&#34; /&gt;&lt;/a&gt;  &lt;a href=&#34;http://pkg.julialang.org/detail/Divergences.html&#34;&gt;&lt;img src=&#34;http://pkg.julialang.org/badges/Divergences_0.5.svg&#34; alt=&#34;Pkg&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://travis-ci.org/gragusa/Divergences.jl&#34;&gt;&lt;img src=&#34;https://travis-ci.org/gragusa/Divergences.jl.svg?branch=master&#34; alt=&#34;Build Status&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://coveralls.io/github/gragusa/Divergences.jl?branch=master&#34;&gt;&lt;img src=&#34;https://coveralls.io/repos/github/gragusa/Divergences.jl/badge.svg?branch=master&#34; alt=&#34;Coverage Status&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Divergences&lt;/code&gt; is a Julia package that makes it easy to evaluate divergence measures between two vectors. The package allows calculating the gradient and the diagonal of the Hessian of several divergences.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Komunjer, I.; Ragusa, G. &amp;ldquo;Existence and characterization of conditional density projections.&amp;rdquo; Econometric Theory 2016, 32, 947–987.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+A divergence between two vectors of probabilities; $p := (p\_1, p\_2,\ldots,p\_n)$ and $q := (q\_1, q\_2,\ldots,q\_n)$ is defined as
+$$ D(p,q)= \sum\_{i=1}^{n} \phi \left(\frac{p\_{i}}{q\_{i}}\right)p\_{i} $$ where $\phi$ is function that satisfies the following:
+
+1. is twice continuously differentiable on `$ (0, +\infty) $`;
+2. is strictly convex on $(0, +\infty)$;
+3. $\phi(1) = \phi&#39;(1) = 0$;
+4. $\lim\_{u-&gt;0^+} \phi&#39;(u) &lt; 0$;
+5. $\lim\_{u-&gt;+\infty} \phi&#39;(u) &gt; 0$.
+
+An very general family of divergences is the Cressie-Read family[^1]. The class is indexed by a real parameter $\alpha$ and it is defined as
+&lt;div&gt;
+$$
+\phi\_{\alpha}(u)=\begin{cases}
+\frac{u^{\alpha+1}-1}{a(a+1)}-\frac{1}{a}u+\frac{1}{a} \&amp; u&gt;0 \\\\[2ex]
+\frac{1}{a+1} \&amp; u=0
+\end{cases}.
+$$
+&lt;/div&gt;
+
+The package defines a `Divergence` type with the following suptypes:
+
+* Kullback-Leibler divergence `KullbackLeibler`
+* Chi-square distance `ChiSquared`
+* Reverse Kullback-Leibler divergence `ReverseKullbackLeibler`
+* Cressie-Read divergences `CressieRead`
+
+These divergences differ from the equivalent ones defined in the `Distances` package because they are normalized. Also, the package provides methods for calculating their gradient and the (diagonal elements of the) Hessian matrix.
+
+The constructors for the types above are straightforward
+```julia
+KullbackLeibler()
+ChiSqaured()
+ReverseKullbackLeibler()
+```
+The constructor for `CressieRead` is
+```julia
+CR(::Real)
+```
+The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alpha`, `CressieRead` correspond to a divergence that has a specific type defined. For instance `CR(1)` is equivalent to `ChiSquared` although the underlying code for evaluation and calculation of the gradient and Hessian are different. --&gt;
+
+
+
+using Divergences
+p = rand(20)
+q = rand(20)
+scale!(p, 1/sum(p))
+scale!(q, 1/sum(q))
+evaluate(CressieRead(-.5), p, q)
+
+
+
+&lt;h2 id=&#34;genoud-jl-http-github-org-gragusa-genoud-jl&#34;&gt;&lt;a href=&#34;http://github.org/gragusa/Genoud.jl&#34;&gt;&lt;code&gt;Genoud.jl&lt;/code&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;fig/f8.png&#34; alt=&#34;f8&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GENetic Optimization Using Derivative.&lt;/p&gt;
+
+
+
+using Genoud
+using Calculus
+function f8(xx)
+    x, y = xx
+    -x*sin(√abs(x)) - y*sin(√abs(y))
+end
+
+function gr!(x, stor)  
+    stor[:] = Calculus.gradient(f8, x)
+end
+
+dom =  = Genoud.Domain([-500 500.; -500. 500.])
+out = Genoud.genoud(f8, [1.0, -1.0], sizepop = 5000,
+                        sense = :Min, domains = dom)
+
+
+
+&lt;pre&gt;&lt;code&gt;Results of Genoud Optimization Algorithm
+ * Minimizer: [420.96874636091724,420.9687462145861]
+ * Minimum: -8.379658e+02
+ * Pick generation: 20
+ * Convergence: true
+   * |f(x) - f(x&#39;)| / |f(x)| &amp;lt; 1.0e-03: true
+   * Number of Generations: 27
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

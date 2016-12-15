@@ -483,9 +483,11 @@ pre code {
   font-size: 100%;
   border: none;
   padding: 0;
-  background: none;
+  background: hsla(206, 18%, 40%, 0.07);
   line-height: 1.65em;
+  width: 95%;
 }
+
 var {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -3670,6 +3672,11 @@ h2, h3 {
 	font-style: normal;
 }
 
+h2 code {
+	text-transform: none;
+}
+
+
 .label-red {
   background-color: #36454f;
 }
@@ -3723,7 +3730,12 @@ hr {border-top: 1px solid #b3cde0; margin-top:5ex; margin-bottom: 5ex;}
 
 h2 {border-bottom: 1px solid #b3cde0;}
 
-h2 a {border-bottom: none;}
+h2 a {
+	border-bottom: none;
+	text-transform: none;
+}
+
+
 
 /* =Layout
 -----------------------------------------------------------------------------*/
@@ -4082,6 +4094,12 @@ ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
   color: rgba(0,0,0,0.6);
 }
+
+code.has-jax {font: inherit;
+              font-size: 100%;
+              background: inherit;
+              border: inherit;
+              color: #515151;}
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #8f5902; font-style: italic } /* Comment */
