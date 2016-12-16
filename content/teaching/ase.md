@@ -1,8 +1,8 @@
 ---
 title: Applied Econometrics and Statistics
-date: "2016-02-10T00:00:00+11:00"
-enddate: "2016-05-24T00:00:00+11:00"
-publishdate: "2016-02-10"
+date: 2017-02-15T00:00:00+11:00
+enddate: 2017-05-30T00:00:00+11:00
+publishdate: "2016-12-16"
 host: "Luiss University"
 duration: 7776000
 ---
@@ -13,8 +13,4 @@ emphasis will be on intuitive understanding. Concepts will be illustrated with
 real world applications on real world data.
 
 <!--more-->
-#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/ase.pdf) 
-
-
-
-
+#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/ase.pdf)

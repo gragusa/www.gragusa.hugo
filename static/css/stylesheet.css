@@ -485,7 +485,7 @@ pre code {
   padding: 0;
   background: hsla(206, 18%, 40%, 0.07);
   line-height: 1.65em;
-  width: 95%;
+  width: 100%;
 }
 
 var {
@@ -4051,6 +4051,8 @@ ul.social-icon {
 p.bio {
   margin-top: 30px;
   display: inline;
+  line-height: 1.5;
+  display: inline;
 }
 
 figure.likelihood {
@@ -4418,4 +4420,11 @@ code.has-jax {font: inherit;
 }
 .is-positioned-top .bigfoot-footnote__tooltip {
   bottom: -0.65em;
+}
+h2 code {
+  font-size: 100%;
+  border: none;
+  padding: 0;
+  background: hsla(206, 18%, 40%, 0.07);
+  line-height: 1.65em;
 }

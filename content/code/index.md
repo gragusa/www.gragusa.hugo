@@ -129,6 +129,23 @@ out = Genoud.genoud(f8, [1.0, -1.0],
                     domains = dom)
 {{< /highlight >}}
 
+</div>
+
+<div class="unit-35">
+
+<figure>
+    <img src="fig/f8.png"  />
+    <figcaption>
+        <h4>Surface plot of $$f(x_1, x_2) = -\sum_{i=1}^2 x_i \sin(\sqrt{|x_i|}).$$ This function is minimized at $x_1^*  \approx 420.968$ and $x_2^* \approx 420.968$. At the minima, $f(x_1^*, x_2^*) = -837.9$.
+        <p></p>
+        Source: Yao, Xin, Yong Liu, and Guangming Lin. "Evolutionary programming made faster." IEEE Transactions on Evolutionary computation 3, no. 2 (1999): 82-102.</h4>
+    </figcaption>
+</figure>
+
+
+</div>
+</div>
+
 {{< highlight julia "style=native" >}}
 Results of Genoud Optimization Algorithm
  * Minimizer: [420.96874636091724,420.9687462145861]
@@ -139,23 +156,61 @@ Results of Genoud Optimization Algorithm
    * Number of Generations: 27
 {{< /highlight >}}
 
-</div>
 
-<div class="unit-35">
-
-<figure>
-    <img src="fig/f8.png"  />
-    <figcaption>
-        <h4>Surface plot of $$f(x_1, x_2) = -x_1 \sin(\sqrt{|x_1|}) -x_2 \sin(\sqrt{|x_2|}).$$ This function is minimized at $x_1^*  \approx 420.968$ and $x_2^* \approx 420.968$. At the minima, $f(x_1^*, x_2^*) = -837.9$.
-        <p></p>
-        Source: Yao, Xin, Yong Liu, and Guangming Lin. "Evolutionary programming made faster." IEEE Transactions on Evolutionary computation 3, no. 2 (1999): 82-102.</h4>
-    </figcaption>
-</figure>
+## [`CsminWel.jl`](http://github.org/gragusa/CsminWel.jl)
+[![](https://img.shields.io/badge/license-BSD3-blue.svg)](https://raw.githubusercontent.com/gragusa/CsminWel.jl/master/LICENSE.md) [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/) [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/) [![Build Status](https://travis-ci.org/gragusa/CsminWel.jl.svg?branch=master)](https://travis-ci.org/gragusa/CsminWel.jl) [![Coverage Status](https://coveralls.io/repos/gragusa/CsminWel.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/gragusa/CsminWel.jl?branch=master) [![codecov.io](http://codecov.io/github/gragusa/CsminWel.jl/coverage.svg?branch=master)](http://codecov.io/github/gragusa/CsminWel.jl?branch=master)
 
 
-</div>
-</div>
+This package provides an interface to Chris Sims' `csminwel` optimization code. The code borrows from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl), but it is adapted to be compatibles with the [Optim.jl](https://github.com/JuliaOpt/Optim.jl)'s API. When the derivative of the minimand is not supply either Finite Difference of Forward Automatic Differentiation derivatives are automatically supplied to the underlying code.
 
+
+From the original author:
+> Uses a quasi-Newton method with BFGS update of the estimated inverse hessian. It is robust against certain pathologies common on likelihood functions. It attempts to be robust against "cliffs", i.e. hyperplane discontinuities, though it is not really clear whether what it does in such cases succeeds reliably.
+
+Differently from the solvers in `Optim.jl`, `Csminwel` returns an estimate of the inverse of the Hessian at the solution which may be used for standard errors calculations and/or to scale a Monte Carlo sampler.
+
+{{< highlight julia "style=native" >}}
+#=
+Maximizing loglikelihood of logistic models
+=#
+using CsminWel
+using StatsFuns
+## Generate fake data (true coefficient = 0)
+srand(1)
+x = [ones(200) randn(200,4)]
+y = [rand() < 0.5 ? 1. : 0. for j in 1:200]
+
+## log-likelihood
+function loglik(beta)
+    xb = x*beta
+    sum(-y.*xb + log1pexp.(xb))
+end
+
+## Derivative of loglikelihood
+function dloglik(beta)
+    xb = x*beta
+    px = logistic.(xb)
+    -x'*(y.-px)
+end
+
+## Optim uses a mutating function for deriv
+function fg!(beta, stor)
+    stor[:] = dloglik(beta)
+end
+
+## With analytical derivative
+res1 = optimize(loglik, fg!, zeros(5), BFGS())
+res2 = optimize(loglik, fg!, zeros(5), Csminwel())
+
+## With finite-difference derivative
+res3 = optimize(loglik, zeros(5), Csminwel())
+
+## With forward AD derivative
+res4 = optimize(loglik, zeros(5), Csminwel(), OptimizationOptions(autodiff=true))
+
+## Use approximation to the inverse Hessian for standard errors of estimated parameters
+stderr = √diag(res2.invH)
+{{< /highlight >}}
 
 
 

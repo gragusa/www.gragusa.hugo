@@ -1,7 +1,7 @@
 ---
 title: Econometric Theory
-date: "2016-02-15T00:00:00+11:00"
-enddate: "2016-05-30T00:00:00+11:00"
+date: 2017-02-15T00:00:00+11:00
+enddate: 2017-05-30T00:00:00+11:00
 publishdate: "2016-02-08"
 host: "Luiss University"
 duration: 7776000
@@ -19,9 +19,8 @@ journals. The recommended software package is [Julia](http://www.julialang.org).
 Econometric theory has two parts. The first part focuses on the specification
 and estimation of the linear regression models and its extensions. The second
 part focuses on the theory and the applications of time series methods in
-econometrics. 
+econometrics.
 
 
 
-#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/et.pdf) 
-
+#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/et.pdf)
