@@ -6,7 +6,46 @@
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
-    <updated>Wed, 05 Oct 2016 00:00:00 &#43;1100</updated>
+    <updated>Wed, 15 Feb 2017 00:00:00 &#43;1100</updated>
+    
+    <item>
+      <title>Applied Econometrics and Statistics</title>
+      <link>https://gragusa.org/teaching/ase/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/teaching/ase/</guid>
+      <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
+econometrics. While both theoretical and practical aspects will be covered,
+emphasis will be on intuitive understanding. Concepts will be illustrated with
+real world applications on real world data.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-ase-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/ase.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>Econometric Theory</title>
+      <link>https://gragusa.org/teaching/grad-et/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/teaching/grad-et/</guid>
+      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
+probabilistic and statistical underpinnings of the most common econometric
+techniques. The topics studied will be of practical use to any student who plans
+on confronting data in their thesis or wishes to read and precisely understand
+the econometrics typically used in empirical research published in academic
+journals. The recommended software package is &lt;a href=&#34;http://www.julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Econometric theory has two parts. The first part focuses on the specification
+and estimation of the linear regression models and its extensions. The second
+part focuses on the theory and the applications of time series methods in
+econometrics.&lt;/p&gt;
+
+&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-et-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/et.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
+    </item>
     
     <item>
       <title>Econometrics Review Course</title>
@@ -185,45 +224,6 @@ The code is &lt;a href=&#34;https://github.com/FRBNY-DSGE/DSGE.jl&#34;&gt;here&l
 excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
 with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
 .&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Econometric Theory</title>
-      <link>https://gragusa.org/teaching/grad-et/</link>
-      <pubDate>Mon, 15 Feb 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/grad-et/</guid>
-      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
-probabilistic and statistical underpinnings of the most common econometric
-techniques. The topics studied will be of practical use to any student who plans
-on confronting data in their thesis or wishes to read and precisely understand
-the econometrics typically used in empirical research published in academic
-journals. The recommended software package is &lt;a href=&#34;http://www.julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Econometric theory has two parts. The first part focuses on the specification
-and estimation of the linear regression models and its extensions. The second
-part focuses on the theory and the applications of time series methods in
-econometrics.&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-et-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/et.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
-    </item>
-    
-    <item>
-      <title>Applied Econometrics and Statistics</title>
-      <link>https://gragusa.org/teaching/ase/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/ase/</guid>
-      <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
-econometrics. While both theoretical and practical aspects will be covered,
-emphasis will be on intuitive understanding. Concepts will be illustrated with
-real world applications on real world data.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-ase-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/ase.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
     </item>
     
   </channel>

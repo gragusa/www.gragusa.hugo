@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gragusa.org/teaching/ase/</loc>
+    <lastmod>2017-02-15T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/teaching/grad-et/</loc>
+    <lastmod>2017-02-15T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gragusa.org/publications/anchoring/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -29,16 +39,6 @@
   <url>
     <loc>https://gragusa.org/teaching/eief-dsge/</loc>
     <lastmod>2016-04-24T00:00:00+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/teaching/grad-et/</loc>
-    <lastmod>2016-02-15T00:00:00+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/teaching/ase/</loc>
-    <lastmod>2016-02-10T00:00:00+11:00</lastmod>
   </url>
   
   <url>
@@ -140,10 +140,6 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/resources/emacs-starter-kit/</loc>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/archive/</loc>
     <priority>0</priority>
   </url>
@@ -153,7 +149,8 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/resources/github/</loc>
+    <loc>https://gragusa.org/code/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -163,23 +160,18 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/resources/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/resources/</loc>
+    <loc>https://gragusa.org/code/</loc>
   </url>
   
   <url>
     <loc>https://gragusa.org/teaching/</loc>
-    <lastmod>2016-10-05T00:00:00+11:00</lastmod>
+    <lastmod>2017-02-15T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gragusa.org/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-15T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   

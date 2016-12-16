@@ -28,7 +28,7 @@
 
     <base href="https://gragusa.org/">
     <title> Resources </title>
-    <link rel="canonical" href="https://gragusa.org/resources/">
+    <link rel="canonical" href="https://gragusa.org/code/">
     
 
         <link rel="stylesheet" href="https://gragusa.org/css/stylesheet-min.css" />
@@ -73,7 +73,7 @@
 <div id="topbar">
 <div class="wrapper">
   <header>
-    
+
   <nav class="navbar">
   <ul>
     <li><a href="https://gragusa.org/">Giuseppe Ragusa</a></li>
@@ -81,7 +81,7 @@
     
     <li><span> <a class="" href="https://gragusa.org/publications">Publications </a></span>
       
-    <li><span> <a class="" href="https://gragusa.org/resources">Resources </a></span>
+    <li><span> <a class="" href="https://gragusa.org/code">Code </a></span>
       
     <li><span> <a class="" href="https://gragusa.org/teaching">Teaching </a></span>
       
@@ -98,18 +98,18 @@
 
 <div class="wrapper">
   <div class="units-row">
-    <div class="unit-centered unit-80">  
+    <div class="unit-centered unit-80">
       <article class="post" id="content">
         
 
-<h1 id="projects">Projects</h1>
-
 <p>On this page I will keep a running list of computation/programming projects I work on from time to time.</p>
 
-<p>My interests range from estimation of nonlinear moment condition models, approximate bayesian inference, lerge optimization,
-high-performance computing in econometrics and finance. Below you will find a list of stuff I have been working on. Some
-of the Julia packages are &ldquo;registered&rdquo;, meaning that you can install it from Julia by <code>Pkg.add</code>. Others are at an early
-stage and are not registered.</p>
+<p>When it comes to coding, my interests range from estimation of nonlinear moment condition models, approximate bayesian inference, large optimization problems,
+high-performance computing in econometrics and finance, and big data application to time time series econometrics.  Below you will find a list of package I have developed recently. For details on each packages visit my <a href="http://github.com/gragusa">github</a> and/or visit the package page. For code related to publish paper, visit the publication section.</p>
+
+<h1 id="julia-packages">Julia Packages</h1>
+
+<p>Notice that some of the Julia packages are &ldquo;registered&rdquo;, meaning that you can install it from Julia by <code>Pkg.add</code>-ing them. Others are at an early stage and are not yet registered.</p>
 
 <h2 id="covariancematrices-jl-http-github-com-gragusa-covariancematrices-jl"><a href="http:://github.com/gragusa/CovarianceMatrices.jl"><code>CovarianceMatrices.jl</code></a></h2>
 
@@ -138,9 +138,9 @@ vcov(AR1, TruncatedKernel())
 
 
 
-<h2 id="divergences-jl"><code>Divergences.jl</code></h2>
+<h2 id="divergences-jl-http-github-com-gragusa-divergences-jl"><a href="http://github.com/gragusa/Divergences.jl"><code>Divergences.jl</code></a></h2>
 
-<p><a href="https://raw.githubusercontent.com/gragusa/CovarianceMatrices.jl/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license" /></a>  <a href="http://pkg.julialang.org/detail/Divergences.html"><img src="http://pkg.julialang.org/badges/Divergences_0.5.svg" alt="Pkg" /></a> <a href="https://travis-ci.org/gragusa/Divergences.jl"><img src="https://travis-ci.org/gragusa/Divergences.jl.svg?branch=master" alt="Build Status" /></a> <a href="https://coveralls.io/github/gragusa/Divergences.jl?branch=master"><img src="https://coveralls.io/repos/github/gragusa/Divergences.jl/badge.svg?branch=master" alt="Coverage Status" /></a></p>
+<p><a href="https://raw.githubusercontent.com/gragusa/Divergences.jl/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license" /></a> <a href="http://pkg.julialang.org/detail/Divergences.html"><img src="http://pkg.julialang.org/badges/Divergences_0.5.svg" alt="Pkg" /></a> <a href="https://travis-ci.org/gragusa/Divergences.jl"><img src="https://travis-ci.org/gragusa/Divergences.jl.svg?branch=master" alt="Build Status" /></a> <a href="https://coveralls.io/github/gragusa/Divergences.jl?branch=master"><img src="https://coveralls.io/repos/github/gragusa/Divergences.jl/badge.svg?branch=master" alt="Coverage Status" /></a></p>
 
 <p><code>Divergences</code> is a Julia package that makes it easy to evaluate divergence measures between two vectors. The package allows calculating the gradient and the diagonal of the Hessian of several divergences.</p>
 
@@ -202,9 +202,14 @@ evaluate(CressieRead(-.5), p, q)
 
 <h2 id="genoud-jl-http-github-org-gragusa-genoud-jl"><a href="http://github.org/gragusa/Genoud.jl"><code>Genoud.jl</code></a></h2>
 
-<p><img src="fig/f8.png" alt="f8" /></p>
+<p><a href="https://raw.githubusercontent.com/gragusa/Genoud.jl/master/LICENSE.md"><img src="https://img.shields.io/badge/license-GPL3.0+-blue.svg" alt="" /></a> <a href="code/"><img src="https://img.shields.io/badge/Julia-unregistered-red.svg" alt="" /></a></p>
 
 <p>GENetic Optimization Using Derivative.</p>
+
+<div class="units-row">
+
+<div class="unit-65">
+
 
 
 
@@ -219,20 +224,99 @@ function gr!(x, stor)
     stor[:] = Calculus.gradient(f8, x)
 end
 
-dom =  = Genoud.Domain([-500 500.; -500. 500.])
-out = Genoud.genoud(f8, [1.0, -1.0], sizepop = 5000,
-                        sense = :Min, domains = dom)
+dom = Genoud.Domain([-500  500.;
+                     -500. 500.])
+out = Genoud.genoud(f8, [1.0, -1.0],
+                    sizepop = 5000,
+                    sense = :Min,
+                    domains = dom)
 
 
 
-<pre><code>Results of Genoud Optimization Algorithm
+</div>
+
+<div class="unit-35">
+
+<figure>
+    <img src="fig/f8.png"  />
+    <figcaption>
+        <h4>Surface plot of $$f(x_1, x_2) = -\sum_{i=1}^2 x_i \sin(\sqrt{|x_i|}).$$ This function is minimized at $x_1^*  \approx 420.968$ and $x_2^* \approx 420.968$. At the minima, $f(x_1^*, x_2^*) = -837.9$.
+        <p></p>
+        Source: Yao, Xin, Yong Liu, and Guangming Lin. "Evolutionary programming made faster." IEEE Transactions on Evolutionary computation 3, no. 2 (1999): 82-102.</h4>
+    </figcaption>
+</figure>
+
+
+</div>
+</div>
+
+
+
+Results of Genoud Optimization Algorithm
  * Minimizer: [420.96874636091724,420.9687462145861]
  * Minimum: -8.379658e+02
  * Pick generation: 20
  * Convergence: true
-   * |f(x) - f(x')| / |f(x)| &lt; 1.0e-03: true
+   * |f(x) - f(x')| / |f(x)| < 1.0e-03: true
    * Number of Generations: 27
-</code></pre>
+
+
+
+<h2 id="csminwel-jl-http-github-org-gragusa-csminwel-jl"><a href="http://github.org/gragusa/CsminWel.jl"><code>CsminWel.jl</code></a></h2>
+
+<p><a href="https://raw.githubusercontent.com/gragusa/CsminWel.jl/master/LICENSE.md"><img src="https://img.shields.io/badge/license-BSD3-blue.svg" alt="" /></a> <a href="code/"><img src="https://img.shields.io/badge/Julia-unregistered-red.svg" alt="" /></a> <a href="code/"><img src="https://img.shields.io/badge/Julia-unregistered-red.svg" alt="" /></a> <a href="https://travis-ci.org/gragusa/CsminWel.jl"><img src="https://travis-ci.org/gragusa/CsminWel.jl.svg?branch=master" alt="Build Status" /></a> <a href="https://coveralls.io/github/gragusa/CsminWel.jl?branch=master"><img src="https://coveralls.io/repos/gragusa/CsminWel.jl/badge.svg?branch=master&amp;service=github" alt="Coverage Status" /></a> <a href="http://codecov.io/github/gragusa/CsminWel.jl?branch=master"><img src="http://codecov.io/github/gragusa/CsminWel.jl/coverage.svg?branch=master" alt="codecov.io" /></a></p>
+
+<p>This package provides an interface to Chris Sims&rsquo; <code>csminwel</code> optimization code. The code borrows from <a href="https://github.com/FRBNY-DSGE/DSGE.jl">DSGE.jl</a>, but it is adapted to be compatibles with the <a href="https://github.com/JuliaOpt/Optim.jl">Optim.jl</a>&rsquo;s API. When the derivative of the minimand is not supply either Finite Difference of Forward Automatic Differentiation derivatives are automatically supplied to the underlying code.</p>
+
+<p>From the original author:
+&gt; Uses a quasi-Newton method with BFGS update of the estimated inverse hessian. It is robust against certain pathologies common on likelihood functions. It attempts to be robust against &ldquo;cliffs&rdquo;, i.e. hyperplane discontinuities, though it is not really clear whether what it does in such cases succeeds reliably.</p>
+
+<p>Differently from the solvers in <code>Optim.jl</code>, <code>Csminwel</code> returns an estimate of the inverse of the Hessian at the solution which may be used for standard errors calculations and/or to scale a Monte Carlo sampler.</p>
+
+
+
+#=
+Maximizing loglikelihood of logistic models
+=#
+using CsminWel
+using StatsFuns
+## Generate fake data (true coefficient = 0)
+srand(1)
+x = [ones(200) randn(200,4)]
+y = [rand() < 0.5 ? 1. : 0. for j in 1:200]
+
+## log-likelihood
+function loglik(beta)
+    xb = x*beta
+    sum(-y.*xb + log1pexp.(xb))
+end
+
+## Derivative of loglikelihood
+function dloglik(beta)
+    xb = x*beta
+    px = logistic.(xb)
+    -x'*(y.-px)
+end
+
+## Optim uses a mutating function for deriv
+function fg!(beta, stor)
+    stor[:] = dloglik(beta)
+end
+
+## With analytical derivative
+res1 = optimize(loglik, fg!, zeros(5), BFGS())
+res2 = optimize(loglik, fg!, zeros(5), Csminwel())
+
+## With finite-difference derivative
+res3 = optimize(loglik, zeros(5), Csminwel())
+
+## With forward AD derivative
+res4 = optimize(loglik, zeros(5), Csminwel(), OptimizationOptions(autodiff=true))
+
+## Use approximation to the inverse Hessian for standard errors of estimated parameters
+stderr = √diag(res2.invH)
+
+
 
       </article>
     </div>

@@ -403,6 +403,8 @@ ul.social-icon {
 p.bio {
   margin-top: 30px;
   display: inline;
+  line-height: 1.5;
+  display: inline;
 }
 
 figure.likelihood {
