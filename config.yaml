@@ -15,8 +15,8 @@ menu:
       - Name: "Publications"
         URL: "/publications"
         Weight: 2
-      - Name: "Resources"
-        URL: "/resources"
+      - Name: "Code"
+        URL: "/code"
         Weight: 3
       - Name: "Teaching"
         URL: "/teaching"

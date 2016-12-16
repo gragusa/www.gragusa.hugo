@@ -100,7 +100,7 @@ evaluate(CressieRead(-.5), p, q)
 
 
 ## [`Genoud.jl`](http://github.org/gragusa/Genoud.jl)
-[![](https://img.shields.io/badge/license-GPL3.0+-blue.svg)](https://raw.githubusercontent.com/gragusa/Genoud.jl/master/LICENSE.md) ![](https://img.shields.io/badge/Julia-unregistered-red.svg)
+[![](https://img.shields.io/badge/license-GPL3.0+-blue.svg)](https://raw.githubusercontent.com/gragusa/Genoud.jl/master/LICENSE.md) [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/)
 
 GENetic Optimization Using Derivative.
 
