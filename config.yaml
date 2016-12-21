@@ -5,7 +5,7 @@ layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true
-baseurl: "https://gragusa.org/"
+baseurl: "http://gragusa.org/"
 indexes:
   category: "categories"
 title: "gragusa.org"
