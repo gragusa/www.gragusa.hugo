@@ -118,23 +118,22 @@ high-performance computing in econometrics and finance, and big data application
 <p><code>CovarianceMatrices</code> is a package for estimating variance covariance matrices in situations where the standard assumptions of independence is violated. It provides heteroskedasticity consistent (HC); heteroskedasticity and autocorrelation consistent (HAC); and cluster robust (CRVE) estimators of the variance matrices. An interface for <code>GLM.jl</code> is given so that they can be integrated easily  into standard regression analysis. It is also easy to integrated these estimators into new inferential procedures or applications.</p>
 
 
+<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">CovarianceMatrices</span>
+<span class="c">## Simulated AR(1) and estimate it using OLS</span>
+<span class="n">srand</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">(</span><span class="kt">Float64</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">rho</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">randn</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">2</span><span class="p">:</span><span class="mi">100</span>
+  <span class="n">y</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">rho</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">randn</span><span class="p">()</span>
+<span class="k">end</span>
 
-using CovarianceMatrices
-## Simulated AR(1) and estimate it using OLS
-srand(1)
-y = zeros(Float64, 100)
-rho = 0.8
-y[1] = randn()
-for j = 2:100
-  y[j] = rho * y[j-1] + randn()
-end
+<span class="n">data</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">100</span><span class="p">],</span> <span class="n">yl</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">99</span><span class="p">])</span>
+<span class="n">AR1</span>  <span class="o">=</span> <span class="n">fit</span><span class="p">(</span><span class="n">GeneralizedLinearModel</span><span class="p">,</span> <span class="n">y</span><span class="o">~</span><span class="n">yl</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">Normal</span><span class="p">())</span>
 
-data = DataFrame(y = y[2:100], yl = y[1:99])
-AR1  = fit(GeneralizedLinearModel, y~yl, data, Normal())
-
-## Truncated Kernel with optimal bandwidth
-vcov(AR1, TruncatedKernel())
-
+<span class="c">## Truncated Kernel with optimal bandwidth</span>
+<span class="n">vcov</span><span class="p">(</span><span class="n">AR1</span><span class="p">,</span> <span class="n">TruncatedKernel</span><span class="p">())</span>
+</code></pre></div>
 
 
 
@@ -190,13 +189,13 @@ CR(::Real)
 The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alpha`, `CressieRead` correspond to a divergence that has a specific type defined. For instance `CR(1)` is equivalent to `ChiSquared` although the underlying code for evaluation and calculation of the gradient and Hessian are different. -->
 
 
-
-using Divergences
-p = rand(20)
-q = rand(20)
-scale!(p, 1/sum(p))
-scale!(q, 1/sum(q))
-evaluate(CressieRead(-.5), p, q)
+<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">Divergences</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">q</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">scale!</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
+<span class="n">scale!</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
+<span class="n">evaluate</span><span class="p">(</span><span class="n">CressieRead</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">),</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+</code></pre></div>
 
 
 
@@ -212,24 +211,24 @@ evaluate(CressieRead(-.5), p, q)
 
 
 
+<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">Genoud</span>
+<span class="k">using</span> <span class="n">Calculus</span>
+<span class="k">function</span><span class="nf"> f8</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">xx</span>
+    <span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="n">√abs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">-</span> <span class="n">y</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="n">√abs</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="k">end</span>
 
-using Genoud
-using Calculus
-function f8(xx)
-    x, y = xx
-    -x*sin(√abs(x)) - y*sin(√abs(y))
-end
+<span class="k">function</span><span class="nf"> gr</span><span class="o">!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>  
+    <span class="n">stor</span><span class="p">[:]</span> <span class="o">=</span> <span class="n">Calculus</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">f8</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+<span class="k">end</span>
 
-function gr!(x, stor)  
-    stor[:] = Calculus.gradient(f8, x)
-end
-
-dom = Genoud.Domain([-500  500.;
-                     -500. 500.])
-out = Genoud.genoud(f8, [1.0, -1.0],
-                    sizepop = 5000,
-                    sense = :Min,
-                    domains = dom)
+<span class="n">dom</span> <span class="o">=</span> <span class="n">Genoud</span><span class="o">.</span><span class="n">Domain</span><span class="p">([</span><span class="o">-</span><span class="mi">500</span>  <span class="mf">500.</span><span class="p">;</span>
+                     <span class="o">-</span><span class="mf">500.</span> <span class="mf">500.</span><span class="p">])</span>
+<span class="n">out</span> <span class="o">=</span> <span class="n">Genoud</span><span class="o">.</span><span class="n">genoud</span><span class="p">(</span><span class="n">f8</span><span class="p">,</span> <span class="p">[</span><span class="mf">1.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.0</span><span class="p">],</span>
+                    <span class="n">sizepop</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">,</span>
+                    <span class="n">sense</span> <span class="o">=</span> <span class="p">:</span><span class="n">Min</span><span class="p">,</span>
+                    <span class="n">domains</span> <span class="o">=</span> <span class="n">dom</span><span class="p">)</span>
+</code></pre></div>
 
 
 
@@ -251,14 +250,14 @@ out = Genoud.genoud(f8, [1.0, -1.0],
 </div>
 
 
-
-Results of Genoud Optimization Algorithm
- * Minimizer: [420.96874636091724,420.9687462145861]
- * Minimum: -8.379658e+02
- * Pick generation: 20
- * Convergence: true
-   * |f(x) - f(x')| / |f(x)| < 1.0e-03: true
-   * Number of Generations: 27
+<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="n">Results</span> <span class="n">of</span> <span class="n">Genoud</span> <span class="n">Optimization</span> <span class="n">Algorithm</span>
+ <span class="o">*</span> <span class="n">Minimizer</span><span class="p">:</span> <span class="p">[</span><span class="mf">420.96874636091724</span><span class="p">,</span><span class="mf">420.9687462145861</span><span class="p">]</span>
+ <span class="o">*</span> <span class="n">Minimum</span><span class="p">:</span> <span class="o">-</span><span class="mf">8.379658e+02</span>
+ <span class="o">*</span> <span class="n">Pick</span> <span class="n">generation</span><span class="p">:</span> <span class="mi">20</span>
+ <span class="o">*</span> <span class="n">Convergence</span><span class="p">:</span> <span class="n">true</span>
+   <span class="o">*</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="o">&#39;</span><span class="p">)</span><span class="o">|</span> <span class="o">/</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">|</span> <span class="o">&lt;</span> <span class="mf">1.0e-03</span><span class="p">:</span> <span class="n">true</span>
+   <span class="o">*</span> <span class="n">Number</span> <span class="n">of</span> <span class="n">Generations</span><span class="p">:</span> <span class="mi">27</span>
+</code></pre></div>
 
 
 
@@ -274,47 +273,47 @@ Results of Genoud Optimization Algorithm
 <p>Differently from the solvers in <code>Optim.jl</code>, <code>Csminwel</code> returns an estimate of the inverse of the Hessian at the solution which may be used for standard errors calculations and/or to scale a Monte Carlo sampler.</p>
 
 
+<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="cm">#=</span>
+<span class="cm">Maximizing loglikelihood of logistic models</span>
+<span class="cm">=#</span>
+<span class="k">using</span> <span class="n">CsminWel</span>
+<span class="k">using</span> <span class="n">StatsFuns</span>
+<span class="c">## Generate fake data (true coefficient = 0)</span>
+<span class="n">srand</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">ones</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span> <span class="n">randn</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">4</span><span class="p">)]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">rand</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mf">0.5</span> <span class="o">?</span> <span class="mf">1.</span> <span class="p">:</span> <span class="mf">0.</span> <span class="k">for</span> <span class="n">j</span> <span class="k">in</span> <span class="mi">1</span><span class="p">:</span><span class="mi">200</span><span class="p">]</span>
 
-#=
-Maximizing loglikelihood of logistic models
-=#
-using CsminWel
-using StatsFuns
-## Generate fake data (true coefficient = 0)
-srand(1)
-x = [ones(200) randn(200,4)]
-y = [rand() < 0.5 ? 1. : 0. for j in 1:200]
+<span class="c">## log-likelihood</span>
+<span class="k">function</span><span class="nf"> loglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+    <span class="n">xb</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">beta</span>
+    <span class="n">sum</span><span class="p">(</span><span class="o">-</span><span class="n">y</span><span class="o">.*</span><span class="n">xb</span> <span class="o">+</span> <span class="n">log1pexp</span><span class="o">.</span><span class="p">(</span><span class="n">xb</span><span class="p">))</span>
+<span class="k">end</span>
 
-## log-likelihood
-function loglik(beta)
-    xb = x*beta
-    sum(-y.*xb + log1pexp.(xb))
-end
+<span class="c">## Derivative of loglikelihood</span>
+<span class="k">function</span><span class="nf"> dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+    <span class="n">xb</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">beta</span>
+    <span class="n">px</span> <span class="o">=</span> <span class="n">logistic</span><span class="o">.</span><span class="p">(</span><span class="n">xb</span><span class="p">)</span>
+    <span class="o">-</span><span class="n">x</span><span class="o">&#39;*</span><span class="p">(</span><span class="n">y</span><span class="o">.-</span><span class="n">px</span><span class="p">)</span>
+<span class="k">end</span>
 
-## Derivative of loglikelihood
-function dloglik(beta)
-    xb = x*beta
-    px = logistic.(xb)
-    -x'*(y.-px)
-end
+<span class="c">## Optim uses a mutating function for deriv</span>
+<span class="k">function</span><span class="nf"> fg</span><span class="o">!</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>
+    <span class="n">stor</span><span class="p">[:]</span> <span class="o">=</span> <span class="n">dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+<span class="k">end</span>
 
-## Optim uses a mutating function for deriv
-function fg!(beta, stor)
-    stor[:] = dloglik(beta)
-end
+<span class="c">## With analytical derivative</span>
+<span class="n">res1</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">fg!</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">BFGS</span><span class="p">())</span>
+<span class="n">res2</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">fg!</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">())</span>
 
-## With analytical derivative
-res1 = optimize(loglik, fg!, zeros(5), BFGS())
-res2 = optimize(loglik, fg!, zeros(5), Csminwel())
+<span class="c">## With finite-difference derivative</span>
+<span class="n">res3</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">())</span>
 
-## With finite-difference derivative
-res3 = optimize(loglik, zeros(5), Csminwel())
+<span class="c">## With forward AD derivative</span>
+<span class="n">res4</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">(),</span> <span class="n">OptimizationOptions</span><span class="p">(</span><span class="n">autodiff</span><span class="o">=</span><span class="n">true</span><span class="p">))</span>
 
-## With forward AD derivative
-res4 = optimize(loglik, zeros(5), Csminwel(), OptimizationOptions(autodiff=true))
-
-## Use approximation to the inverse Hessian for standard errors of estimated parameters
-stderr = √diag(res2.invH)
+<span class="c">## Use approximation to the inverse Hessian for standard errors of estimated parameters</span>
+<span class="n">stderr</span> <span class="o">=</span> <span class="n">√diag</span><span class="p">(</span><span class="n">res2</span><span class="o">.</span><span class="n">invH</span><span class="p">)</span>
+</code></pre></div>
 
 
 
