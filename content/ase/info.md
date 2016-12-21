@@ -1,5 +1,5 @@
 +++
-title = "Sidebar"
+title = "info"
 date = "2016-12-17"
 menu = "teaching"
 info = true
