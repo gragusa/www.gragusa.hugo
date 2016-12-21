@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>gragusa.org on gragusa.org </title>
-    <link>https://gragusa.org/index.xml</link>
+    <link>http://gragusa.org/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Applied Econometrics and Statistics</title>
-      <link>https://gragusa.org/teaching/ase/</link>
+      <link>http://gragusa.org/teaching/ase/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/ase/</guid>
+      <guid>http://gragusa.org/teaching/ase/</guid>
       <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
 econometrics. While both theoretical and practical aspects will be covered,
 emphasis will be on intuitive understanding. Concepts will be illustrated with
@@ -26,10 +26,10 @@ real world applications on real world data.&lt;/p&gt;
     
     <item>
       <title>Econometric Theory</title>
-      <link>https://gragusa.org/teaching/grad-et/</link>
+      <link>http://gragusa.org/teaching/grad-et/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/grad-et/</guid>
+      <guid>http://gragusa.org/teaching/grad-et/</guid>
       <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
 probabilistic and statistical underpinnings of the most common econometric
 techniques. The topics studied will be of practical use to any student who plans
@@ -49,10 +49,10 @@ econometrics.&lt;/p&gt;
     
     <item>
       <title>About ASE</title>
-      <link>https://gragusa.org/ase/body/</link>
+      <link>http://gragusa.org/ase/body/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/ase/body/</guid>
+      <guid>http://gragusa.org/ase/body/</guid>
       <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of
 econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
 
@@ -97,10 +97,10 @@ econometrics. While both theoretical and practical aspects are covered, emphasis
     
     <item>
       <title>Computer Software</title>
-      <link>https://gragusa.org/ase/R/</link>
+      <link>http://gragusa.org/ase/R/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/ase/R/</guid>
+      <guid>http://gragusa.org/ase/R/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The software used in this course is &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt;. No
@@ -123,10 +123,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>alert</title>
-      <link>https://gragusa.org/ase/alert/</link>
+      <link>http://gragusa.org/ase/alert/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/ase/alert/</guid>
+      <guid>http://gragusa.org/ase/alert/</guid>
       <description>
 
 &lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
@@ -139,10 +139,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>info</title>
-      <link>https://gragusa.org/ase/info/</link>
+      <link>http://gragusa.org/ase/info/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/ase/info/</guid>
+      <guid>http://gragusa.org/ase/info/</guid>
       <description>
 
 &lt;h3 id=&#34;ase-2016-2017&#34;&gt;ASE 2016-2017&lt;/h3&gt;
@@ -163,10 +163,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>tasessions</title>
-      <link>https://gragusa.org/ase/tasessions/</link>
+      <link>http://gragusa.org/ase/tasessions/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/ase/tasessions/</guid>
+      <guid>http://gragusa.org/ase/tasessions/</guid>
       <description>
 
 &lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (TBA).&lt;/p&gt;
@@ -182,20 +182,20 @@ attendance is strongly advised. During these sessions, the TA will review the co
     
     <item>
       <title>Anchoring the Yield Curve Using Survey Expectations</title>
-      <link>https://gragusa.org/publications/anchoring/</link>
+      <link>http://gragusa.org/publications/anchoring/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/publications/anchoring/</guid>
+      <guid>http://gragusa.org/publications/anchoring/</guid>
       <description>&lt;p&gt;The dynamic behavior of the term structure of interest rates is difficult to replicate with mod- els, and even models with a proven track record of empirical performance have underperformed since the early 2000s. On the other hand, survey expectations can accurately predict yields, but they are typically not available for all maturities and/or forecast horizons. We show how survey expectations can be exploited to improve the accuracy of yield curve forecasts given by a base model. We do so by employing a flexible exponential tilting method that anchors the model forecasts to the survey expectations, and we develop a test to guide the choice of the anchoring points. The method implicitly incorporates into yield curve forecasts any information that survey participants have access to - such as information about the current state of the economy or forward-looking information contained in monetary policy announcements - without the need to explicitly model it. We document that anchoring delivers large and significant gains in forecast accuracy relative to the class of models that are widely adopted by financial and policy institutions for forecasting the term structure of interest rates.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Econometrics Review Course</title>
-      <link>https://gragusa.org/teaching/eief-review/</link>
+      <link>http://gragusa.org/teaching/eief-review/</link>
       <pubDate>Wed, 05 Oct 2016 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/eief-review/</guid>
+      <guid>http://gragusa.org/teaching/eief-review/</guid>
       <description>&lt;p&gt;Econometric Review Course is a 20 hours long course. I am teaching half of the
 course; the other half is taught by Marco Lippi.&lt;/p&gt;
 
@@ -230,10 +230,10 @@ MIT press.&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)</title>
-      <link>https://gragusa.org/publications/moment-conditions-sensitivity/</link>
+      <link>http://gragusa.org/publications/moment-conditions-sensitivity/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/publications/moment-conditions-sensitivity/</guid>
+      <guid>http://gragusa.org/publications/moment-conditions-sensitivity/</guid>
       <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
 </description>
     </item>
