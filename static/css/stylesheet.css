@@ -3822,6 +3822,21 @@ header h1 {	font-size: 24px;
 
 #topbar form {float:right; display:inline-block; }
 
+#announcements {
+	padding: 0px;
+	margin: 0px;
+	color: darkred;
+
+}
+
+div.alertbox {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-bottom: 0em;
+	background: hsla(206, 70%, 40%, 0.07);
+	color: navyblue;
+}
 
 /* =Promo
 -----------------------------------------------------------------------------*/
@@ -4420,11 +4435,4 @@ code.has-jax {font: inherit;
 }
 .is-positioned-top .bigfoot-footnote__tooltip {
   bottom: -0.65em;
-}
-h2 code {
-  font-size: 100%;
-  border: none;
-  padding: 0;
-  background: hsla(206, 18%, 40%, 0.07);
-  line-height: 1.65em;
 }
