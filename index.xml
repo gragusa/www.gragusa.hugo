@@ -48,6 +48,139 @@ econometrics.&lt;/p&gt;
     </item>
     
     <item>
+      <title>About ASE</title>
+      <link>https://gragusa.org/ase/body/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/body/</guid>
+      <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of
+econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; the grading policy, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;course-content&#34;&gt;Course content&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;This is a guide to the content of my lectures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| n. | date         |topic                                 |
+|:---|:-------------|:-------------------------------------|
+| 00 | M 13-02-2016 | Introduction to econometrics         |
+| 01 | T 14-02-2016 | Review of statistics                 |
+| 02 | M 20-02-2016 | Review of statistics I               |
+| 03 | T 21-02-2016 | Review of statistics II              |
+| 04 | M 27-02-2016 | Bivariate regression I               |
+| 05 | T 28-02-2016 | Bivariate regression II              |
+| 06 | M 06-03-2016 | Bivariate regression III             |
+| 07 | T 07-03-2016 | Endogeneity and causality            |
+| 08 | M 13-03-2016 | Multiple regression I                |
+| 09 | T 14-03-2016 | Multiple regression II               |
+| 10 | M 20-03-2016 | Nonlinear regression models I        |
+| 11 | T 21-03-2016 | Nonlinear regression models II       |
+| 13 | M 27-03-2016 | Assessing regression studies         |
+| 14 | T 28-03-2016 | Midterm                              |
+| 15 | M 03-04-2016 | Binary dependent variable I          |
+| 16 | T 04-04-2016 | Binary dependent variable II         |
+| 17 | M 10-04-2016 | Panel Data I                         |
+| 18 | T 11-04-2016 | Panel Data II                        |
+| 19 | M 17-04-2016 | Instrumental variables regression I  |
+| 20 | F 18-04-2016 | Instrumental variables regression II |
+| 21 | T 24-04-2016 | Instrumental variables regression III|
+| 22 | T 02-05-2016 | Instrumental variables regression VI |
+| 23 | M 08-05-2016 | Program evaluation I                 |
+| 24 | T 09-05-2016 | Program evaluation II                |
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Software</title>
+      <link>https://gragusa.org/ase/R/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/R/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The software used in this course is &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt;. No
+prior knowledge of this software package is assumed. This package will be
+introduced in the TA Sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; is installed on all computers in the computer lab. Since
+&lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is open source you can freely install it on your laptop or
+desktop. &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is available for all major computing
+platforms: Windows, Mac OSX, and Linux. Platform specific installation help can
+be found at
+&lt;a href=&#34;http://cran.r-project.org/doc/manuals/r-release/R-admin.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I recommend using &lt;code&gt;R&lt;/code&gt; through &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;, a free and open
+source integrated development environment (IDE) for &lt;code&gt;R&lt;/code&gt;.
+&lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt; is installed on most computers in the computer
+labs where TA sessions are held. You can easily install &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;  on your machine by following the instruction &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>alert</title>
+      <link>https://gragusa.org/ase/alert/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/alert/</guid>
+      <description>
+
+&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nothing yet&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>info</title>
+      <link>https://gragusa.org/ase/info/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/info/</guid>
+      <description>
+
+&lt;h3 id=&#34;ase-2016-2017&#34;&gt;ASE 2016-2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Giuseppe Ragusa&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching assistants:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Siria Angino&lt;/li&gt;
+&lt;li&gt;Giuseppe Brandi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Office hours&lt;/strong&gt;
+- TBA&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tasessions</title>
+      <link>https://gragusa.org/ase/tasessions/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/tasessions/</guid>
+      <description>
+
+&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (TBA).&lt;/p&gt;
+
+&lt;p&gt;The sessions are an important part of the course and regular and
+attendance is strongly advised. During these sessions, the TA will review the concepts introduced in class and solve applied problems using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sessions are also useful for asking questions about the problem sets.&lt;/p&gt;
+
+&lt;h3 id=&#34;ta-sessions-material&#34;&gt;TA sessions material&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Anchoring the Yield Curve Using Survey Expectations</title>
       <link>https://gragusa.org/publications/anchoring/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 UTC</pubDate>
@@ -103,176 +236,6 @@ MIT press.&lt;/p&gt;&lt;/li&gt;
       <guid>https://gragusa.org/publications/moment-conditions-sensitivity/</guid>
       <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://gragusa.org/teaching/lbs-machine-learning/</link>
-      <pubDate>Sat, 24 Sep 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/lbs-machine-learning/</guid>
-      <description>&lt;p&gt;This course gives an overview of many techniques, and algorithms in machine learning, beginning with topics such as linear regression and classification and ending up with more recent topics such as boosting, support vector machines, random forests and and unsupervised learning techniques. The course will give the student the ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The module will use primarily the &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; programming language.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-machinelearning-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/machinelearning.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bayesian Estimation of State Space Models Using Moment Conditions</title>
-      <link>https://gragusa.org/publications/bayesian-state-space/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/publications/bayesian-state-space/</guid>
-      <description>&lt;p&gt;We consider Bayesian estimation of state space models when the measurement density is not available but estimating equations for the parameters of the measurement density are available from moment conditions. The most common applications are partial equilibrium models involving moment conditions that depend on dynamic latent variables (e.g., timevarying parameters, stochastic volatility) and dynamic general equilibrium models when moment equations from the first order conditions are available but computing an accurate approximation to the measurement density is difficult.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Econometrics of DSGE models</title>
-      <link>https://gragusa.org/teaching/eief-dsge/</link>
-      <pubDate>Sun, 24 Apr 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/teaching/eief-dsge/</guid>
-      <description>&lt;p&gt;This is a course on the econometric techniques used in the estimation of dynamic
-macroeconomic models (DSGE models). The aim of the course is mostly theoretical, but applications are also presented using &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;topics&#34;&gt;Topics&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Motivation: DSGE models and their applications&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Approximating and solving DSGE models&lt;/p&gt;
-
-&lt;p&gt;a.  State space representation
-b.  Constructing (log-)linear approximation&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Time series properties of the model and data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Classical estimation of DSGE models&lt;/p&gt;
-
-&lt;p&gt;a.  Generalized Method of Moments (GMM)&lt;/p&gt;
-
-&lt;p&gt;b.  Simulated Method of Moments (SMM) and Indirect Inference (IF)&lt;/p&gt;
-
-&lt;p&gt;c.  Impulse response functions matching&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Bayesian estimation of DSGE models&lt;/p&gt;
-
-&lt;p&gt;a.  (log-)linear models&lt;/p&gt;
-
-&lt;p&gt;b.  Non linear models&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The twilight zone of DSGE estimation&lt;/p&gt;
-
-&lt;p&gt;a.  Identification&lt;/p&gt;
-
-&lt;p&gt;b.  Feasible non linear estimation&lt;/p&gt;
-
-&lt;p&gt;c.  VAR and DSGE&lt;/p&gt;
-
-&lt;p&gt;d.  Limited information estimation&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;readings&#34;&gt;Readings&lt;/h3&gt;
-
-&lt;p&gt;This is a list of readings. This is by no means comprehensive &amp;mdash; it
-simply reflects the source that are closely related with the topics
-covered in lectures.&lt;/p&gt;
-
-&lt;h4 id=&#34;books&#34;&gt;Books:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Canova, F. (2007), Methods for Applied Macroeconomic Research,
-Princeton: Princeton University Press.&lt;/li&gt;
-&lt;li&gt;Dejong, D.N. and C. Dave (2007), Structural Macroeconomics,
-Princeton: Princeton University Press&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;papers&#34;&gt;Papers:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;An and Schoerfheide (2007) Bayesian Analysis of DSGE Models,
-Econometric Reviews, 26(2-4), 2007, 113-172.
-&lt;a href=&#34;http://www.tandfonline.com/doi/abs/10.1080/07474930701220071&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fernández-Villaverde, Jesús. &amp;ldquo;The econometrics of DSGE models.&amp;rdquo;
-SERIEs 1.1-2 (2010): 3-49.
-&lt;a href=&#34;http://link.springer.com/article/10.1007/s13209-009-0014-7&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Schorfheide, Frank. &amp;ldquo;Loss function-based evaluation of DSGE models.&amp;rdquo;
-Journal of Applied Econometrics 15.6 (2000): 645-670.
-&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1002/jae.582/full&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Arulampalam, M. Sanjeev, et al. &amp;ldquo;A tutorial on particle filters for
-online nonlinear/non-Gaussian Bayesian tracking.&amp;rdquo; Signal Processing,
-IEEE Transactions on 50.2 (2002): 174-188.
-&lt;a href=&#34;http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=978374&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Doucet, Arnaud, and Adam M. Johansen. &amp;ldquo;A tutorial on particle
-filtering and smoothing: Fifteen years later.&amp;rdquo; Handbook of Nonlinear
-Filtering 12.656-704 (2009): 3.
-&lt;a href=&#34;http://automatica.dei.unipd.it/tl_files/utenti/lucaschenato/Classes/PSC10_11/Tutorial_PF_doucet_johansen.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Andrieu, Christophe, Arnaud Doucet, and Roman Holenstein. &amp;ldquo;Particle
-markov chain monte carlo methods.&amp;rdquo; Journal of the Royal Statistical
-Society: Series B (Statistical Methodology) 72.3 (2010): 269-342.
-&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2009.00736.x/full&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gallant, A. Ronald, Raffaella Giacomini, and Giuseppe Ragusa. Bayesian
-estimation of state space models using moment conditions. Technical
-report, 2015. &lt;a href=&#34;http://www.aronaldg.org/papers/bliml.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Giacomini, Raffaella. &amp;ldquo;The relationship between DSGE and VAR models.&amp;rdquo;
-Advances in Econometrics 31 (2013).
-&lt;a href=&#34;http://www.emeraldinsight.com/doi/abs/10.1108/S0731-9053(2013)0000031001&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Komunjer, Ivana, and Serena Ng. &amp;ldquo;Dynamic identification of
-stochastic general equilibrium models.&amp;rdquo; Econometrica 79.6
-(2011):1995-2032.
-&lt;a href=&#34;http://www.columbia.edu/~sn2294/pub/ecta11.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Del Negro, Marco, and Frank Schorfheide. &amp;ldquo;Bayesian
-macroeconometrics.&amp;rdquo; The Oxford handbook of Bayesian econometrics 293
-(2011): 389.
-&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.414.4871&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;julia&#34;&gt;Julia&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt; is a high-level, high-performance dynamic
-programming language for technical computing, with syntax that is
-familiar to users of other technical computing environments. In
-particular, its syntax is similar to Matlab. The similarity of the
-syntax means that a lot of Matlab code will run almost unmodified.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; has many advantages over other languages and for this reason is
-being extensively used in industries and in research.&lt;/p&gt;
-
-&lt;p&gt;Recently, the &lt;a href=&#34;https://www.newyorkfed.org/&#34;&gt;Federal Reserve of New York&lt;/a&gt; has
-open sourced its macroeconomic model (used for producing forecast about key
-variables and to conduct policy experiment). The code is written in Julia. You
-can read about
-it
-&lt;a href=&#34;http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html&#34;&gt;here&lt;/a&gt;.
-The code is &lt;a href=&#34;https://github.com/FRBNY-DSGE/DSGE.jl&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://quant-econ.net/jl/learning_julia.html&#34;&gt;Programming in Julia&lt;/a&gt; in an
-excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
-with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
-.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Existence and Characterization of Conditional Density Projections</title>
-      <link>https://gragusa.org/publications/density-projection/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/publications/density-projection/</guid>
-      <description>&lt;p&gt;In this paper we propose primitive conditions under which a projection of a conditional density onto a set defined by conditional moment restrictions exists and is unique. Moreover, we provide an analytic expression of the obtained projection. The range of applications where conditional density projections are used is wide. The derived results are potentially useful in a variety of areas including: semiparametric efficient estimation and optimal testing in (conditional) moment models, Bayesian prior determination and inference in semiparametric models, density forecasting, and simulation-based econometric analysis. Regarding existence, we propose three different combinations of assumptions that are all sufficient to show that the projection exists and is unique. The proposed conditions exhibit a clear trade off between restrictions put on the divergence between the conditional densities and on the moment function which defines the projection set. Depending on the nature of the application, the researcher can pick and choose which set of conditions to use. Our second set of results characterizes the projection. The expression for the projected density is new though not surprising given the previously obtained results for the unconditional case. The projection is characterized by the dual of the original projection problem. In establishing the strong duality, however, we work with a constraint qualification condition that is weaker than that used by Borwein and Lewis (1991a, 1992a, 1993) in their seminal work concerning the unconditional case.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unexplored dimensions of discrimination in Europe: Religion, homosexuality and physical appearance</title>
-      <link>https://gragusa.org/publications/unuxplored-discrimination-book/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>https://gragusa.org/publications/unuxplored-discrimination-book/</guid>
-      <description></description>
     </item>
     
   </channel>

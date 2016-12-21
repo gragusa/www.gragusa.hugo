@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ases on gragusa.org </title>
+    <link>https://gragusa.org/ase/index.xml</link>
+    <language>en-us</language>
+    <author>Giuseppe Ragusa</author>
+    <rights>Copyright (c) Giuseppe Ragusa.</rights>
+    <updated>Sat, 17 Dec 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>About ASE</title>
+      <link>https://gragusa.org/ase/body/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/body/</guid>
+      <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of
+econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; the grading policy, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;course-content&#34;&gt;Course content&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;This is a guide to the content of my lectures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| n. | date         |topic                                 |
+|:---|:-------------|:-------------------------------------|
+| 00 | M 13-02-2016 | Introduction to econometrics         |
+| 01 | T 14-02-2016 | Review of statistics                 |
+| 02 | M 20-02-2016 | Review of statistics I               |
+| 03 | T 21-02-2016 | Review of statistics II              |
+| 04 | M 27-02-2016 | Bivariate regression I               |
+| 05 | T 28-02-2016 | Bivariate regression II              |
+| 06 | M 06-03-2016 | Bivariate regression III             |
+| 07 | T 07-03-2016 | Endogeneity and causality            |
+| 08 | M 13-03-2016 | Multiple regression I                |
+| 09 | T 14-03-2016 | Multiple regression II               |
+| 10 | M 20-03-2016 | Nonlinear regression models I        |
+| 11 | T 21-03-2016 | Nonlinear regression models II       |
+| 13 | M 27-03-2016 | Assessing regression studies         |
+| 14 | T 28-03-2016 | Midterm                              |
+| 15 | M 03-04-2016 | Binary dependent variable I          |
+| 16 | T 04-04-2016 | Binary dependent variable II         |
+| 17 | M 10-04-2016 | Panel Data I                         |
+| 18 | T 11-04-2016 | Panel Data II                        |
+| 19 | M 17-04-2016 | Instrumental variables regression I  |
+| 20 | F 18-04-2016 | Instrumental variables regression II |
+| 21 | T 24-04-2016 | Instrumental variables regression III|
+| 22 | T 02-05-2016 | Instrumental variables regression VI |
+| 23 | M 08-05-2016 | Program evaluation I                 |
+| 24 | T 09-05-2016 | Program evaluation II                |
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Software</title>
+      <link>https://gragusa.org/ase/R/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/R/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The software used in this course is &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt;. No
+prior knowledge of this software package is assumed. This package will be
+introduced in the TA Sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; is installed on all computers in the computer lab. Since
+&lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is open source you can freely install it on your laptop or
+desktop. &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is available for all major computing
+platforms: Windows, Mac OSX, and Linux. Platform specific installation help can
+be found at
+&lt;a href=&#34;http://cran.r-project.org/doc/manuals/r-release/R-admin.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I recommend using &lt;code&gt;R&lt;/code&gt; through &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;, a free and open
+source integrated development environment (IDE) for &lt;code&gt;R&lt;/code&gt;.
+&lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt; is installed on most computers in the computer
+labs where TA sessions are held. You can easily install &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;  on your machine by following the instruction &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>alert</title>
+      <link>https://gragusa.org/ase/alert/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/alert/</guid>
+      <description>
+
+&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nothing yet&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>info</title>
+      <link>https://gragusa.org/ase/info/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/info/</guid>
+      <description>
+
+&lt;h3 id=&#34;ase-2016-2017&#34;&gt;ASE 2016-2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Giuseppe Ragusa&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching assistants:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Siria Angino&lt;/li&gt;
+&lt;li&gt;Giuseppe Brandi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Office hours&lt;/strong&gt;
+- TBA&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tasessions</title>
+      <link>https://gragusa.org/ase/tasessions/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>https://gragusa.org/ase/tasessions/</guid>
+      <description>
+
+&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (TBA).&lt;/p&gt;
+
+&lt;p&gt;The sessions are an important part of the course and regular and
+attendance is strongly advised. During these sessions, the TA will review the concepts introduced in class and solve applied problems using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sessions are also useful for asking questions about the problem sets.&lt;/p&gt;
+
+&lt;h3 id=&#34;ta-sessions-material&#34;&gt;TA sessions material&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

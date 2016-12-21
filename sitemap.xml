@@ -12,6 +12,31 @@
   </url>
   
   <url>
+    <loc>https://gragusa.org/ase/body/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/ase/R/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/ase/alert/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/ase/info/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/ase/tasessions/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gragusa.org/publications/anchoring/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -146,6 +171,12 @@
   
   <url>
     <loc>https://gragusa.org/blog/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/ase/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
