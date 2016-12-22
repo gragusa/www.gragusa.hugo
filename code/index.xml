@@ -23,7 +23,7 @@ high-performance computing in econometrics and finance, and big data application
 
 &lt;h1 id=&#34;julia-packages&#34;&gt;Julia Packages&lt;/h1&gt;
 
-&lt;p&gt;Notice that some of the Julia packages are &amp;ldquo;registered&amp;rdquo;, meaning that you can install it from Julia by &lt;code&gt;Pkg.add&lt;/code&gt;-ing them. Others are at an early stage and are not yet registered.&lt;/p&gt;
+&lt;p&gt;Notice that some of the Julia packages are &amp;ldquo;registered&amp;rdquo;, meaning that you can install them from Julia by &lt;code&gt;Pkg.add&lt;/code&gt;-ing them. Others are at an early stage and are not yet registered. To install these packages use &lt;code&gt;Pkg.clone&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;covariancematrices-jl-http-github-com-gragusa-covariancematrices-jl&#34;&gt;&lt;a href=&#34;http:://github.com/gragusa/CovarianceMatrices.jl&#34;&gt;&lt;code&gt;CovarianceMatrices.jl&lt;/code&gt;&lt;/a&gt;&lt;/h2&gt;
 
