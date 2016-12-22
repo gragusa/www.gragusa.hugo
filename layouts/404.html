@@ -1,10 +1,35 @@
 {{ partial "head.html" . }}
 {{ $baseurl := .Site.BaseURL }}
 <body>
+	<head>
+	    <meta charset="utf-8">
+
+	    {{ partial "meta.html" . }}
+
+	    <base href="{{ .Site.BaseURL }}">
+	    <title>{{ .Site.Title }}</title>
+	    <link rel="canonical" href="{{ .Permalink }}">
+	    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+	    {{ partial "head_includes.html" . }}
+	</head>
+
 
 <div class="wrapper">
 
+	<div id="topbar">
+        <div class="wrapper">
+            <header>
+                {{ partial "sidebar.html" . }}
+            </header>
+        </div>
+    </div>
+
 <div class="units-row">
+
+<div class="unit-50">
+	<img src="404.png">
+</div>
 
 <div class="unit-50">
 <h2>404: Page Not Found</h2>
@@ -12,7 +37,7 @@
 	There is no page here at the address you requested. Perhaps try a search to find what you are looking for?
 </p>
 					<form method="get" action="http://duckduckgo.com/">
-				<input type="search" name="q" maxlength="255" placeholder="Search consequently.org">
+				<input type="search" name="q" maxlength="255" placeholder="Search gragusa.org">
 			<input type="hidden" name="sites" value="gragusa.org"/>
 			   <input type="hidden" name="ka" value="Alegreya"/>
 			   <input type="hidden" name="k7" value="#faf8f8"/>
