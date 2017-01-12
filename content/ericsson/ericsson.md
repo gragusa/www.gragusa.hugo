@@ -1,7 +1,8 @@
 ---
-title = "Seminario Ericsson"
-date = "2016-12-17"
-menu = "teaching"
+type: page
+title: "Seminario Ericsson"
+date: "2016-12-17"
+menu: "teaching"
 
 ---
 
