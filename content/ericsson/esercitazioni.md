@@ -5,6 +5,6 @@ menu = "teaching"
 problemset = true
 +++
 
-- [Esercitazione 1 - Test](https://www.dropbox.com/s/u6y572e4d3vr470/Esercitazioni.pdf?dl=0)
-    - [Esercitazione 1 - Codice R](https://www.dropbox.com/s/6zra8s056b59z5t/Esercitazione_1.R?dl=0)
-    - [Esercitazione 1 - Data](https://www.dropbox.com/s/juvkvbsk2j1plk4/affairs.csv?dl=0)
+- [Esercitazione 1 - Test](https://dl.dropboxusercontent.com/u/3632394/Esercitazioni.pdf)
+    - [Esercitazione 1 - Codice R](https://dl.dropboxusercontent.com/u/3632394/Esercitazione_1.R)
+    - [Esercitazione 1 - Data](https://dl.dropboxusercontent.com/u/3632394/affairs.csv)

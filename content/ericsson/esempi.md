@@ -7,7 +7,7 @@ esempi = true
 
 #### Prima parte
 
-- [esempi.r](https://www.dropbox.com/s/m5cy7oyr4324nob/Esempi.R?dl=0)
-    - [ceo.csv](https://www.dropbox.com/s/yvws53qw5xkoru2/ceo.csv?dl=0)
-    - [credit.csv](https://www.dropbox.com/s/4yq3k9uuprgg14s/credit.csv?dl=0)
-    - [employees.csv](https://www.dropbox.com/s/caffp2tvfpsdpsr/employees.csv?dl=0)
+- [esempio_1.r](https://dl.dropboxusercontent.com/u/3632394/esempio_1.R)
+    - [ceo.csv](https://dl.dropboxusercontent.com/u/3632394/ceo.csv)
+    - [credit.csv](https://dl.dropboxusercontent.com/u/3632394/credit.csv)
+    - [employees.csv](https://dl.dropboxusercontent.com/u/3632394/employees.csv)

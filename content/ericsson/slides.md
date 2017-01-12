@@ -7,6 +7,6 @@ slides = true
 
 
 
-- [Parte 1 - 13 Gennaio 2017](https://www.dropbox.com/s/lq4qsmhh53m5c7c/Ericsson_13.01.17.pdf?dl=0)
+- [Parte 1 - 13 Gennaio 2017](https://dl.dropboxusercontent.com/u/3632394/Ericsson_13.01.17.pdf)
 
 - Parte 2 - 25 Gennaio 2017
