@@ -122,6 +122,89 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     </item>
     
     <item>
+      <title>Esempi</title>
+      <link>http://gragusa.org/ericsson/esempi/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ericsson/esempi/</guid>
+      <description>
+
+&lt;h4 id=&#34;prima-parte&#34;&gt;Prima parte&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m5cy7oyr4324nob/Esempi.R?dl=0&#34;&gt;esempi.r&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/yvws53qw5xkoru2/ceo.csv?dl=0&#34;&gt;ceo.csv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4yq3k9uuprgg14s/credit.csv?dl=0&#34;&gt;credit.csv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/caffp2tvfpsdpsr/employees.csv?dl=0&#34;&gt;employees.csv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Esercitazioni</title>
+      <link>http://gragusa.org/ericsson/esercitazioni/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ericsson/esercitazioni/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u6y572e4d3vr470/Esercitazioni.pdf?dl=0&#34;&gt;Esercitazione 1 - Test&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6zra8s056b59z5t/Esercitazione_1.R?dl=0&#34;&gt;Esercitazione 1 - Codice R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/juvkvbsk2j1plk4/affairs.csv?dl=0&#34;&gt;Esercitazione 1 - Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seminario Ericsson</title>
+      <link>http://gragusa.org/ericsson/body/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ericsson/body/</guid>
+      <description>&lt;p&gt;Il Workshop si articola in due sezioni da 6 ore.&lt;/p&gt;
+
+&lt;p&gt;Nella prima parte verranno fornite le basi introduttive di statistica (descrittiva e inferenziale) e di econometria, con particolare focus sui principali modelli di regressione univariata e multivariata.&lt;/p&gt;
+
+&lt;p&gt;La seconda parte sarà dedicata all’analisi delle serie storiche e al machine learning. Nello specifico, verranno presentati i più diffusi algoritmi di machine learning supervisionato e non supervisionato e le tecniche di dimensionality reduction per estrarre informazione da grandi quantità di dati.&lt;/p&gt;
+
+&lt;p&gt;Il workshop sarà costituito da una parte teorica e da una parte pratica in cui le metodologie presentate vengono applicate mediante il linguaggio &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://gragusa.org/ericsson/slides/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ericsson/slides/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/lq4qsmhh53m5c7c/Ericsson_13.01.17.pdf?dl=0&#34;&gt;Parte 1 - 13 Gennaio 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parte 2 - 25 Gennaio 2017&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://gragusa.org/ericsson/R/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ericsson/R/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; e&amp;rsquo; un software open-source, per Linux , Mac OS X, Windows, distribuito secondo la licenza GNU - GPL.&lt;/p&gt;
+
+&lt;p&gt;RStudio e&amp;rsquo; un ambiente di sviluppo integrato (IDE) per R. E&amp;rsquo; un software open-source che gira su Linux, Mac OS X e Windows.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>alert</title>
       <link>http://gragusa.org/ase/alert/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
@@ -134,107 +217,6 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
 &lt;ul&gt;
 &lt;li&gt;nothing yet&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>info</title>
-      <link>http://gragusa.org/ase/info/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/info/</guid>
-      <description>
-
-&lt;h3 id=&#34;ase-2016-2017&#34;&gt;ASE 2016-2017&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Giuseppe Ragusa&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Teaching assistants:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Siria Angino&lt;/li&gt;
-&lt;li&gt;Giuseppe Brandi&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Office hours&lt;/strong&gt;
-- TBA&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>tasessions</title>
-      <link>http://gragusa.org/ase/tasessions/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/tasessions/</guid>
-      <description>
-
-&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (TBA).&lt;/p&gt;
-
-&lt;p&gt;The sessions are an important part of the course and regular and
-attendance is strongly advised. During these sessions, the TA will review the concepts introduced in class and solve applied problems using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sessions are also useful for asking questions about the problem sets.&lt;/p&gt;
-
-&lt;h3 id=&#34;ta-sessions-material&#34;&gt;TA sessions material&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Anchoring the Yield Curve Using Survey Expectations</title>
-      <link>http://gragusa.org/publications/anchoring/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/anchoring/</guid>
-      <description>&lt;p&gt;The dynamic behavior of the term structure of interest rates is difficult to replicate with mod- els, and even models with a proven track record of empirical performance have underperformed since the early 2000s. On the other hand, survey expectations can accurately predict yields, but they are typically not available for all maturities and/or forecast horizons. We show how survey expectations can be exploited to improve the accuracy of yield curve forecasts given by a base model. We do so by employing a flexible exponential tilting method that anchors the model forecasts to the survey expectations, and we develop a test to guide the choice of the anchoring points. The method implicitly incorporates into yield curve forecasts any information that survey participants have access to - such as information about the current state of the economy or forward-looking information contained in monetary policy announcements - without the need to explicitly model it. We document that anchoring delivers large and significant gains in forecast accuracy relative to the class of models that are widely adopted by financial and policy institutions for forecasting the term structure of interest rates.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Econometrics Review Course</title>
-      <link>http://gragusa.org/teaching/eief-review/</link>
-      <pubDate>Wed, 05 Oct 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/eief-review/</guid>
-      <description>&lt;p&gt;Econometric Review Course is a 20 hours long course. I am teaching half of the
-course; the other half is taught by Marco Lippi.&lt;/p&gt;
-
-&lt;p&gt;In my part I will focus on the specification and estimation of the linear
-regression model. The course departs from the standard Gauss-Markov assumptions
-to include heteroskedasticity, serial correlation, and errors in variables.
-Advanced topics include generalized least squares, instrumental variables,
-generalized method of moments, limited dependent variable models, and panel
-data.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;textbook&#34;&gt;Textbook&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cameron, A. C., &amp;amp; Trivedi, P. K. (2005). Microeconometrics: methods and applications. Cambridge university press.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Wooldridge, J. M. (2010). Econometric analysis of cross section and panel data.
-MIT press.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;White, H. (2001). Asymptotic theory for econometricians. Academic press.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;useful-papers&#34;&gt;Useful papers&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Newey, W. K., &amp;amp; McFadden, D. (1994). &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S1573441205800054&#34;&gt;Large sample estimation and hypothesis testing. Handbook of econometrics&lt;/a&gt;, 4, 2111-2245.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hansen, L. P. (1982). &lt;a href=&#34;http://www.jstor.org/stable/1912775&#34;&gt;Large sample properties of generalized method of moments estimators&lt;/a&gt;. Econometrica: Journal of the Econometric Society, 1029-1054.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)</title>
-      <link>http://gragusa.org/publications/moment-conditions-sensitivity/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/moment-conditions-sensitivity/</guid>
-      <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
 </description>
     </item>
     
