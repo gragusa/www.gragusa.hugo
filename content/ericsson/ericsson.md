@@ -1,5 +1,5 @@
 ---
-title = Seminario Ericsson
+title = "Seminario Ericsson"
 date = "2016-12-17"
 menu = "teaching"
 
