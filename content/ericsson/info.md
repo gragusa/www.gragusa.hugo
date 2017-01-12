@@ -1,5 +1,5 @@
 +++
-title = "info"
+title = "info ericsson"
 date = "2016-12-17"
 menu = "teaching"
 info = true
