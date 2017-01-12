@@ -9,7 +9,6 @@ env:
   - SOURCE_DIR="public"
   - DEPLOY_BRANCH="source"
 install:
-- npm install
 - ./scripts/install-hugo.sh
 script:
 - ./hugo
