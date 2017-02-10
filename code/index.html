@@ -132,11 +132,11 @@ high-performance computing in econometrics and finance, and big data application
 <span class="n">y</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">(</span><span class="kt">Float64</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
 <span class="n">rho</span> <span class="o">=</span> <span class="mf">0.8</span>
 <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">randn</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">2</span><span class="p">:</span><span class="mi">100</span>
+<span class="k">for</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">2</span><span class="o">:</span><span class="mi">100</span>
   <span class="n">y</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">rho</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">randn</span><span class="p">()</span>
 <span class="k">end</span>
 
-<span class="n">data</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">100</span><span class="p">],</span> <span class="n">yl</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">99</span><span class="p">])</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">2</span><span class="o">:</span><span class="mi">100</span><span class="p">],</span> <span class="n">yl</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="o">:</span><span class="mi">99</span><span class="p">])</span>
 <span class="n">AR1</span>  <span class="o">=</span> <span class="n">fit</span><span class="p">(</span><span class="n">GeneralizedLinearModel</span><span class="p">,</span> <span class="n">y</span><span class="o">~</span><span class="n">yl</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">Normal</span><span class="p">())</span>
 
 <span class="c">## Truncated Kernel with optimal bandwidth</span>
@@ -221,20 +221,20 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 
 <div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">Genoud</span>
 <span class="k">using</span> <span class="n">Calculus</span>
-<span class="k">function</span><span class="nf"> f8</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span>
+<span class="k">function</span> <span class="n">f8</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span>
     <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">xx</span>
-    <span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="n">√abs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">-</span> <span class="n">y</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="n">√abs</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+    <span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="o">√</span><span class="n">abs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">-</span> <span class="n">y</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="o">√</span><span class="n">abs</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
 <span class="k">end</span>
 
-<span class="k">function</span><span class="nf"> gr</span><span class="o">!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>  
-    <span class="n">stor</span><span class="p">[:]</span> <span class="o">=</span> <span class="n">Calculus</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">f8</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+<span class="k">function</span> <span class="n">gr!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>  
+    <span class="n">stor</span><span class="p">[</span><span class="o">:</span><span class="p">]</span> <span class="o">=</span> <span class="n">Calculus</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">f8</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
 <span class="k">end</span>
 
 <span class="n">dom</span> <span class="o">=</span> <span class="n">Genoud</span><span class="o">.</span><span class="n">Domain</span><span class="p">([</span><span class="o">-</span><span class="mi">500</span>  <span class="mf">500.</span><span class="p">;</span>
                      <span class="o">-</span><span class="mf">500.</span> <span class="mf">500.</span><span class="p">])</span>
 <span class="n">out</span> <span class="o">=</span> <span class="n">Genoud</span><span class="o">.</span><span class="n">genoud</span><span class="p">(</span><span class="n">f8</span><span class="p">,</span> <span class="p">[</span><span class="mf">1.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.0</span><span class="p">],</span>
                     <span class="n">sizepop</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">,</span>
-                    <span class="n">sense</span> <span class="o">=</span> <span class="p">:</span><span class="n">Min</span><span class="p">,</span>
+                    <span class="n">sense</span> <span class="o">=</span> <span class="o">:</span><span class="n">Min</span><span class="p">,</span>
                     <span class="n">domains</span> <span class="o">=</span> <span class="n">dom</span><span class="p">)</span>
 </code></pre></div>
 
@@ -259,12 +259,12 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 
 
 <div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="n">Results</span> <span class="n">of</span> <span class="n">Genoud</span> <span class="n">Optimization</span> <span class="n">Algorithm</span>
- <span class="o">*</span> <span class="n">Minimizer</span><span class="p">:</span> <span class="p">[</span><span class="mf">420.96874636091724</span><span class="p">,</span><span class="mf">420.9687462145861</span><span class="p">]</span>
- <span class="o">*</span> <span class="n">Minimum</span><span class="p">:</span> <span class="o">-</span><span class="mf">8.379658e+02</span>
- <span class="o">*</span> <span class="n">Pick</span> <span class="n">generation</span><span class="p">:</span> <span class="mi">20</span>
- <span class="o">*</span> <span class="n">Convergence</span><span class="p">:</span> <span class="n">true</span>
-   <span class="o">*</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="o">&#39;</span><span class="p">)</span><span class="o">|</span> <span class="o">/</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">|</span> <span class="o">&lt;</span> <span class="mf">1.0e-03</span><span class="p">:</span> <span class="n">true</span>
-   <span class="o">*</span> <span class="n">Number</span> <span class="n">of</span> <span class="n">Generations</span><span class="p">:</span> <span class="mi">27</span>
+ <span class="o">*</span> <span class="n">Minimizer</span><span class="o">:</span> <span class="p">[</span><span class="mf">420.96874636091724</span><span class="p">,</span><span class="mf">420.9687462145861</span><span class="p">]</span>
+ <span class="o">*</span> <span class="n">Minimum</span><span class="o">:</span> <span class="o">-</span><span class="mf">8.379658e+02</span>
+ <span class="o">*</span> <span class="n">Pick</span> <span class="n">generation</span><span class="o">:</span> <span class="mi">20</span>
+ <span class="o">*</span> <span class="n">Convergence</span><span class="o">:</span> <span class="kc">true</span>
+   <span class="o">*</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="o">&#39;</span><span class="p">)</span><span class="o">|</span> <span class="o">/</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">|</span> <span class="o">&lt;</span> <span class="mf">1.0e-03</span><span class="o">:</span> <span class="kc">true</span>
+   <span class="o">*</span> <span class="kt">Number</span> <span class="n">of</span> <span class="n">Generations</span><span class="o">:</span> <span class="mi">27</span>
 </code></pre></div>
 
 
@@ -289,24 +289,24 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 <span class="c">## Generate fake data (true coefficient = 0)</span>
 <span class="n">srand</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">ones</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span> <span class="n">randn</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">4</span><span class="p">)]</span>
-<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">rand</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mf">0.5</span> <span class="o">?</span> <span class="mf">1.</span> <span class="p">:</span> <span class="mf">0.</span> <span class="k">for</span> <span class="n">j</span> <span class="k">in</span> <span class="mi">1</span><span class="p">:</span><span class="mi">200</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">rand</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mf">0.5</span> <span class="o">?</span> <span class="mf">1.</span> <span class="o">:</span> <span class="mf">0.</span> <span class="k">for</span> <span class="n">j</span> <span class="kp">in</span> <span class="mi">1</span><span class="o">:</span><span class="mi">200</span><span class="p">]</span>
 
 <span class="c">## log-likelihood</span>
-<span class="k">function</span><span class="nf"> loglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+<span class="k">function</span> <span class="n">loglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
     <span class="n">xb</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">beta</span>
     <span class="n">sum</span><span class="p">(</span><span class="o">-</span><span class="n">y</span><span class="o">.*</span><span class="n">xb</span> <span class="o">+</span> <span class="n">log1pexp</span><span class="o">.</span><span class="p">(</span><span class="n">xb</span><span class="p">))</span>
 <span class="k">end</span>
 
 <span class="c">## Derivative of loglikelihood</span>
-<span class="k">function</span><span class="nf"> dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+<span class="k">function</span> <span class="n">dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
     <span class="n">xb</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">beta</span>
     <span class="n">px</span> <span class="o">=</span> <span class="n">logistic</span><span class="o">.</span><span class="p">(</span><span class="n">xb</span><span class="p">)</span>
     <span class="o">-</span><span class="n">x</span><span class="o">&#39;*</span><span class="p">(</span><span class="n">y</span><span class="o">.-</span><span class="n">px</span><span class="p">)</span>
 <span class="k">end</span>
 
 <span class="c">## Optim uses a mutating function for deriv</span>
-<span class="k">function</span><span class="nf"> fg</span><span class="o">!</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>
-    <span class="n">stor</span><span class="p">[:]</span> <span class="o">=</span> <span class="n">dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+<span class="k">function</span> <span class="n">fg!</span><span class="p">(</span><span class="n">beta</span><span class="p">,</span> <span class="n">stor</span><span class="p">)</span>
+    <span class="n">stor</span><span class="p">[</span><span class="o">:</span><span class="p">]</span> <span class="o">=</span> <span class="n">dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
 <span class="k">end</span>
 
 <span class="c">## With analytical derivative</span>
@@ -317,10 +317,10 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 <span class="n">res3</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">())</span>
 
 <span class="c">## With forward AD derivative</span>
-<span class="n">res4</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">(),</span> <span class="n">OptimizationOptions</span><span class="p">(</span><span class="n">autodiff</span><span class="o">=</span><span class="n">true</span><span class="p">))</span>
+<span class="n">res4</span> <span class="o">=</span> <span class="n">optimize</span><span class="p">(</span><span class="n">loglik</span><span class="p">,</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Csminwel</span><span class="p">(),</span> <span class="n">OptimizationOptions</span><span class="p">(</span><span class="n">autodiff</span><span class="o">=</span><span class="kc">true</span><span class="p">))</span>
 
 <span class="c">## Use approximation to the inverse Hessian for standard errors of estimated parameters</span>
-<span class="n">stderr</span> <span class="o">=</span> <span class="n">√diag</span><span class="p">(</span><span class="n">res2</span><span class="o">.</span><span class="n">invH</span><span class="p">)</span>
+<span class="n">stderr</span> <span class="o">=</span> <span class="o">√</span><span class="n">diag</span><span class="p">(</span><span class="n">res2</span><span class="o">.</span><span class="n">invH</span><span class="p">)</span>
 </code></pre></div>
 
 
@@ -375,7 +375,7 @@ His research is mostly about econometrics.</p>
 
 
 <footer id="footer">
-<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Giuseppe Ragusa 2006&ndash;2016. 
+<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Giuseppe Ragusa 2006&ndash;2017. 
 </section>
 </footer>
 

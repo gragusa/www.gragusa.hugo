@@ -48,51 +48,186 @@ econometrics.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Problem sets</title>
+      <link>http://gragusa.org/ase/problemsets/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/ase/problemsets/</guid>
+      <description>&lt;p&gt;There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.&lt;/p&gt;
+
+&lt;p&gt;If you have any question on the problem sets, please ask me or TA’s during our office hours. Our office hours are for you. I prefer to talk to you in person. I feel that Email is not a very efficient way to ask econometric questions.&lt;/p&gt;
+
+&lt;p&gt;Problem set answers are to be turned in on time. You can hand in the homework AFTER the class. Please do not come and hand it in to me whilst I am lecturing. Do not email assignments. Late solution will not be accepted!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>About ASE</title>
       <link>http://gragusa.org/ase/body/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>http://gragusa.org/ase/body/</guid>
-      <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of
-econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
+      <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; the grading policy, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
+&lt;p&gt;Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;files/ase/syllabus-ase-2016.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; &lt;strong&gt;the grading policy&lt;/strong&gt;, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
 
-&lt;h3 id=&#34;course-content&#34;&gt;Course content&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;This is a guide to the content of my lectures.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;lecture-content&#34;&gt;Lecture content&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;| n. | date         |topic                                 |
-|:---|:-------------|:-------------------------------------|
-| 00 | M 13-02-2016 | Introduction to econometrics         |
-| 01 | T 14-02-2016 | Review of statistics                 |
-| 02 | M 20-02-2016 | Review of statistics I               |
-| 03 | T 21-02-2016 | Review of statistics II              |
-| 04 | M 27-02-2016 | Bivariate regression I               |
-| 05 | T 28-02-2016 | Bivariate regression II              |
-| 06 | M 06-03-2016 | Bivariate regression III             |
-| 07 | T 07-03-2016 | Endogeneity and causality            |
-| 08 | M 13-03-2016 | Multiple regression I                |
-| 09 | T 14-03-2016 | Multiple regression II               |
-| 10 | M 20-03-2016 | Nonlinear regression models I        |
-| 11 | T 21-03-2016 | Nonlinear regression models II       |
-| 13 | M 27-03-2016 | Assessing regression studies         |
-| 14 | T 28-03-2016 | Midterm                              |
-| 15 | M 03-04-2016 | Binary dependent variable I          |
-| 16 | T 04-04-2016 | Binary dependent variable II         |
-| 17 | M 10-04-2016 | Panel Data I                         |
-| 18 | T 11-04-2016 | Panel Data II                        |
-| 19 | M 17-04-2016 | Instrumental variables regression I  |
-| 20 | F 18-04-2016 | Instrumental variables regression II |
-| 21 | T 24-04-2016 | Instrumental variables regression III|
-| 22 | T 02-05-2016 | Instrumental variables regression VI |
-| 23 | M 08-05-2016 | Program evaluation I                 |
-| 24 | T 09-05-2016 | Program evaluation II                |
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;n.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;date&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;topic&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 13-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Introduction to econometrics&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;02&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 14-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Review of statistics&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;03&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 20-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Review of statistics I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;04&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 21-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Review of statistics II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;05&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 27-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bivariate regression I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;06&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 28-02-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bivariate regression II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;07&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 06-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bivariate regression III&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;08&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 07-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Endogeneity and causality&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 13-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiple regression I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 14-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiple regression II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 20-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Nonlinear regression models I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 21-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Nonlinear regression models II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 27-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Assessing regression studies&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 28-03-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Midterm&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 03-04-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Binary dependent variable I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 04-04-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Binary dependent variable II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 10-04-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Panel Data I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 11-04-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Panel Data II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 24-04-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Instrumental variables regression I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 02-05-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Instrumental variables regression II&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 03-05-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Instrumental variables regression III&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;22&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;M 08-05-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Program evaluation I&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;23&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;T 09-05-2016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Program evaluation II&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
     </item>
     
     <item>
@@ -201,22 +336,6 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
 &lt;p&gt;&lt;code&gt;R&lt;/code&gt; e&amp;rsquo; un software open-source, per Linux , Mac OS X, Windows, distribuito secondo la licenza GNU - GPL.&lt;/p&gt;
 
 &lt;p&gt;RStudio e&amp;rsquo; un ambiente di sviluppo integrato (IDE) per R. E&amp;rsquo; un software open-source che gira su Linux, Mac OS X e Windows.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>alert</title>
-      <link>http://gragusa.org/ase/alert/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/alert/</guid>
-      <description>
-
-&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;nothing yet&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
