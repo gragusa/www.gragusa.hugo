@@ -26,7 +26,7 @@ $(function() { $('table').addClass('table table-striped'); })
                 <li><a href="#r">R</a></li>
                 <li><a href="#slides">Slides</a></li>
                 <li><a href="#tasessions">TA sessions</a></li>
-                <li><a href="#ps">Problem set</a></li>
+                <li><a href="#ps">Problem sets</a></li>
             </ul>
         </nav>
         <div id="course">
@@ -47,7 +47,7 @@ $(function() { $('table').addClass('table table-striped'); })
 
       <div id="ps">
       {{ range .Data.Pages }}
-      {{ if .Params.problemset }}
+      {{ if .Params.problemsets }}
         <p>{{ .Content }}</p>
       {{ end }}
       {{ end }}
