@@ -1,0 +1,103 @@
+{{ template "partials/head_includes_kube6.html" . }}
+<script>
+$(function() { $('table').addClass('table table-striped'); })
+</script>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        {{ template "partials/sidebar.html" . }}
+        {{ $baseurl := .Site.BaseURL }}
+      </header>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-1"></div>
+    <div class="col col-7">
+      <nav class="tabs" data-component="tabs" data-equals="true">
+        <ul>
+          <li class="active"><a href="#course">Description</a></li>
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="#julia">Julia</a></li>
+          <li><a href="#material">Material</a></li>
+          <li><a href="#tasessions">TA sessions</a></li>
+          <li><a href="#ps">Problem sets</a></li>
+        </ul>
+      </nav>
+      <div id="course">
+        {{ range .Data.Pages }}
+        {{ if .Params.main }}
+        <p>{{ .Content }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <div id="topics">
+        {{ range .Data.Pages }}
+        {{ if .Params.topics }}
+        <p>{{ .Content }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+
+      <div id="material">
+        {{ range .Data.Pages }}
+        {{ if .Params.material }}
+        <p>{{ .Content }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <div id="ps">
+        {{ range .Data.Pages }}
+        {{ if .Params.problemsets }}
+        <p>{{ .Content }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <div id="tasessions">
+        {{ range .Data.Pages }}
+        {{ if .Params.tasessions }}
+        <p>{{ .Content }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <div id="julia">
+        {{ range .Data.Pages }}
+        {{ if .Params.julia }}
+        {{ .Content }}
+        {{ end }}
+        {{ end }}
+      </div>
+
+    </div>
+
+    <div class="col col-4">
+      <div class="alertbox">
+        {{ range .Data.Pages }}
+        {{ if .Params.info }}
+        {{ .Content }}
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="alertbox">
+        {{ range .Data.Pages }}
+        {{ if .Params.alert }}
+        {{ .Content }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="separator">
+
+  {{ partial "whatisthis.html" . }}
+  {{ partial "footer.html" . }}

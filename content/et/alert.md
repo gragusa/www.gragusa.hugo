@@ -1,6 +1,6 @@
 +++
-title = "alert Ericsson"
-date = "2016-12-17"
+title = "alert"
+date = "2017-02-10"
 menu = "teaching"
 alert = true
 +++
