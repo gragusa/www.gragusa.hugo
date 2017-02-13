@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Ets on gragusa.org </title>
+    <link>http://gragusa.org/et/index.xml</link>
+    <language>en-us</language>
+    <author>Giuseppe Ragusa</author>
+    <rights>Copyright (c) Giuseppe Ragusa.</rights>
+    <updated>Sat, 11 Feb 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>tasessions et</title>
+      <link>http://gragusa.org/et/tasessions/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/tasessions/</guid>
+      <description>&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).&lt;/p&gt;
+
+&lt;p&gt;The sessions are an important part of the course and regular and
+attendance is strongly advised. During these sessions, the TA will review the
+concepts introduced in class and solve applied problems using Julia. Sessions are
+also useful for asking questions about the problem sets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem sets et</title>
+      <link>http://gragusa.org/et/problemsets/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/problemsets/</guid>
+      <description>&lt;p&gt;There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.&lt;/p&gt;
+
+&lt;p&gt;If you have any question on the problem sets, please ask me or TA’s during our office hours. Our office hours are for you. I prefer to talk to you in person. I feel that Email is not a very efficient way to ask econometric questions.&lt;/p&gt;
+
+&lt;p&gt;Problem set answers are to be turned in on time. You can hand in the homework AFTER the class. Please do not come and hand it in to me whilst I am lecturing. Do not email assignments. Late solution will not be accepted!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>alertet</title>
+      <link>http://gragusa.org/et/alert/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/alert/</guid>
+      <description>
+
+&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nothing yet&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>topics et</title>
+      <link>http://gragusa.org/et/topics/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/topics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The following topics will be covered:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Asymptotic theory: law of large numbers and central limit theorems
+for iid and time series data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parametric and semi-parametric estimation techniques&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Properties of estimators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conditional expectation and related concepts with application to
+econometrics&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Single equation linear model and OLS estimation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Instrumental variables estimation of single equation linear model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Limited dependent variable models&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Panel Data models&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Univariate ARMA processes with stochastic and non-stochastic trends&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vector Autoregression (VAR)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Forecasting with ARMA and VAR models&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Special Topics: Generalized Method of Moments&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About ET</title>
+      <link>http://gragusa.org/et/body/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/body/</guid>
+      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
+probabilistic and statistical underpinnings of the most common econometric
+techniques. The topics studied will be of practical use to any student who plans
+on confronting data in their thesis or wishes to read and precisely understand
+the econometrics typically used in empirical research published in academic
+journals.
+
+&lt;strong&gt;Econometric theory&lt;/strong&gt; has two parts:&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;first part&lt;/strong&gt; focuses on the specification and estimation of the
+linear regression models and its extensions.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;second part&lt;/strong&gt; focuses on the theory and the applications of time
+series methods in econometrics.&lt;/p&gt;
+
+&lt;p&gt;Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work. Hands-on work requires the use of computer software. In this class we use &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h4&gt;
+
+&lt;p&gt;Lectures of the first part of the course will be mostly based on the
+following two graduate textbooks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wooldridge, Jeffrey M. Econometric analysis of cross section and panel
+data. MIT press, 2010.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lectures of the second part will be based on the following textbooks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J.D. Hamilton. Time Series Analysis. Princeton University Press, 1994&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another reference is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hal White (2011), Asymptotic Theory for Econometricians, Academic Press&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;exams-and-grades&#34;&gt;Exams and grades&lt;/h4&gt;
+
+&lt;p&gt;There will be two in class exam. A midterm and a comprehensive final.
+The final grade will consist of a weighted average of these two exams
+and the problem sets.&lt;/p&gt;
+
+&lt;p&gt;The midterm will be held on March 28, 2017.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Software Julia</title>
+      <link>http://gragusa.org/et/julia/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/julia/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt; is a high-level, high-performance dynamic
+programming language for technical computing, with syntax that is
+familiar to users of other technical computing environments. In
+particular, its syntax is similar to Matlab. The similarity of the
+syntax means that a lot of Matlab code will run almost unmodified.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt; has many advantages over other languages and for this reason is being extensively used in industries and in research.&lt;/p&gt;
+
+&lt;p&gt;Recently, the &lt;a href=&#34;https://www.newyorkfed.org/&#34;&gt;Federal Reserve of New York&lt;/a&gt; has
+open sourced its macroeconomic model (used for producing forecast about key
+variables and to conduct policy experiment). The code is written in Julia. You
+can read about it
+&lt;a href=&#34;http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html&#34;&gt;here&lt;/a&gt;.
+The code is on &lt;a href=&#34;https://github.com/FRBNY-DSGE/DSGE.jl&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An excellent tutorial is
+&lt;a href=&#34;http://quant-econ.net/jl/learning_julia.html&#34;&gt;Programming in Julia&lt;/a&gt;.
+The tutorial is written by Thomas J. Sargent and John Stachurski. Along
+with being a complete textbook with Julia code for macroeconomics, this
+also is a very good introduction to Julia&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>infoet</title>
+      <link>http://gragusa.org/et/info/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/et/info/</guid>
+      <description>
+
+&lt;h3 id=&#34;et-2016-2017&#34;&gt;ET 2016-2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Giuseppe Ragusa&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching assistants:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Siria Angino&lt;/li&gt;
+&lt;li&gt;Chiara Perricone&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Office hours&lt;/strong&gt;
+- Angino: TBA
+- Perricone: W 10:30-11:30 (by appointment)
+- Ragusa: T 11:30-13:00&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

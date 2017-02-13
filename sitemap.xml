@@ -17,7 +17,32 @@
   </url>
   
   <url>
+    <loc>http://gragusa.org/et/tasessions/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/et/problemsets/</loc>
+    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/et/alert/</loc>
+    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/et/topics/</loc>
+    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gragusa.org/ase/body/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/et/body/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -27,27 +52,7 @@
   </url>
   
   <url>
-    <loc>http://gragusa.org/ericsson/esempi/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gragusa.org/ericsson/esercitazioni/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gragusa.org/ericsson/body/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gragusa.org/ericsson/slides/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gragusa.org/ericsson/R/</loc>
+    <loc>http://gragusa.org/et/julia/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -57,17 +62,12 @@
   </url>
   
   <url>
-    <loc>http://gragusa.org/ericsson/alert/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://gragusa.org/ase/info/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gragusa.org/ericsson/info/</loc>
+    <loc>http://gragusa.org/et/info/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -225,8 +225,8 @@
   </url>
   
   <url>
-    <loc>http://gragusa.org/ericsson/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <loc>http://gragusa.org/et/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
