@@ -34,9 +34,9 @@
 
 &lt;p&gt;Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work.&lt;/p&gt;
 
-&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; &lt;strong&gt;the grading policy&lt;/strong&gt;, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
+&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; &lt;strong&gt;the grading policy&lt;/strong&gt;, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;files/ase/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;lecture-content&#34;&gt;Lecture content&lt;/h4&gt;
 
@@ -253,6 +253,7 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Office hours&lt;/strong&gt;
+- Angino: W, 16:00-17:00
 - Brandi: M, 9:30-11:00
 - Ragusa: T, 11:30-13:00&lt;/p&gt;
 </description>
@@ -264,16 +265,16 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>http://gragusa.org/ase/tasessions/</guid>
-      <description>
-
-&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).&lt;/p&gt;
+      <description>&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).&lt;/p&gt;
 
 &lt;p&gt;The TA sessions are an important part of the course and regular and
 attendance is strongly encouraged. During these sessions, the TA will review the concepts introduced in class and solve applied problems using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;The sessions are also the right place to get insight about the problem set of the week.&lt;/p&gt;
 
-&lt;h4 id=&#34;ta-session-material&#34;&gt;TA session material&lt;/h4&gt;
+&lt;p&gt;The following table gives the distribution of students across the two sessions:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../files/teaching/tatable.png&#34; alt=&#34;tatable&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
