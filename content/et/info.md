@@ -1,5 +1,5 @@
 +++
-title = "info"
+title = "infoet"
 date = "2016-12-17"
 menu = "teaching"
 info = true
@@ -15,4 +15,6 @@ info = true
 2. Chiara Perricone
 
 **Office hours**
-- TBA
+- Angino: TBA
+- Perricone: W 10:30-11:30 (by appointment)
+- Ragusa: T 11:30-13:00

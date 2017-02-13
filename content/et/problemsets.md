@@ -1,5 +1,5 @@
 +++
-title = "Problem sets"
+title = "Problem sets et"
 date = "2017-02-10"
 menu = "teaching"
 problemsets = true

@@ -15,4 +15,5 @@ info = true
 2. Giuseppe Brandi
 
 **Office hours**
-- TBA
+- Brandi: M, 9:30-11:00
+- Ragusa: T, 11:30-13:00

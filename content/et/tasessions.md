@@ -1,5 +1,5 @@
 +++
-title = "tasessions"
+title = "tasessions et"
 date = "2017-02-11"
 menu = "teaching"
 tasessions = true
