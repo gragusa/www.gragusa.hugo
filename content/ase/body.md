@@ -12,9 +12,9 @@ The aim of **Applied Statistics and Econometrics** is to provide an introduction
 
 Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work.
 
-For further details about the structure of the course, please download the [syllabus](files/ase/syllabus-ase-2017.pdf). The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; **the grading policy**, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the [syllabus](files/ase/syllabus-ase-2017.pdf) for any questions you may have about the course.
+For further details about the structure of the course, please download the [syllabus](../files/teaching/syllabus-ase-2017.pdf). The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; **the grading policy**, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the [syllabus](../files/teaching/syllabus-ase-2017.pdf) for any questions you may have about the course.
 
-<span class="label error outline"><a href="files/ase/syllabus-ase-2017.pdf">Syllabus</a></span>
+<span class="label error outline"><a href="../files/teaching/syllabus-ase-2017.pdf">Syllabus</a></span>
 
 
 #### Lecture content

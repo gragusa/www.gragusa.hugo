@@ -15,6 +15,6 @@ info = true
 2. Chiara Perricone
 
 **Office hours**
-- Angino: TBA
+- Angino: W, 16:00-17:00
 - Perricone: W 10:30-11:30 (by appointment)
 - Ragusa: T 11:30-13:00

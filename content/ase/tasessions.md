@@ -12,4 +12,6 @@ attendance is strongly encouraged. During these sessions, the TA will review the
 
 The sessions are also the right place to get insight about the problem set of the week.
 
-#### TA session material
+The following table gives the distribution of students across the two sessions:
+
+![tatable](../files/teaching/tatable.png)
