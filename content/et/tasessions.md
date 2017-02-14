@@ -16,5 +16,5 @@ The following table gives the distribution of students across the two sessions:
 
 |TA               | Time        | Students  |
 |:----------------|:------------|:----------|
-|Siria Angino     | 10:15-11:45 | G-Z       |
+|Siria Angino     | 10:15-11:45 | J-Z       |
 |Chiara Perricone | 8:45-10:25  | A-I       |
