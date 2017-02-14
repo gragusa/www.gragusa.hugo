@@ -14,4 +14,7 @@ The sessions are also the right place to ask questions about the problem set of 
 
 The following table gives the distribution of students across the two sessions:
 
-![tatable](../files/teaching/tatable.png)
+|TA              | Where | Time         | Students  |
+|:---------------|:------|:-------------|:----------|
+|Siria Angino    | A301  |W 14:00-15:30 | G-Z       |
+|Giuseppe Brandi | A306  |W 18:30-20:00 | A-F       |

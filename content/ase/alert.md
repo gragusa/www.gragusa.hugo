@@ -6,4 +6,4 @@ alert = true
 +++
 
 #### Announcements
-- nothing yet
+- Nothing yet
