@@ -228,7 +228,7 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
 &lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;nothing yet&lt;/li&gt;
+&lt;li&gt;Nothing yet&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -292,7 +292,32 @@ attendance is strongly encouraged. During these sessions, the TA will review the
 
 &lt;p&gt;The following table gives the distribution of students across the two sessions:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../files/teaching/tatable.png&#34; alt=&#34;tatable&#34; /&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;TA&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Where&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Time&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Students&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Siria Angino&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A301&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;W 14:00-15:30&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;G-Z&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Giuseppe Brandi&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A306&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;W 18:30-20:00&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A-F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
