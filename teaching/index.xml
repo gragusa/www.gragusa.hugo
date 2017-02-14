@@ -6,102 +6,12 @@
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
-    <updated>Wed, 15 Feb 2017 00:00:00 &#43;1100</updated>
-    
-    <item>
-      <title>Applied Econometrics and Statistics</title>
-      <link>http://gragusa.org/teaching/ase/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/ase/</guid>
-      <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
-econometrics. While both theoretical and practical aspects will be covered,
-emphasis will be on intuitive understanding. Concepts will be illustrated with
-real world applications on real world data.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-ase-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/ase.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
-    </item>
-    
-    <item>
-      <title>Econometric Theory</title>
-      <link>http://gragusa.org/teaching/grad-et/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/grad-et/</guid>
-      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
-probabilistic and statistical underpinnings of the most common econometric
-techniques. The topics studied will be of practical use to any student who plans
-on confronting data in their thesis or wishes to read and precisely understand
-the econometrics typically used in empirical research published in academic
-journals. The recommended software package is &lt;a href=&#34;http://www.julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Econometric theory has two parts. The first part focuses on the specification
-and estimation of the linear regression models and its extensions. The second
-part focuses on the theory and the applications of time series methods in
-econometrics.&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-et-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/et.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
-    </item>
-    
-    <item>
-      <title>Econometrics Review Course</title>
-      <link>http://gragusa.org/teaching/eief-review/</link>
-      <pubDate>Wed, 05 Oct 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/eief-review/</guid>
-      <description>&lt;p&gt;Econometric Review Course is a 20 hours long course. I am teaching half of the
-course; the other half is taught by Marco Lippi.&lt;/p&gt;
-
-&lt;p&gt;In my part I will focus on the specification and estimation of the linear
-regression model. The course departs from the standard Gauss-Markov assumptions
-to include heteroskedasticity, serial correlation, and errors in variables.
-Advanced topics include generalized least squares, instrumental variables,
-generalized method of moments, limited dependent variable models, and panel
-data.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;textbook&#34;&gt;Textbook&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cameron, A. C., &amp;amp; Trivedi, P. K. (2005). Microeconometrics: methods and applications. Cambridge university press.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Wooldridge, J. M. (2010). Econometric analysis of cross section and panel data.
-MIT press.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;White, H. (2001). Asymptotic theory for econometricians. Academic press.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;useful-papers&#34;&gt;Useful papers&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Newey, W. K., &amp;amp; McFadden, D. (1994). &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S1573441205800054&#34;&gt;Large sample estimation and hypothesis testing. Handbook of econometrics&lt;/a&gt;, 4, 2111-2245.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hansen, L. P. (1982). &lt;a href=&#34;http://www.jstor.org/stable/1912775&#34;&gt;Large sample properties of generalized method of moments estimators&lt;/a&gt;. Econometrica: Journal of the Econometric Society, 1029-1054.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>http://gragusa.org/teaching/lbs-machine-learning/</link>
-      <pubDate>Sat, 24 Sep 2016 00:00:00 &#43;1100</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/lbs-machine-learning/</guid>
-      <description>&lt;p&gt;This course gives an overview of many techniques, and algorithms in machine learning, beginning with topics such as linear regression and classification and ending up with more recent topics such as boosting, support vector machines, random forests and and unsupervised learning techniques. The course will give the student the ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The module will use primarily the &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; programming language.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-machinelearning-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/machinelearning.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
-    </item>
+    <updated>Thu, 16 Feb 2017 00:00:00 &#43;1100</updated>
     
     <item>
       <title>Econometrics of DSGE models</title>
       <link>http://gragusa.org/teaching/eief-dsge/</link>
-      <pubDate>Sun, 24 Apr 2016 00:00:00 &#43;1100</pubDate>
+      <pubDate>Thu, 16 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>http://gragusa.org/teaching/eief-dsge/</guid>
       <description>&lt;p&gt;This is a course on the econometric techniques used in the estimation of dynamic
@@ -224,6 +134,96 @@ The code is &lt;a href=&#34;https://github.com/FRBNY-DSGE/DSGE.jl&#34;&gt;here&l
 excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
 with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
 .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Applied Econometrics and Statistics</title>
+      <link>http://gragusa.org/teaching/ase/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/teaching/ase/</guid>
+      <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
+econometrics. While both theoretical and practical aspects will be covered,
+emphasis will be on intuitive understanding. Concepts will be illustrated with
+real world applications on real world data.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;
+&lt;span class=&#34;label  outline&#34;&gt;&lt;a href=&#34;http://gragusa.org/ase&#34;&gt;Class website&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Econometric Theory</title>
+      <link>http://gragusa.org/teaching/grad-et/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/teaching/grad-et/</guid>
+      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
+probabilistic and statistical underpinnings of the most common econometric
+techniques. The topics studied will be of practical use to any student who plans
+on confronting data in their thesis or wishes to read and precisely understand
+the econometrics typically used in empirical research published in academic
+journals. The recommended software package is &lt;a href=&#34;http://www.julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Econometric theory has two parts. The first part focuses on the specification
+and estimation of the linear regression models and its extensions. The second
+part focuses on the theory and the applications of time series methods in
+econometrics.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;label  outline&#34;&gt;&lt;a href=&#34;http://gragusa.org/ase&#34;&gt;Class website&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Econometrics Review Course</title>
+      <link>http://gragusa.org/teaching/eief-review/</link>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/teaching/eief-review/</guid>
+      <description>&lt;p&gt;Econometric Review Course is a 20 hours long course. I am teaching half of the
+course; the other half is taught by Marco Lippi.&lt;/p&gt;
+
+&lt;p&gt;In my part I will focus on the specification and estimation of the linear
+regression model. The course departs from the standard Gauss-Markov assumptions
+to include heteroskedasticity, serial correlation, and errors in variables.
+Advanced topics include generalized least squares, instrumental variables,
+generalized method of moments, limited dependent variable models, and panel
+data.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;textbook&#34;&gt;Textbook&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cameron, A. C., &amp;amp; Trivedi, P. K. (2005). Microeconometrics: methods and applications. Cambridge university press.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wooldridge, J. M. (2010). Econometric analysis of cross section and panel data.
+MIT press.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;White, H. (2001). Asymptotic theory for econometricians. Academic press.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;useful-papers&#34;&gt;Useful papers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Newey, W. K., &amp;amp; McFadden, D. (1994). &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S1573441205800054&#34;&gt;Large sample estimation and hypothesis testing. Handbook of econometrics&lt;/a&gt;, 4, 2111-2245.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hansen, L. P. (1982). &lt;a href=&#34;http://www.jstor.org/stable/1912775&#34;&gt;Large sample properties of generalized method of moments estimators&lt;/a&gt;. Econometrica: Journal of the Econometric Society, 1029-1054.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://gragusa.org/teaching/lbs-machine-learning/</link>
+      <pubDate>Sat, 24 Sep 2016 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/teaching/lbs-machine-learning/</guid>
+      <description>&lt;p&gt;This course gives an overview of many techniques, and algorithms in machine learning, beginning with topics such as linear regression and classification and ending up with more recent topics such as boosting, support vector machines, random forests and and unsupervised learning techniques. The course will give the student the ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The module will use primarily the &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; programming language.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-machinelearning-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/machinelearning.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
     </item>
     
   </channel>

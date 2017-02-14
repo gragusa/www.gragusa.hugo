@@ -6,12 +6,140 @@
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
-    <updated>Wed, 15 Feb 2017 00:00:00 &#43;1100</updated>
+    <updated>Thu, 16 Feb 2017 00:00:00 &#43;1100</updated>
+    
+    <item>
+      <title>Econometrics of DSGE models</title>
+      <link>http://gragusa.org/teaching/eief-dsge/</link>
+      <pubDate>Thu, 16 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/teaching/eief-dsge/</guid>
+      <description>&lt;p&gt;This is a course on the econometric techniques used in the estimation of dynamic
+macroeconomic models (DSGE models). The aim of the course is mostly theoretical, but applications are also presented using &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;topics&#34;&gt;Topics&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Motivation: DSGE models and their applications&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Approximating and solving DSGE models&lt;/p&gt;
+
+&lt;p&gt;a.  State space representation
+b.  Constructing (log-)linear approximation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Time series properties of the model and data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Classical estimation of DSGE models&lt;/p&gt;
+
+&lt;p&gt;a.  Generalized Method of Moments (GMM)&lt;/p&gt;
+
+&lt;p&gt;b.  Simulated Method of Moments (SMM) and Indirect Inference (IF)&lt;/p&gt;
+
+&lt;p&gt;c.  Impulse response functions matching&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Bayesian estimation of DSGE models&lt;/p&gt;
+
+&lt;p&gt;a.  (log-)linear models&lt;/p&gt;
+
+&lt;p&gt;b.  Non linear models&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The twilight zone of DSGE estimation&lt;/p&gt;
+
+&lt;p&gt;a.  Identification&lt;/p&gt;
+
+&lt;p&gt;b.  Feasible non linear estimation&lt;/p&gt;
+
+&lt;p&gt;c.  VAR and DSGE&lt;/p&gt;
+
+&lt;p&gt;d.  Limited information estimation&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;readings&#34;&gt;Readings&lt;/h3&gt;
+
+&lt;p&gt;This is a list of readings. This is by no means comprehensive &amp;mdash; it
+simply reflects the source that are closely related with the topics
+covered in lectures.&lt;/p&gt;
+
+&lt;h4 id=&#34;books&#34;&gt;Books:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Canova, F. (2007), Methods for Applied Macroeconomic Research,
+Princeton: Princeton University Press.&lt;/li&gt;
+&lt;li&gt;Dejong, D.N. and C. Dave (2007), Structural Macroeconomics,
+Princeton: Princeton University Press&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;papers&#34;&gt;Papers:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An and Schoerfheide (2007) Bayesian Analysis of DSGE Models,
+Econometric Reviews, 26(2-4), 2007, 113-172.
+&lt;a href=&#34;http://www.tandfonline.com/doi/abs/10.1080/07474930701220071&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fernández-Villaverde, Jesús. &amp;ldquo;The econometrics of DSGE models.&amp;rdquo;
+SERIEs 1.1-2 (2010): 3-49.
+&lt;a href=&#34;http://link.springer.com/article/10.1007/s13209-009-0014-7&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Schorfheide, Frank. &amp;ldquo;Loss function-based evaluation of DSGE models.&amp;rdquo;
+Journal of Applied Econometrics 15.6 (2000): 645-670.
+&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1002/jae.582/full&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arulampalam, M. Sanjeev, et al. &amp;ldquo;A tutorial on particle filters for
+online nonlinear/non-Gaussian Bayesian tracking.&amp;rdquo; Signal Processing,
+IEEE Transactions on 50.2 (2002): 174-188.
+&lt;a href=&#34;http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=978374&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Doucet, Arnaud, and Adam M. Johansen. &amp;ldquo;A tutorial on particle
+filtering and smoothing: Fifteen years later.&amp;rdquo; Handbook of Nonlinear
+Filtering 12.656-704 (2009): 3.
+&lt;a href=&#34;http://automatica.dei.unipd.it/tl_files/utenti/lucaschenato/Classes/PSC10_11/Tutorial_PF_doucet_johansen.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Andrieu, Christophe, Arnaud Doucet, and Roman Holenstein. &amp;ldquo;Particle
+markov chain monte carlo methods.&amp;rdquo; Journal of the Royal Statistical
+Society: Series B (Statistical Methodology) 72.3 (2010): 269-342.
+&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9868.2009.00736.x/full&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gallant, A. Ronald, Raffaella Giacomini, and Giuseppe Ragusa. Bayesian
+estimation of state space models using moment conditions. Technical
+report, 2015. &lt;a href=&#34;http://www.aronaldg.org/papers/bliml.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Giacomini, Raffaella. &amp;ldquo;The relationship between DSGE and VAR models.&amp;rdquo;
+Advances in Econometrics 31 (2013).
+&lt;a href=&#34;http://www.emeraldinsight.com/doi/abs/10.1108/S0731-9053(2013)0000031001&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Komunjer, Ivana, and Serena Ng. &amp;ldquo;Dynamic identification of
+stochastic general equilibrium models.&amp;rdquo; Econometrica 79.6
+(2011):1995-2032.
+&lt;a href=&#34;http://www.columbia.edu/~sn2294/pub/ecta11.pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Del Negro, Marco, and Frank Schorfheide. &amp;ldquo;Bayesian
+macroeconometrics.&amp;rdquo; The Oxford handbook of Bayesian econometrics 293
+(2011): 389.
+&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.414.4871&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;julia&#34;&gt;Julia&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt; is a high-level, high-performance dynamic
+programming language for technical computing, with syntax that is
+familiar to users of other technical computing environments. In
+particular, its syntax is similar to Matlab. The similarity of the
+syntax means that a lot of Matlab code will run almost unmodified.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; has many advantages over other languages and for this reason is
+being extensively used in industries and in research.&lt;/p&gt;
+
+&lt;p&gt;Recently, the &lt;a href=&#34;https://www.newyorkfed.org/&#34;&gt;Federal Reserve of New York&lt;/a&gt; has
+open sourced its macroeconomic model (used for producing forecast about key
+variables and to conduct policy experiment). The code is written in Julia. You
+can read about
+it
+&lt;a href=&#34;http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html&#34;&gt;here&lt;/a&gt;.
+The code is &lt;a href=&#34;https://github.com/FRBNY-DSGE/DSGE.jl&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://quant-econ.net/jl/learning_julia.html&#34;&gt;Programming in Julia&lt;/a&gt; in an
+excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
+with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
+.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Applied Econometrics and Statistics</title>
       <link>http://gragusa.org/teaching/ase/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>http://gragusa.org/teaching/ase/</guid>
       <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
@@ -19,15 +147,15 @@ econometrics. While both theoretical and practical aspects will be covered,
 emphasis will be on intuitive understanding. Concepts will be illustrated with
 real world applications on real world data.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-ase-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/ase.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
+&lt;p&gt;
+&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;
+&lt;span class=&#34;label  outline&#34;&gt;&lt;a href=&#34;http://gragusa.org/ase&#34;&gt;Class website&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Econometric Theory</title>
       <link>http://gragusa.org/teaching/grad-et/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 &#43;1100</pubDate>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
       <guid>http://gragusa.org/teaching/grad-et/</guid>
       <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
@@ -44,7 +172,7 @@ and estimation of the linear regression models and its extensions. The second
 part focuses on the theory and the applications of time series methods in
 econometrics.&lt;/p&gt;
 
-&lt;h4 id=&#34;syllabus-pdf-http-www-gragusa-org-files-teaching-et-pdf&#34;&gt;&lt;a href=&#34;http://www.gragusa.org/files/teaching/et.pdf&#34;&gt;Syllabus (PDF)&lt;/a&gt;&lt;/h4&gt;</description>
+&lt;p&gt;&lt;span class=&#34;label  outline&#34;&gt;&lt;a href=&#34;http://gragusa.org/ase&#34;&gt;Class website&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -365,32 +493,6 @@ The final grade will consist of a weighted average of these two exams
 and the problem sets.&lt;/p&gt;
 
 &lt;p&gt;The midterm will be held on March 28, 2017.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Computer Software</title>
-      <link>http://gragusa.org/ase/R/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/R/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The software used in this course is &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt;. No
-prior knowledge of this software package is assumed. This package will be
-introduced in the TA Sessions.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;R&lt;/code&gt; is installed on all computers in the computer lab. Since
-&lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is open source you can freely install it on your laptop or
-desktop. &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; is available for all major computing
-platforms: Windows, Mac OSX, and Linux. Platform specific installation help can
-be found at
-&lt;a href=&#34;http://cran.r-project.org/doc/manuals/r-release/R-admin.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I recommend using &lt;code&gt;R&lt;/code&gt; through &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;, a free and open
-source integrated development environment (IDE) for &lt;code&gt;R&lt;/code&gt;.
-&lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt; is installed on most computers in the computer
-labs where TA sessions are held. You can easily install &lt;a href=&#34;http://rstudio.com/&#34;&gt;Rstudio&lt;/a&gt;  on your machine by following the instruction &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
