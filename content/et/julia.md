@@ -1,7 +1,6 @@
 +++
-title = "Computer Software Julia"
+title = "ComputerSoftwareJuliaET"
 date = "2016-12-17"
-menu = "teaching"
 julia = true
 +++
 

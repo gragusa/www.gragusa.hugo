@@ -8,4 +8,4 @@ There will be a weekly problem set. The assignments will involve both theoretica
 
 If you have any question on the problem sets, please ask me or TA’s during our office hours. Our office hours are for you. I prefer to talk to you in person. I feel that Email is not a very efficient way to ask econometric questions.
 
-Problem set answers are to be turned in on time. You can hand in the homework AFTER the class. Please do not come and hand it in to me whilst I am lecturing. Do not email assignments. Late solution will not be accepted!
+Problem set answers are to be turned in on time. You can hand in the homework AFTER the class. Late solution will not be accepted!

@@ -18,6 +18,6 @@ info = true
 
 - Angino: W, 16:00-17:00
 
-- Brandi: M, 9:30-11:00
+- Brandi: W, 9:30-11:00
 
 - Ragusa: T, 11:30-13:00
