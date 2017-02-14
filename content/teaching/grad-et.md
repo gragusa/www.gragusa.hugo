@@ -1,6 +1,6 @@
 ---
 title: Econometric Theory
-date: 2017-02-15T00:00:00+11:00
+date: 2017-02-13T00:00:00+11:00
 enddate: 2017-05-30T00:00:00+11:00
 publishdate: "2016-02-08"
 host: "Luiss University"
@@ -21,6 +21,4 @@ and estimation of the linear regression models and its extensions. The second
 part focuses on the theory and the applications of time series methods in
 econometrics.
 
-
-
-#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/et.pdf)
+<span class="label  outline"><a href="http://gragusa.org/ase">Class website</a></span>
