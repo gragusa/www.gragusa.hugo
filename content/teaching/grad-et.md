@@ -21,4 +21,4 @@ and estimation of the linear regression models and its extensions. The second
 part focuses on the theory and the applications of time series methods in
 econometrics.
 
-<span class="label  outline"><a href="http://gragusa.org/ase">Class website</a></span>
+<span class="label  outline"><a href="http://gragusa.org/et">Class website</a></span>
