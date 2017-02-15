@@ -6,4 +6,4 @@ alert = true
 +++
 
 #### Announcements
-- Nothing yet
+- Problem set 1 posted

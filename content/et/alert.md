@@ -6,4 +6,5 @@ alert = true
 +++
 
 #### Announcements
-- nothing yet
+- Problem set 1 posted
+- Teaching notes posted

@@ -42,7 +42,8 @@ Another reference is:
 #### Exams and grades
 
 There will be two in class exam. A midterm and a comprehensive final.
-The final grade will consist of a weighted average of these two exams
-and the problem sets.
 
 The midterm will be held on March 28, 2017.
+
+The grade will consist of a weighted average of these two exams
+and the problem sets. The midterm will count 30%, the problem set 30%, and the final the remaining 40%. The final grade will be the largest between the weighted grade and the grade on the final.  The midterm and the problem sets will be considered only for the first tow final exam dates.
