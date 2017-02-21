@@ -7,3 +7,5 @@ slides = true
 
 - [Lecture 1](../files/teaching/Lecture1.pdf)
 - [Lecture 2](../files/teaching/Lecture2.pdf)
+- [Lecture 3](../files/teaching/Lecture3.pdf)
+- [Lecture 4](../files/teaching/Lecture4.pdf)
