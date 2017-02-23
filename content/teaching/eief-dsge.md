@@ -122,3 +122,10 @@ The code is [here](https://github.com/FRBNY-DSGE/DSGE.jl).
 excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
 with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
 .
+
+
+
+## slides
+
+- [Lecture 1](files/teaching/lecture_1.pdf)
+- [Lecture 2](files/teaching/lecture_2.pdf)
