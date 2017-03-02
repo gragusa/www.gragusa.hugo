@@ -15,3 +15,10 @@ Problem set answers are to be turned in on time. You can hand in the homework AF
 #### Problem sets
 
 - [Problem Set 1](http://docenti.luiss.it/protected-uploads/580/2017/02/20170215192957-P_1.pdf)
+
+- Problem Set 2 (Due Tuesday March, 7th 2017)
+    - [Questions](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302151748-PS02_Questions.pdf)
+    - [Answer sheet](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302151801-PS02_Answers.pdf)
+
+
+    _Note:_ This problem set is multiple choice. You have to print the [answer sheet](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302151801-PS02_Answers.pdf), fill your id, and fill your answers based on the [questions](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302151748-PS02_Questions.pdf).
