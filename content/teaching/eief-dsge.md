@@ -131,3 +131,4 @@ with being a very good introduction to the language, this is also a complete mac
 - [Lecture 2](files/teaching/lecture_2.pdf)
 - [Lecture 4](files/teaching/lecture_4.pdf)
 - [Lecture 5](files/teaching/lecture_5.pdf) [Jupyter notebook](files/teaching/MH.ipynb) [Problem set #1](files/teaching/PS-1.pdf)
+- [Lecture 6](files/teaching/lecture_6.pdf)
