@@ -13,3 +13,4 @@ slides = true
 - [Lecture 6](../files/teaching/Lecture6.pdf)
 - [Lecture 7](../files/teaching/Lecture7.pdf)
 - [Lecture 8](../files/teaching/Lecture8.pdf) [Subject to change]
+- [Lecture 8](../files/teaching/Lecture9.pdf)
