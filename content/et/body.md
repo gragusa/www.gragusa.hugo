@@ -46,4 +46,8 @@ There will be two in class exam. A midterm and a comprehensive final.
 The midterm will be held on March 28, 2017.
 
 The grade will consist of a weighted average of these two exams
-and the problem sets. The midterm will count 30%, the problem set 30%, and the final the remaining 40%. The final grade will be the largest between the weighted grade and the grade on the final.  The midterm and the problem sets will be considered only for the first tow final exam dates.
+and the problem sets. The midterm will count 30%, the problem set 30%, and the final the remaining 40%. The final grade will be the largest between the weighted grade as described above and the grade on the final. More specifically, denoting *F*, *M*, and *PS* your grade on the final, midterm, and problem set, respectively, your grade will be
+
+   **Final Grade = max(.4*F + .3*M + .3*PS, .8*F + .2*PS, F)**
+
+_Note:_ The midterm and the problem sets will be considered only for the first two final exam dates.
