@@ -132,3 +132,5 @@ with being a very good introduction to the language, this is also a complete mac
 - [Lecture 4](files/teaching/lecture_4.pdf)
 - [Lecture 5](files/teaching/lecture_5.pdf) [Jupyter notebook](files/teaching/MH.ipynb) [Problem set #1](files/teaching/PS-1.pdf)
 - [Lecture 6](files/teaching/lecture_6.pdf)
+- [Lecture 7](files/teaching/lecture_7.pdf)
+- [Lecture 9](files/teaching/lecture_9.pdf) [Jupyter notebook](files/teaching/particle_filter.ipynb)
