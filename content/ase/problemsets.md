@@ -25,4 +25,8 @@ Problem set answers are to be turned in on time. You can hand in the homework AF
 
 - Problem Set 3 (Due Thursday, March 16 2017)
   This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
-  `http://gragusa.org/ps3/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student. 
+  `http://gragusa.org/ps3/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
+
+- Problem Set 3 (Due Tuesday,  April 11 2017)
+  This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
+  `http://gragusa.org/ps4/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
