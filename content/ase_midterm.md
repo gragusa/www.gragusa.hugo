@@ -1,5 +1,5 @@
 ---
-title: Miterm results
+title: Midterm results
 publishdate: "2017-03-30"
 ---
 
@@ -7,7 +7,7 @@ publishdate: "2017-03-30"
 
 ## Posted on March 30, 2017 at 14:20:00
 
-Below are the grades for the Applied Statistics and Econometrics of March 28, 2017.
+Below are the grades for the Applied Statistics and Econometrics midterm of March 28, 2017.
 
 _Note:_ Only grades greater than 18/30 are shown.  
 
@@ -80,6 +80,7 @@ _Note:_ Only grades greater than 18/30 are shown.
 | 200291     |    21 |
 | 200321     |    23 |
 | 200361     |    26 |
+| 204611     |    30 |
 | 200551     |    24 |
 | 200561     |    26 |
 | 200601     |    26 |
