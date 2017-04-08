@@ -1,5 +1,5 @@
 ---
-title: Econometric theory - Midterm results
+title: Econometric theory Midterm results
 publishdate: "2017-04-07"
 ---
 

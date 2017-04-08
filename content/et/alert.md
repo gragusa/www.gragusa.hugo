@@ -6,6 +6,7 @@ alert = true
 +++
 
 #### Announcements
+- [Midterm results are out](../ase_midterm)
 - Problem set 4 posted
 - The Julia notebook **Linear model by simulations** posted
 - Problem set 3 posted
