@@ -30,3 +30,30 @@ Problem set answers are to be turned in on time. You can hand in the homework AF
 - Problem Set 4 (Due Tuesday,  April 11 2017)
   This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
   `http://gragusa.org/ps4/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
+
+    _Note_: There are two misleading questions in the PS. These happens as the last two questions. They should read:
+
+    ---
+    Consider the regression in column (3). An increase in str from 17 to 19 when **English<= 20** is associated with
+
+    A a decrease in testscore of about 2
+
+    B a decrease in testscore of about 2.6
+
+    C a decrease in testscore of about 4.4
+
+    D an increase in testscore of about 2.6
+
+    ---
+
+    Consider the regression in column (3). An increase in str from 20 to 21 when **English > 20** is associated with  
+
+    A a decrease in testscore of about 1.3
+
+    B an increase in testscore of about 1.3
+
+    C a decrease in testscore of about 1
+
+    D a decrease in testscore of about 2.2
+
+    ---
