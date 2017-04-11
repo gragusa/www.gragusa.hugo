@@ -17,3 +17,4 @@ slides = true
 - [Lecture 10](../files/teaching/Lecture10.pdf)
 - [Lecture 11](../files/teaching/Lecture11.pdf)
 - [Lecture 12](../files/teaching/Lecture12.pdf)
+- [Lecture 13](../files/teaching/Lecture13.pdf)
