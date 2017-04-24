@@ -20,7 +20,7 @@ For further details about the structure of the course, please download the [syll
 #### Lecture content
 
 
-| n. | date         |topic                                 |
+| n. | date         | topic                                |
 |:---|:-------------|:-------------------------------------|
 | 01 | M 13-02-2016 | Introduction to econometrics         |
 | 02 | T 14-02-2016 | Review of statistics                 |
@@ -32,16 +32,15 @@ For further details about the structure of the course, please download the [syll
 | 08 | T 07-03-2016 | Endogeneity and causality            |
 | 09 | M 13-03-2016 | Multiple regression I                |
 | 10 | T 14-03-2016 | Multiple regression II               |
-| 11 | M 20-03-2016 | Nonlinear regression models I        |
-| 12 | T 21-03-2016 | Nonlinear regression models II       |
-| 13 | M 27-03-2016 | Assessing regression studies         |
+| 11 | M 20-03-2016 | Multiple regression II               |
+| 12 | T 21-03-2016 | Nonlinear regression models I        |
+| 13 | M 27-03-2016 | Nonlinear regression models II       |
 | 14 | T 28-03-2016 | Midterm                              |
-| 15 | M 03-04-2016 | Binary dependent variable I          |
-| 16 | T 04-04-2016 | Binary dependent variable II         |
-| 17 | M 10-04-2016 | Panel Data I                         |
-| 18 | T 11-04-2016 | Panel Data II                        |
-| 19 | T 24-04-2016 | Instrumental variables regression I  |
-| 20 | M 02-05-2016 | Instrumental variables regression II |
-| 21 | T 03-05-2016 | Instrumental variables regression III|
-| 22 | M 08-05-2016 | Program evaluation I                 |
-| 23 | T 09-05-2016 | Program evaluation II                |
+| 15 | M 03-04-2016 | Assessing regression studies         |
+| 16 | T 04-04-2016 | ~~~Binary dependent variable I~~~    |
+| 17 | M 10-04-2016 | Binary dependent variable I          |
+| 18 | T 11-04-2016 | Panel Data I                         |
+| 19 | T 24-04-2016 | Panel Data II                        |
+| 20 | T 02-05-2016 | Instrumental variables regression I  |
+| 21 | M 08-05-2016 | Instrumental variables regression II |
+| 22 | T 09-05-2016 | Applications                         |
