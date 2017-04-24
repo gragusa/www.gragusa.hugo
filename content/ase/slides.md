@@ -18,4 +18,4 @@ slides = true
 - [Lecture 11](../files/teaching/Lecture11.pdf)
 - [Lecture 12](../files/teaching/Lecture12.pdf)
 - [Lecture 13](../files/teaching/Lecture13.pdf)
-- [Lecture 14](../files/teaching/Lecture14.pdf)
+- [Lecture 14](../files/teaching/Lecture14.pdf) [Application](../files/teaching/PanelApplication.pdf)
