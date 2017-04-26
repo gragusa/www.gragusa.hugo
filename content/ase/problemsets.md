@@ -20,40 +20,16 @@ Problem set answers are to be turned in on time. You can hand in the homework AF
     - [Questions](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302161751-PS02_Questions.pdf)
     - [Answer sheet](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302161740-PS02_Answers.pdf)
 
-
     _Note:_ This problem set is multiple choice. You have to print the [answer sheet](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302161740-PS02_Answers.pdf), fill your id, and fill your answers based on the [questions](http://docenti.luiss.it/protected-uploads/580/2017/03/20170302161751-PS02_Questions.pdf).
 
 - Problem Set 3 (Due Thursday, March 16 2017)
   This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
   `http://gragusa.org/ps3/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
 
-- Problem Set 4 (Due Tuesday,  April 11 2017)
+- Problem Set 4 (Due Tuesday, April 11 2017)
   This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
   `http://gragusa.org/ps4/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
 
-    _Note_: There are two misleading questions in the PS. These happens as the last two questions. They should read:
-
-    ---
-    Consider the regression in column (3). An increase in str from 17 to 19 when **English<= 20** is associated with
-
-    A a decrease in testscore of about 2
-
-    B a decrease in testscore of about 2.6
-
-    C a decrease in testscore of about 4.4
-
-    D an increase in testscore of about 2.6
-
-    ---
-
-    Consider the regression in column (3). An increase in str from 20 to 21 when **English > 20** is associated with  
-
-    A a decrease in testscore of about 1.3
-
-    B an increase in testscore of about 1.3
-
-    C a decrease in testscore of about 1
-
-    D a decrease in testscore of about 2.2
-
-    ---
+- Problem Set 5 (Due Tuesday, May 2 2017)
+  This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
+  `http://gragusa.org/ps5/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
