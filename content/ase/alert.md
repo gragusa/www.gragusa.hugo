@@ -6,6 +6,7 @@ alert = true
 +++
 
 #### Announcements
+- Problem set 6 posted
 - Problem set 5 posted
 - Problem set 4 posted
 - [Midterm results are out](../ase_midterm)

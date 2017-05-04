@@ -33,3 +33,5 @@ Problem set answers are to be turned in on time. You can hand in the homework AF
 - Problem Set 5 (Due Tuesday, May 2 2017)
   This problem set is personalized. Each student must download her own version of the problem set. To download the problem set use the following URL:
   `http://gragusa.org/ps5/xxxxxx.pdf` where `xxxxxx` is the LUISS ID of the student.
+
+- [Problem Set 6](../files/teaching/PS_06.pdf)
