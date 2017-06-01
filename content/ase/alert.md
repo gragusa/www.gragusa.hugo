@@ -6,6 +6,7 @@ alert = true
 +++
 
 #### Announcements
+- [Final grades are out](../ase_final)
 - Problem set 6 posted
 - Problem set 5 posted
 - Problem set 4 posted
