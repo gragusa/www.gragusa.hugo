@@ -6,11 +6,5 @@ alert = true
 +++
 
 #### Announcements
-- [Final grades are out](../ase_final)
-- Problem set 6 posted
-- Problem set 5 posted
-- Problem set 4 posted
-- [Midterm results are out](../ase_midterm)
-- Problem set 3 posted
-- Problem set 2 posted
-- Problem set 1 posted
+- [Final grades are out (Exam:15/06/2015)](../ase_final)
+
