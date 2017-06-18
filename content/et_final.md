@@ -1,6 +1,6 @@
 ---
 title: Final Grades 
-publishdate: "2017-06-19"
+publishdate: "2017-06-18"
 ---
 
 # Final marks
