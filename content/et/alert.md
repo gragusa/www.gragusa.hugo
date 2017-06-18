@@ -6,10 +6,4 @@ alert = true
 +++
 
 #### Announcements
-- [Midterm results are out](../et_midterm)
-- Problem set 4 posted
-- The Julia notebook **Linear model by simulations** posted
-- Problem set 3 posted
-- Problem set 2 posted
-- Problem set 1 posted
-- Teaching notes posted
+- [Final marks for June 15 exam](../et_final)
