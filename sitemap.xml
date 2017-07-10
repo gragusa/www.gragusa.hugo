@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gragusa.org/publications/anchoring/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/publications/bayesian-state-space/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/publications/empypub/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/publications/moment-conditions-sensitivity/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gragusa.org/teaching/eief-dsge/</loc>
     <lastmod>2017-02-16T00:00:00+11:00</lastmod>
   </url>
@@ -92,28 +112,13 @@
   </url>
   
   <url>
-    <loc>http://gragusa.org/publications/anchoring/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://gragusa.org/teaching/eief-review/</loc>
     <lastmod>2016-10-05T00:00:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gragusa.org/publications/moment-conditions-sensitivity/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://gragusa.org/teaching/lbs-machine-learning/</loc>
     <lastmod>2016-09-24T00:00:00+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gragusa.org/publications/bayesian-state-space/</loc>
-    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -258,7 +263,7 @@
   
   <url>
     <loc>http://gragusa.org/publications/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -274,7 +279,7 @@
   
   <url>
     <loc>http://gragusa.org/</loc>
-    <lastmod>2017-02-16T00:00:00+11:00</lastmod>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

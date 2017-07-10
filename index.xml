@@ -6,7 +6,47 @@
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
-    <updated>Thu, 16 Feb 2017 00:00:00 &#43;1100</updated>
+    <updated>Thu, 01 Jun 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Anchoring the Yield Curve Using Survey Expectations</title>
+      <link>http://gragusa.org/publications/anchoring/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/publications/anchoring/</guid>
+      <description>&lt;p&gt;The dynamic behavior of the term structure of interest rates is difficult to replicate with mod- els, and even models with a proven track record of empirical performance have underperformed since the early 2000s. On the other hand, survey expectations can accurately predict yields, but they are typically not available for all maturities and/or forecast horizons. We show how survey expectations can be exploited to improve the accuracy of yield curve forecasts given by a base model. We do so by employing a flexible exponential tilting method that anchors the model forecasts to the survey expectations, and we develop a test to guide the choice of the anchoring points. The method implicitly incorporates into yield curve forecasts any information that survey participants have access to - such as information about the current state of the economy or forward-looking information contained in monetary policy announcements - without the need to explicitly model it. We document that anchoring delivers large and significant gains in forecast accuracy relative to the class of models that are widely adopted by financial and policy institutions for forecasting the term structure of interest rates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Estimation of State Space Models Using Moment Conditions</title>
+      <link>http://gragusa.org/publications/bayesian-state-space/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/publications/bayesian-state-space/</guid>
+      <description>&lt;p&gt;We consider Bayesian estimation of state space models when the measurement density is not available but estimating equations for the parameters of the measurement density are available from moment conditions. The most common applications are partial equilibrium models involving moment conditions that depend on dynamic latent variables (e.g., timevarying parameters, stochastic volatility) and dynamic general equilibrium models when moment equations from the first order conditions are available but computing an accurate approximation to the measurement density is difficult.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics</title>
+      <link>http://gragusa.org/publications/empypub/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/publications/empypub/</guid>
+      <description>&lt;p&gt;Catholic countries of Europe pose a demographic puzzle –fertility is unprecedentedly low (total fertility$=$1.3) despite low female labor force participation. We model three channels of religious effects on demand for children: through changing norms, reduced market wages, and reduced costs of childrearing. We estimate their effects using new panel data on church attendance and clergy employment for thirteen European countries from 1960-2000, spanning the Second Vatican Council (1962-65). Catholic theology is uniform across countries. Yet service varied considerably across countries and over time, especially before the Council, reflecting differences in Church provision of education, health, welfare and other social services. We use differential declines in service provision &amp;ndash;measured by nuns/capita&amp;ndash; to identify its effect on fertility, controlling for secular trends. They are large: 300 to 400 children per nun. Reduced religiosity (measured by church attendance) has no effect for Protestants, but predicts fertility decline for Catholics. The data suggest that service provision and religiosity complement each other –a finding consistent with preferential provision of services to church attendees. Nuns outperform priests in predicting fertility, suggesting that the childrearing cost channel dominates theology and norms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)</title>
+      <link>http://gragusa.org/publications/moment-conditions-sensitivity/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 UTC</pubDate>
+      <author>Giuseppe Ragusa</author>
+      <guid>http://gragusa.org/publications/moment-conditions-sensitivity/</guid>
+      <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Econometrics of DSGE models</title>
@@ -301,282 +341,6 @@ also useful for asking questions about the problem sets.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://docenti.luiss.it/perricone/files/2017/02/PS_05.pdf&#34;&gt;Problem Set 5&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>alertet</title>
-      <link>http://gragusa.org/et/alert/</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/et/alert/</guid>
-      <description>
-
-&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../et_final&#34;&gt;Final marks for June 15 exam&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>topics et</title>
-      <link>http://gragusa.org/et/topics/</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/et/topics/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;The following topics will be covered:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Asymptotic theory: law of large numbers and central limit theorems
-for iid and time series data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parametric and semi-parametric estimation techniques&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Properties of estimators&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Conditional expectation and related concepts with application to
-econometrics&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Single equation linear model and OLS estimation&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instrumental variables estimation of single equation linear model&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Limited dependent variable models&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Panel Data models&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Univariate ARMA processes with stochastic and non-stochastic trends&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Vector Autoregression (VAR)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Forecasting with ARMA and VAR models&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Special Topics: Generalized Method of Moments&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About ASE</title>
-      <link>http://gragusa.org/ase/body/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/body/</guid>
-      <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work.&lt;/p&gt;
-
-&lt;p&gt;For further details about the structure of the course, please download the &lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt;. The syllabus has information about this course. In particular, it has information on how, where and when to contact me and the teaching assistants; an outline of the course content, the schedule of exam dates; &lt;strong&gt;the grading policy&lt;/strong&gt;, and other important organizational details of the course. You can find some of this information on this web page, but not all.  So, please, refer to the &lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;syllabus&lt;/a&gt; for any questions you may have about the course.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;label error outline&#34;&gt;&lt;a href=&#34;../files/teaching/syllabus-ase-2017.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;lecture-content&#34;&gt;Lecture content&lt;/h4&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;n.&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;date&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;topic&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;01&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 13-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Introduction to econometrics&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;02&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 14-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Review of statistics&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;03&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 20-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Review of statistics I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;04&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 21-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Review of statistics II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;05&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 27-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Bivariate regression I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;06&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 28-02-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Bivariate regression II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;07&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 06-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Bivariate regression III&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;08&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 07-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Endogeneity and causality&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;09&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 13-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Multiple regression I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;10&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 14-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Multiple regression II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;11&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 20-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Multiple regression II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;12&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 21-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Nonlinear regression models I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;13&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 27-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Nonlinear regression models II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;14&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 28-03-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Midterm&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 03-04-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Assessing regression studies&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;16&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 04-04-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;~&lt;del&gt;Binary dependent variable I&lt;/del&gt;~&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;17&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 10-04-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Binary dependent variable I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;18&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 11-04-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Panel Data I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;19&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 24-04-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Panel Data II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;20&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 02-05-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Instrumental variables regression I&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;21&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;M 08-05-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Instrumental variables regression II&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;22&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;T 09-05-2016&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Applications&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
-    </item>
-    
-    <item>
-      <title>About ET</title>
-      <link>http://gragusa.org/et/body/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/et/body/</guid>
-      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
-probabilistic and statistical underpinnings of the most common econometric
-techniques. The topics studied will be of practical use to any student who plans
-on confronting data in their thesis or wishes to read and precisely understand
-the econometrics typically used in empirical research published in academic
-journals.
-
-&lt;strong&gt;Econometric theory&lt;/strong&gt; has two parts:&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;first part&lt;/strong&gt; focuses on the specification and estimation of the
-linear regression models and its extensions.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;second part&lt;/strong&gt; focuses on the theory and the applications of time
-series methods in econometrics.&lt;/p&gt;
-
-&lt;p&gt;Throughout, we will focus on both understanding and doing. The understanding will come from lectures, class discussions, and problem solving. The doing will come from extensive statistical software use. This course requires a quarter-long commitment. Econometrics is best learned by doing, and I will require you to do a fair amount of hands-on work. Hands-on work requires the use of computer software. In this class we use &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h4&gt;
-
-&lt;p&gt;Lectures of the first part of the course will be mostly based on the
-following two graduate textbooks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wooldridge, Jeffrey M. Econometric analysis of cross section and panel
-data. MIT press, 2010.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lectures of the second part will be based on the following textbooks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;J.D. Hamilton. Time Series Analysis. Princeton University Press, 1994&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Another reference is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hal White (2011), Asymptotic Theory for Econometricians, Academic Press&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;exams-and-grades&#34;&gt;Exams and grades&lt;/h4&gt;
-
-&lt;p&gt;There will be two in class exam. A midterm and a comprehensive final.&lt;/p&gt;
-
-&lt;p&gt;The midterm will be held on March 28, 2017.&lt;/p&gt;
-
-&lt;p&gt;The grade will consist of a weighted average of these two exams
-and the problem sets. The midterm will count 30%, the problem set 30%, and the final the remaining 40%. The final grade will be the largest between the weighted grade as described above and the grade on the final. More specifically, denoting &lt;em&gt;F&lt;/em&gt;, &lt;em&gt;M&lt;/em&gt;, and &lt;em&gt;PS&lt;/em&gt; your grade on the final, midterm, and problem set, respectively, your grade will be&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Final Grade = max(.4*F + .3*M + .3*PS, .8*F + .2*PS, F)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The midterm and the problem sets will be considered only for the first two final exam dates.&lt;/p&gt;</description>
     </item>
     
   </channel>
