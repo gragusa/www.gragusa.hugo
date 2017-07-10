@@ -4,7 +4,7 @@ title: "Information Technology and Labor Market Polarization in {E}Urope"
 author: Paolo Naticchioni and Giuseppe Ragusa
 status: Bookchapter
 type: bookchapter
-citation: "&ldquo;Information Technology and Labor Market Polarization in {E}Urope.&rdquo; In <em>Wealth, Income Inequalities, and Demography</em>, 145-161, edited by Luigi Paganetto. Springer Science + Business Media.&rdquo;"
+citation: "&ldquo;Information Technology and Labor Market Polarization in Europe.&rdquo; In <em>Wealth, Income Inequalities, and Demography</em>, 145-161, edited by Luigi Paganetto. Springer Science + Business Media.&rdquo;"
 tag:
 subjects:
 comments: no
