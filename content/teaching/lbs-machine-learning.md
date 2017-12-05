@@ -11,7 +11,7 @@ This course gives an overview of many techniques, and algorithms in machine lear
 
 <!--more-->
 
-#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/machinelearning.pdf) 
+#### [Syllabus (PDF)](http://www.gragusa.org/files/teaching/MachineLearning.pdf) 
 
 
 

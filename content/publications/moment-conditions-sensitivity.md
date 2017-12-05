@@ -4,14 +4,14 @@ title: "Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)"
 author: Nicola Borri and Giuseppe Ragusa
 status: Published
 type: published
-citation: "&ldquo;Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006).&rdquo; Forthcoming in Critical Review of Finance"
+citation: "&ldquo;Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006).&rdquo; Critical Review of Finance, 6(2):281-293"
 tag:
 subjects:
 comments: no
 file: ccapm.pdf
-date: 2017-06-01
-publishdate: 2017-06-01
-doi: 
+date: 2017-09-01
+publishdate: 2017-09-01
+doi: http://dx.doi.org/10.2139/ssrn.2855792
 supplemental: 
 ---
 
