@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://gragusa.org/publications/anchoring/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://gragusa.org/publications/bayesian-state-space/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://gragusa.org/publications/empypub/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <loc>http://gragusa.org/publications/anchoring/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://gragusa.org/publications/moment-conditions-sensitivity/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gragusa.org/publications/empypub/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -177,11 +177,6 @@
   </url>
   
   <url>
-    <loc>http://gragusa.org/publications/emptypew/</loc>
-    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://gragusa.org/publications/incorporating-restrictions/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -258,12 +253,16 @@
   </url>
   
   <url>
+    <loc>http://gragusa.org/publications/emptypew/</loc>
+  </url>
+  
+  <url>
     <loc>http://gragusa.org/ase_midterm/</loc>
   </url>
   
   <url>
     <loc>http://gragusa.org/publications/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -279,7 +278,7 @@
   
   <url>
     <loc>http://gragusa.org/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
