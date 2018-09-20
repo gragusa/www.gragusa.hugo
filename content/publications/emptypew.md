@@ -2,15 +2,13 @@
 title: "From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics"
 
 author: Eli Berman, Lawrence Iannaccone, and Giuseppe Ragusa
-status: Publishedwp
-type: publishedwp
-citation: "&ldquo;From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics.&rdquo; NBER Working Paper, No. 18350"
+status: Forthcoming
+type: forthcoming
+citation: "&ldquo;From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics.&rdquo; Forthcoming in Journal of Demographic Economics"
 tag:
 subjects:
 comments: no
 file: empty.pdf
-date: 2012-05-01
-publishdate: 2012-05-01
 doi: 10.3386/w18350
 supplemental: 
 ---

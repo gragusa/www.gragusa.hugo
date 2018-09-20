@@ -15,7 +15,4 @@ doi:
 supplemental: 
 ---
 
-The contribution of generalized method of moments (Hansen and Singleton, 1982) was to
-allow frequentist inference regarding the parameters of a nonlinear structural model without
-having to solve the model. Provided there were no latent variables. The contribution of this
-paper is the same. With latent variables.
+The contribution of generalized method of moments (Hansen and Singleton, 1982) was to allow frequentist inference regarding the parameters of a nonlinear structural model without having to solve the model. Provided there were no latent variables. The contribution of this paper is the same. With latent variables.

@@ -1,7 +1,7 @@
 ---
 title: Econometrics of DSGE models
-date: "2016-04-24T00:00:00+11:00"
-enddate: "2016-05-20T00:00:00+11:00"
+date: "2017-02-16T00:00:00+11:00"
+enddate: "2017-03-30T00:00:00+11:00"
 publishdate: "2016-03-24"
 host: "EIEF"
 duration: 7776000
@@ -17,41 +17,41 @@ macroeconomic models (DSGE models). The aim of the course is mostly theoretical,
 
 1. Motivation: DSGE models and their applications
 2. Approximating and solving DSGE models
-    
+
     a.  State space representation
     b.  Constructing (log-)linear approximation
 
 3. Time series properties of the model and data
 4. Classical estimation of DSGE models
-    
+
     a.  Generalized Method of Moments (GMM)
-    
+
     b.  Simulated Method of Moments (SMM) and Indirect Inference (IF)
-    
+
     c.  Impulse response functions matching
 
 5. Bayesian estimation of DSGE models
-    
+
     a.  (log-)linear models
-    
+
     b.  Non linear models
 
 6.  The twilight zone of DSGE estimation
-    
+
     a.  Identification
-    
+
     b.  Feasible non linear estimation
-    
+
     c.  VAR and DSGE
-    
+
     d.  Limited information estimation
 
 
-### Readings 
+### Readings
 
 This is a list of readings. This is by no means comprehensive --- it
 simply reflects the source that are closely related with the topics
-covered in lectures. 
+covered in lectures.
 
 #### Books:
 
@@ -107,7 +107,7 @@ particular, its syntax is similar to Matlab. The similarity of the
 syntax means that a lot of Matlab code will run almost unmodified.
 
 `Julia` has many advantages over other languages and for this reason is
-being extensively used in industries and in research. 
+being extensively used in industries and in research.
 
 Recently, the [Federal Reserve of New York](https://www.newyorkfed.org/) has
 open sourced its macroeconomic model (used for producing forecast about key
@@ -120,13 +120,17 @@ The code is [here](https://github.com/FRBNY-DSGE/DSGE.jl).
 
 [Programming in Julia](http://quant-econ.net/jl/learning_julia.html) in an
 excellent tutorial is written by Thomas J. Sargent and John Stachurski. Along
-with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia. 
+with being a very good introduction to the language, this is also a complete macroeconomic textbook with concept illustrated in Julia.
 .
 
 
 
+## slides
 
-
-
-
-
+- [Lecture 1](files/teaching/lecture_1.pdf)
+- [Lecture 2](files/teaching/lecture_2.pdf)
+- [Lecture 4](files/teaching/lecture_4.pdf)
+- [Lecture 5](files/teaching/lecture_5.pdf) [Jupyter notebook](files/teaching/MH.ipynb) [Problem set #1](files/teaching/PS-1.pdf)
+- [Lecture 6](files/teaching/lecture_6.pdf)
+- [Lecture 7](files/teaching/lecture_7.pdf)
+- [Lecture 9](files/teaching/lecture_9.pdf) [Jupyter notebook](files/teaching/particle_filter.ipynb)

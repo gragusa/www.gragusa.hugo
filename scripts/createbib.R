@@ -1,10 +1,12 @@
 ## This file writes the files in content/publication/
 ## It must be run once the file publication.bib is updated
 ## R -e "source('createbib.R')"
-
 library(RefManageR)
 library(stringr)
 
+
+path = "/Users/gragusa/scratch/gragusa.github.com/content/publications/"
+        
 bib <- ReadBib("~/Dropbox/Documents/CV/publications.bib", check = FALSE)
 
 fnames <- names(bib)
@@ -14,7 +16,7 @@ qr <- "&rdquo;"
 ql <- "&ldquo;"
 
 
-path = "~/scratch/WWW/content/publications/"
+
 
 authorize <- function(x) {
   lx <- length(x)
@@ -44,35 +46,66 @@ abstract <- function(x) {
   abst <- be$abstract
   abst <- gsub(pattern = "\\{\"\\}", "\"", abst)
   abst <- gsub(pattern = "\\\\", "", abst)
-  abst <- gsub(pattern = "“", q, abst)
-  abst <- gsub(pattern = "”", q, abst)
+  abst <- gsub(pattern = "“", ql, abst)
+  abst <- gsub(pattern = "”", qr, abst)
   abst
 }
 
 for (j in 1:length(bibu)) {
 be <- bibu[[j]]
 
+## Clean up title from Clurly braces
+be$title <- gsub("\\{|\\}", "", be$title)
+
 citation = paste('"', ql, be$title, ".", qr, sep ="")
+
 if (!is.null(be$booktitle)) {
-  citation <- paste(citation, " In ", htmltools::em(be$booktitle), ", ", pages(be), ", edited by ", authorize(be$editor),". ", be$publisher, ".", qr, '"',sep = "" )
+  citation <-
+    paste(
+      citation,
+      " In ",
+      htmltools::em(be$booktitle),
+      ", ",
+      pages(be),
+      ", edited by ",
+      authorize(be$editor),
+      ". ",
+      be$publisher,
+      ".",
+      qr,
+      '"',
+      sep = ""
+    )
 } else {
   if (!is.null(be$kind) && be$kind == "forthcoming") {
-    citation <- paste(citation, " Forthcoming in ", be$journal, '"', sep ="")
+    citation <-
+      paste(citation, " Forthcoming in ", be$journal, '"', sep = "")
   } else {
-  if (be$status == "published")
-    citation <- paste(citation, " ", be$journal, ", ", be$volume,"(",be$number,"):",pages(be), '"', sep ="")
+    if (be$status == "published")
+      citation <-
+        paste(citation,
+              " ",
+              be$journal,
+              ", ",
+              be$volume,
+              "(",
+              be$number,
+              "):",
+              pages(be),
+              '"',
+              sep = "")
     #citation <- paste(citation, " ", be$journal, ", ", htmltools::strong(be$year), " ", be$volume,"(",be$number,"):",pages(be), q, '"', sep ="")
-
-  if (be$status == "publishedwp")
-    citation <- paste(citation, " ", be$journal, '"', sep ="")
-
-  if (be$status == "retired")
-    citation <- paste('"', ql, be$title, ".", qr, "\"", sep ="")
+    
+    if (be$status == "publishedwp")
+      citation <- paste(citation, " ", be$journal, '"', sep = "")
+    
+    if (be$status == "retired")
+      citation <- paste('"', ql, be$title, ".", qr, "\"", sep = "")
   }
 }
 
 mdfile = "---\n"
-mdfile <- paste(mdfile, "title: ", "\"",be$title,"\"", "\n\n", sep = "")
+mdfile <- paste(mdfile, "title: ", "\"", be$title,"\"", "\n\n", sep = "")
 mdfile <- paste(mdfile, "author: ", authorize(be$author), "\n", sep ="")
 mdfile <- paste(mdfile, "status: ", str_to_title(be$status), "\n", sep="")
 mdfile <- paste(mdfile, "type: ", be$status, "\n", sep="")
@@ -80,11 +113,25 @@ mdfile <- paste(mdfile, "citation: ", citation, "\n", sep="")
 mdfile <- paste(mdfile, "tag:\nsubjects:\ncomments: no\n", sep="")
 
 if (!is.null(be$preprinturl) | length(be$printurl) > 0)
-  mdfile <- paste(mdfile, "file: ", be$preprinturl, "\n", sep="")
-mdfile <- paste(mdfile, "date: ", strptime(paste0("1-",be$month,"-",be$year, "\n"), "%d-%b-%Y"), "\n", sep="")
-mdfile <- paste(mdfile, "publishdate: ", strptime(paste0("1-",be$month,"-",be$year, "\n"), "%d-%b-%Y"), "\n", sep="")
-mdfile <- paste(mdfile, "doi: ", be$doi, "\n", sep="")
-mdfile <- paste(mdfile, "supplemental: ", be$supplemental, "\n", sep="")
+  mdfile <- paste(mdfile, "file: ", be$preprinturl, "\n", sep = "")
+
+if (is.null(be$month)) {
+  cat("Month is missing. Setting to it to January")
+  be$month <- "Jan"
+}
+
+if (be$status!="forthcoming") {  
+mdfile <-
+  paste(mdfile, "date: ", strptime(paste0("1-", be$month, "-", be$year, "\n"), 
+                                   "%d-%b-%Y"), "\n", sep ="")
+mdfile <- paste(mdfile,
+                "publishdate: ",
+                strptime(paste0("1-", be$month, "-", be$year, "\n"), "%d-%b-%Y"),
+                "\n",
+                sep = "")
+}
+mdfile <- paste(mdfile, "doi: ", be$doi, "\n", sep = "")
+mdfile <- paste(mdfile, "supplemental: ", be$supplemental, "\n", sep = "")
 
 
 #mdfile <- paste(mdfile, "filter:\n - erb\n - markdown\n- rubypants\n", sep="")

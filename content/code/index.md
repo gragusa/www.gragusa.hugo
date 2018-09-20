@@ -5,10 +5,11 @@ footnotes: true
 mathjax: true
 ---
 
-On this page I will keep a running list of computation/programming projects I work on from time to time.
+On this page, I will keep a running list of computation/programming projects I work on from time to time.
 
-When it comes to coding, my interests range from estimation of nonlinear moment condition models, approximate bayesian inference, large optimization problems,
-high-performance computing in econometrics and finance, and big data application to time time series econometrics.  Below you will find a list of package I have developed recently. For details on each packages visit my [github](http://github.com/gragusa) and/or visit the package page. For code related to publish paper, visit the publication section.
+When it comes to coding, my interests range from the estimation of nonlinear moment condition models, approximate Bayesian inference, large optimization problems, high-performance computing in econometrics and finance, and big data application to time series econometrics. Below you will find a list of packages I have recently written. For details on each package visit my [github](http://github.com/gragusa) and/or visit the package page. For code related to published paper, visit the publication section.
+
+
 
 # Julia Packages
 
@@ -18,7 +19,7 @@ Notice that some of the Julia packages are "registered", meaning that you can in
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gragusa/CovarianceMatrices.jl/master/LICENSE.md)  [![CovarianceMatrices](http://pkg.julialang.org/badges/CovarianceMatrices_0.5.svg)](http://pkg.julialang.org/?pkg=CovarianceMatrices&ver=0.5) [![Build Status](https://travis-ci.org/gragusa/CovarianceMatrices.jl.svg?branch=master)](https://travis-ci.org/gragusa/CovarianceMatrices.jl) [![Coverage Status](https://coveralls.io/repos/gragusa/CovarianceMatrices.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/gragusa/CovarianceMatrices.jl?branch=master)
 
-`CovarianceMatrices` is a package for estimating variance covariance matrices in situations where the standard assumptions of independence is violated. It provides heteroskedasticity consistent (HC); heteroskedasticity and autocorrelation consistent (HAC); and cluster robust (CRVE) estimators of the variance matrices. An interface for `GLM.jl` is given so that they can be integrated easily  into standard regression analysis. It is also easy to integrated these estimators into new inferential procedures or applications.
+`CovarianceMatrices` is a package for estimating variance-covariance matrices in situations where the standard assumptions of independence are violated. It provides heteroskedasticity consistent (HC); heteroskedasticity and autocorrelation consistent (HAC); and cluster-robust (CRVE) estimators of the variance matrices. An interface for `GLM.jl` is given so that they can be integrated easily into the standard regression analysis flow. It is also easy to incorporate these estimators into new inferential procedures or applications.
 
 
 {{< highlight julia "style=native" >}}
@@ -42,7 +43,7 @@ vcov(AR1, TruncatedKernel())
 
 
 ## [`Divergences.jl`](http://github.com/gragusa/Divergences.jl)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gragusa/Divergences.jl/master/LICENSE.md) [![Pkg](http://pkg.julialang.org/badges/Divergences_0.5.svg)](http://pkg.julialang.org/detail/Divergences.html) [![Build Status](https://travis-ci.org/gragusa/Divergences.jl.svg?branch=master)](https://travis-ci.org/gragusa/Divergences.jl) [![Coverage Status](https://coveralls.io/repos/github/gragusa/Divergences.jl/badge.svg?branch=master)](https://coveralls.io/github/gragusa/Divergences.jl?branch=master)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gragusa/Divergences.jl/master/LICENSE.md) [![Pkg](http://pkg.julialang.org/badges/Divergences_0.5.svg)](http://pkg.julialang.org/detail/Divergences.html) [![Pkg](http://pkg.julialang.org/badges/Divergences_0.6.svg)](http://pkg.julialang.org/detail/Divergences.html) [![Build Status](https://travis-ci.org/gragusa/Divergences.jl.svg?branch=master)](https://travis-ci.org/gragusa/Divergences.jl) [![Coverage Status](https://coveralls.io/repos/github/gragusa/Divergences.jl/badge.svg?branch=master)](https://coveralls.io/github/gragusa/Divergences.jl?branch=master)
 
 `Divergences` is a Julia package that makes it easy to evaluate divergence measures between two vectors. The package allows calculating the gradient and the diagonal of the Hessian of several divergences.
 
@@ -158,10 +159,10 @@ Results of Genoud Optimization Algorithm
 
 
 ## [`CsminWel.jl`](http://github.org/gragusa/CsminWel.jl)
-[![](https://img.shields.io/badge/license-BSD3-blue.svg)](https://raw.githubusercontent.com/gragusa/CsminWel.jl/master/LICENSE.md) [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/) [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/) [![Build Status](https://travis-ci.org/gragusa/CsminWel.jl.svg?branch=master)](https://travis-ci.org/gragusa/CsminWel.jl) [![Coverage Status](https://coveralls.io/repos/gragusa/CsminWel.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/gragusa/CsminWel.jl?branch=master) [![codecov.io](http://codecov.io/github/gragusa/CsminWel.jl/coverage.svg?branch=master)](http://codecov.io/github/gragusa/CsminWel.jl?branch=master)
+[![](https://img.shields.io/badge/license-BSD3-blue.svg)](https://raw.githubusercontent.com/gragusa/CsminWel.jl/master/LICENSE.md)  [![](https://img.shields.io/badge/Julia-unregistered-red.svg)](code/) [![Build Status](https://travis-ci.org/gragusa/CsminWel.jl.svg?branch=master)](https://travis-ci.org/gragusa/CsminWel.jl) [![Coverage Status](https://coveralls.io/repos/gragusa/CsminWel.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/gragusa/CsminWel.jl?branch=master) [![codecov.io](http://codecov.io/github/gragusa/CsminWel.jl/coverage.svg?branch=master)](http://codecov.io/github/gragusa/CsminWel.jl?branch=master)
 
 
-This package provides an interface to Chris Sims' `csminwel` optimization code. The code borrows from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl), but it is adapted to be compatibles with the [Optim.jl](https://github.com/JuliaOpt/Optim.jl)'s API. When the derivative of the minimand is not supply either Finite Difference of Forward Automatic Differentiation derivatives are automatically supplied to the underlying code.
+This package provides an interface to Chris Sims' `csminwel` optimization code. The code borrows from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl), but it is adapted to be compatibles with the [Optim.jl](https://github.com/JuliaOpt/Optim.jl)'s API. When the derivative of the minimand is not supplied either Finite Difference of Forward Automatic Differentiation derivatives are automatically used.
 
 
 From the original author:

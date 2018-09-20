@@ -6,4 +6,5 @@ alert = true
 +++
 
 #### Announcements
-- nothing yet
+- [Final grades are out (Exam:15/06/2015)](../ase_final)
+

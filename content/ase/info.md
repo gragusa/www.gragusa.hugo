@@ -15,4 +15,9 @@ info = true
 2. Giuseppe Brandi
 
 **Office hours**
-- TBA
+
+- Angino: W, 16:00-17:00
+
+- Brandi: W, 9:30-11:00
+
+- Ragusa: T, 11:30-13:00

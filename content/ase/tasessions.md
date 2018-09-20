@@ -5,11 +5,16 @@ menu = "teaching"
 tasessions = true
 +++
 
-The TAs will lead a weekly practice session which will be held in the computer labs (TBA).
+The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).
 
-The sessions are an important part of the course and regular and
-attendance is strongly advised. During these sessions, the TA will review the concepts introduced in class and solve applied problems using `R`.
+The TA sessions are an important part of the course and regular and
+attendance is strongly encouraged. During these sessions, the TA will review the concepts introduced in class and solve applied problems using `R`.
 
-Sessions are also useful for asking questions about the problem sets.
+The sessions are also the right place to ask questions about the problem set of the week.
 
-### TA sessions material
+The following table gives the distribution of students across the two sessions:
+
+|TA              | Where | Time         | Students  |
+|:---------------|:------|:-------------|:----------|
+|Siria Angino    | A301  |W 14:00-15:30 | G-Z       |
+|Giuseppe Brandi | A306  |W 18:30-20:00 | A-F       |
