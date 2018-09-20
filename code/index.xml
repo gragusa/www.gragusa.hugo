@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Codes on gragusa.org </title>
-    <link>http://gragusa.org/code/index.xml</link>
+    <link>https://gragusa.org/code/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Resources</title>
-      <link>http://gragusa.org/code/</link>
+      <link>https://gragusa.org/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/code/</guid>
+      <guid>https://gragusa.org/code/</guid>
       <description>
 
 &lt;p&gt;On this page, I will keep a running list of computation/programming projects I work on from time to time.&lt;/p&gt;

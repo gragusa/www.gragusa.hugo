@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Ases on gragusa.org </title>
-    <link>http://gragusa.org/ase/index.xml</link>
+    <link>https://gragusa.org/ase/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Problem sets</title>
-      <link>http://gragusa.org/ase/problemsets/</link>
+      <link>https://gragusa.org/ase/problemsets/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/problemsets/</guid>
+      <guid>https://gragusa.org/ase/problemsets/</guid>
       <description>
 
 &lt;p&gt;There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.&lt;/p&gt;
@@ -55,10 +55,10 @@ This problem set is personalized. Each student must download her own version of 
     
     <item>
       <title>About ASE</title>
-      <link>http://gragusa.org/ase/body/</link>
+      <link>https://gragusa.org/ase/body/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/body/</guid>
+      <guid>https://gragusa.org/ase/body/</guid>
       <description>&lt;p&gt;The aim of &lt;strong&gt;Applied Statistics and Econometrics&lt;/strong&gt; is to provide an introduction to the practice of econometrics. While both theoretical and practical aspects are covered, emphasis will be on intuitive understanding and concepts will be illustrated with real-world applications.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -218,10 +218,10 @@ This problem set is personalized. Each student must download her own version of 
     
     <item>
       <title>Computer Software</title>
-      <link>http://gragusa.org/ase/R/</link>
+      <link>https://gragusa.org/ase/R/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/R/</guid>
+      <guid>https://gragusa.org/ase/R/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/RLogo.png&#34; alt=&#34;R&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The software used in this course is &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt;. No
@@ -244,10 +244,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>alert</title>
-      <link>http://gragusa.org/ase/alert/</link>
+      <link>https://gragusa.org/ase/alert/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/alert/</guid>
+      <guid>https://gragusa.org/ase/alert/</guid>
       <description>
 
 &lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
@@ -260,10 +260,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>info</title>
-      <link>http://gragusa.org/ase/info/</link>
+      <link>https://gragusa.org/ase/info/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/info/</guid>
+      <guid>https://gragusa.org/ase/info/</guid>
       <description>
 
 &lt;h3 id=&#34;ase-2016-2017&#34;&gt;ASE 2016-2017&lt;/h3&gt;
@@ -291,10 +291,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>slidesase</title>
-      <link>http://gragusa.org/ase/slides/</link>
+      <link>https://gragusa.org/ase/slides/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/slides/</guid>
+      <guid>https://gragusa.org/ase/slides/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../files/teaching/Lecture1.pdf&#34;&gt;Lecture 1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../files/teaching/Lecture2.pdf&#34;&gt;Lecture 2&lt;/a&gt;&lt;/li&gt;
@@ -317,10 +317,10 @@ labs where TA sessions are held. You can easily install &lt;a href=&#34;http://r
     
     <item>
       <title>tasessions</title>
-      <link>http://gragusa.org/ase/tasessions/</link>
+      <link>https://gragusa.org/ase/tasessions/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/tasessions/</guid>
+      <guid>https://gragusa.org/ase/tasessions/</guid>
       <description>&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).&lt;/p&gt;
 
 &lt;p&gt;The TA sessions are an important part of the course and regular and

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Teachings on gragusa.org </title>
-    <link>http://gragusa.org/teaching/index.xml</link>
+    <link>https://gragusa.org/teaching/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Econometrics of DSGE models</title>
-      <link>http://gragusa.org/teaching/eief-dsge/</link>
+      <link>https://gragusa.org/teaching/eief-dsge/</link>
       <pubDate>Thu, 16 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/eief-dsge/</guid>
+      <guid>https://gragusa.org/teaching/eief-dsge/</guid>
       <description>&lt;p&gt;This is a course on the econometric techniques used in the estimation of dynamic
 macroeconomic models (DSGE models). The aim of the course is mostly theoretical, but applications are also presented using &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
 
@@ -150,10 +150,10 @@ with being a very good introduction to the language, this is also a complete mac
     
     <item>
       <title>Applied Econometrics and Statistics</title>
-      <link>http://gragusa.org/teaching/ase/</link>
+      <link>https://gragusa.org/teaching/ase/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/ase/</guid>
+      <guid>https://gragusa.org/teaching/ase/</guid>
       <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
 econometrics. While both theoretical and practical aspects will be covered,
 emphasis will be on intuitive understanding. Concepts will be illustrated with
@@ -166,10 +166,10 @@ real world applications on real world data.&lt;/p&gt;
     
     <item>
       <title>Econometric Theory</title>
-      <link>http://gragusa.org/teaching/grad-et/</link>
+      <link>https://gragusa.org/teaching/grad-et/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/grad-et/</guid>
+      <guid>https://gragusa.org/teaching/grad-et/</guid>
       <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
 probabilistic and statistical underpinnings of the most common econometric
 techniques. The topics studied will be of practical use to any student who plans
@@ -189,10 +189,10 @@ econometrics.&lt;/p&gt;
     
     <item>
       <title>Econometrics Review Course</title>
-      <link>http://gragusa.org/teaching/eief-review/</link>
+      <link>https://gragusa.org/teaching/eief-review/</link>
       <pubDate>Wed, 05 Oct 2016 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/eief-review/</guid>
+      <guid>https://gragusa.org/teaching/eief-review/</guid>
       <description>&lt;p&gt;Econometric Review Course is a 20 hours long course. I am teaching half of the
 course; the other half is taught by Marco Lippi.&lt;/p&gt;
 
@@ -227,10 +227,10 @@ MIT press.&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Machine Learning</title>
-      <link>http://gragusa.org/teaching/lbs-machine-learning/</link>
+      <link>https://gragusa.org/teaching/lbs-machine-learning/</link>
       <pubDate>Sat, 24 Sep 2016 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/lbs-machine-learning/</guid>
+      <guid>https://gragusa.org/teaching/lbs-machine-learning/</guid>
       <description>&lt;p&gt;This course gives an overview of many techniques, and algorithms in machine learning, beginning with topics such as linear regression and classification and ending up with more recent topics such as boosting, support vector machines, random forests and and unsupervised learning techniques. The course will give the student the ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The module will use primarily the &lt;a href=&#34;http://r-project.org&#34;&gt;R&lt;/a&gt; programming language.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;

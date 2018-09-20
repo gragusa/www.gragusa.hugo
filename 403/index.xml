@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>403s on gragusa.org </title>
-    <link>http://gragusa.org/403/index.xml</link>
+    <link>https://gragusa.org/403/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>403</title>
-      <link>http://gragusa.org/403/</link>
+      <link>https://gragusa.org/403/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/403/</guid>
+      <guid>https://gragusa.org/403/</guid>
       <description>&lt;h2&gt;Sorry, you don&#39;t have permission to do that&lt;/h2&gt;
 
 

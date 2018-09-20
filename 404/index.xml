@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>404s on gragusa.org </title>
-    <link>http://gragusa.org/404/index.xml</link>
+    <link>https://gragusa.org/404/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>404</title>
-      <link>http://gragusa.org/404/</link>
+      <link>https://gragusa.org/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/404/</guid>
+      <guid>https://gragusa.org/404/</guid>
       <description>&lt;h2&gt;404: File not found&lt;/h2&gt;
 
 &lt;h4&gt;Sorry, that doesn&#39;t seem to be here&lt;/h4&gt;

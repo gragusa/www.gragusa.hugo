@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>gragusa.org on gragusa.org </title>
-    <link>http://gragusa.org/index.xml</link>
+    <link>https://gragusa.org/index.xml</link>
     <language>en-us</language>
     <author>Giuseppe Ragusa</author>
     <rights>Copyright (c) Giuseppe Ragusa.</rights>
@@ -10,50 +10,50 @@
     
     <item>
       <title>Bayesian Estimation of State Space Models Using Moment Conditions</title>
-      <link>http://gragusa.org/publications/bayesian-state-space/</link>
+      <link>https://gragusa.org/publications/bayesian-state-space/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/bayesian-state-space/</guid>
+      <guid>https://gragusa.org/publications/bayesian-state-space/</guid>
       <description>&lt;p&gt;We consider Bayesian estimation of state space models when the measurement density is not available but estimating equations for the parameters of the measurement density are available from moment conditions. The most common applications are partial equilibrium models involving moment conditions that depend on dynamic latent variables (e.g., timevarying parameters, stochastic volatility) and dynamic general equilibrium models when moment equations from the first order conditions are available but computing an accurate approximation to the measurement density is difficult.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Anchoring the Yield Curve Using Survey Expectations</title>
-      <link>http://gragusa.org/publications/anchoring/</link>
+      <link>https://gragusa.org/publications/anchoring/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/anchoring/</guid>
+      <guid>https://gragusa.org/publications/anchoring/</guid>
       <description>&lt;p&gt;The dynamic behavior of the term structure of interest rates is difficult to replicate with mod- els, and even models with a proven track record of empirical performance have underperformed since the early 2000s. On the other hand, survey expectations can accurately predict yields, but they are typically not available for all maturities and/or forecast horizons. We show how survey expectations can be exploited to improve the accuracy of yield curve forecasts given by a base model. We do so by employing a flexible exponential tilting method that anchors the model forecasts to the survey expectations, and we develop a test to guide the choice of the anchoring points. The method implicitly incorporates into yield curve forecasts any information that survey participants have access to - such as information about the current state of the economy or forward-looking information contained in monetary policy announcements - without the need to explicitly model it. We document that anchoring delivers large and significant gains in forecast accuracy relative to the class of models that are widely adopted by financial and policy institutions for forecasting the term structure of interest rates.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sensitivity, Moment Conditions, and the Risk-free Rate in Yogo (2006)</title>
-      <link>http://gragusa.org/publications/moment-conditions-sensitivity/</link>
+      <link>https://gragusa.org/publications/moment-conditions-sensitivity/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/moment-conditions-sensitivity/</guid>
+      <guid>https://gragusa.org/publications/moment-conditions-sensitivity/</guid>
       <description>&lt;p&gt;In this paper we show that results presented in the seminal paper by Yogo, A Consumption Based Explanation of Expected Stock Returns, cannot be replicated. We find different estimates for the parameters and we obtain values of over-identified statistics that being much larger than those in the original paper indicate rejection of the durable consumption asset pricing model. By careful inspection of Yogo’s replication files, we were able to track down the inconsistency to a coding bug. The rejection of the durable model is exemplified by its inability to simultaneously explain the risk-free rate and excess stock returns.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics</title>
-      <link>http://gragusa.org/publications/empypub/</link>
+      <link>https://gragusa.org/publications/empypub/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/publications/empypub/</guid>
+      <guid>https://gragusa.org/publications/empypub/</guid>
       <description>&lt;p&gt;Catholic countries of Europe pose a demographic puzzle –fertility is unprecedentedly low (total fertility$=$1.3) despite low female labor force participation. We model three channels of religious effects on demand for children: through changing norms, reduced market wages, and reduced costs of childrearing. We estimate their effects using new panel data on church attendance and clergy employment for thirteen European countries from 1960-2000, spanning the Second Vatican Council (1962-65). Catholic theology is uniform across countries. Yet service varied considerably across countries and over time, especially before the Council, reflecting differences in Church provision of education, health, welfare and other social services. We use differential declines in service provision &amp;ndash;measured by nuns/capita&amp;ndash; to identify its effect on fertility, controlling for secular trends. They are large: 300 to 400 children per nun. Reduced religiosity (measured by church attendance) has no effect for Protestants, but predicts fertility decline for Catholics. The data suggest that service provision and religiosity complement each other –a finding consistent with preferential provision of services to church attendees. Nuns outperform priests in predicting fertility, suggesting that the childrearing cost channel dominates theology and norms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Econometrics of DSGE models</title>
-      <link>http://gragusa.org/teaching/eief-dsge/</link>
+      <link>https://gragusa.org/teaching/eief-dsge/</link>
       <pubDate>Thu, 16 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/eief-dsge/</guid>
+      <guid>https://gragusa.org/teaching/eief-dsge/</guid>
       <description>&lt;p&gt;This is a course on the econometric techniques used in the estimation of dynamic
 macroeconomic models (DSGE models). The aim of the course is mostly theoretical, but applications are also presented using &lt;a href=&#34;http://julialang.org&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
 
@@ -190,10 +190,10 @@ with being a very good introduction to the language, this is also a complete mac
     
     <item>
       <title>Applied Econometrics and Statistics</title>
-      <link>http://gragusa.org/teaching/ase/</link>
+      <link>https://gragusa.org/teaching/ase/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/ase/</guid>
+      <guid>https://gragusa.org/teaching/ase/</guid>
       <description>&lt;p&gt;The aim of this course is to provide an introduction to the practice of
 econometrics. While both theoretical and practical aspects will be covered,
 emphasis will be on intuitive understanding. Concepts will be illustrated with
@@ -206,10 +206,10 @@ real world applications on real world data.&lt;/p&gt;
     
     <item>
       <title>Econometric Theory</title>
-      <link>http://gragusa.org/teaching/grad-et/</link>
+      <link>https://gragusa.org/teaching/grad-et/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 &#43;1100</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/teaching/grad-et/</guid>
+      <guid>https://gragusa.org/teaching/grad-et/</guid>
       <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
 probabilistic and statistical underpinnings of the most common econometric
 techniques. The topics studied will be of practical use to any student who plans
@@ -229,10 +229,10 @@ econometrics.&lt;/p&gt;
     
     <item>
       <title>Problem sets</title>
-      <link>http://gragusa.org/ase/problemsets/</link>
+      <link>https://gragusa.org/ase/problemsets/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/ase/problemsets/</guid>
+      <guid>https://gragusa.org/ase/problemsets/</guid>
       <description>
 
 &lt;p&gt;There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.&lt;/p&gt;
@@ -274,10 +274,10 @@ This problem set is personalized. Each student must download her own version of 
     
     <item>
       <title>tasessions et</title>
-      <link>http://gragusa.org/et/tasessions/</link>
+      <link>https://gragusa.org/et/tasessions/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/et/tasessions/</guid>
+      <guid>https://gragusa.org/et/tasessions/</guid>
       <description>&lt;p&gt;The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).&lt;/p&gt;
 
 &lt;p&gt;The sessions are an important part of the course and regular and
@@ -315,10 +315,10 @@ also useful for asking questions about the problem sets.&lt;/p&gt;
     
     <item>
       <title>Problem sets et</title>
-      <link>http://gragusa.org/et/problemsets/</link>
+      <link>https://gragusa.org/et/problemsets/</link>
       <pubDate>Fri, 10 Feb 2017 00:00:00 UTC</pubDate>
       <author>Giuseppe Ragusa</author>
-      <guid>http://gragusa.org/et/problemsets/</guid>
+      <guid>https://gragusa.org/et/problemsets/</guid>
       <description>
 
 &lt;p&gt;There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.&lt;/p&gt;
