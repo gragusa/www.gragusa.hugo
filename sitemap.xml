@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gragusa.org/teaching/advmetrics/</loc>
+    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/teaching/intrometrics/</loc>
+    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/teaching/tsmetrics/</loc>
+    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/publications/empypub/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://gragusa.org/publications/bayesian-state-space/</loc>
@@ -14,11 +35,6 @@
   <url>
     <loc>https://gragusa.org/publications/moment-conditions-sensitivity/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/publications/empypub/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -72,7 +88,7 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/ase/R/</loc>
+    <loc>https://gragusa.org/ase/r/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -201,26 +217,11 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/403/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/404/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/404/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gragusa.org/archive/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/blog/archives/</loc>
   </url>
   
   <url>
@@ -230,12 +231,8 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/code/</loc>
+    <loc>https://gragusa.org/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/et_midterm/</loc>
   </url>
   
   <url>
@@ -245,24 +242,12 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/et_final/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gragusa.org/ase_final/</loc>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/publications/emptypew/</loc>
   </url>
   
   <url>
-    <loc>https://gragusa.org/ase_midterm/</loc>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/publications/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -272,13 +257,13 @@
   
   <url>
     <loc>https://gragusa.org/teaching/</loc>
-    <lastmod>2017-02-16T00:00:00+11:00</lastmod>
+    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gragusa.org/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   

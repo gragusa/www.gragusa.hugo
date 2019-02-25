@@ -125,7 +125,8 @@
 <p><code>CovarianceMatrices</code> is a package for estimating variance-covariance matrices in situations where the standard assumptions of independence are violated. It provides heteroskedasticity consistent (HC); heteroskedasticity and autocorrelation consistent (HAC); and cluster-robust (CRVE) estimators of the variance matrices. An interface for <code>GLM.jl</code> is given so that they can be integrated easily into the standard regression analysis flow. It is also easy to incorporate these estimators into new inferential procedures or applications.</p>
 
 
-<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">CovarianceMatrices</span>
+<div class="highlight"><pre class="chroma"><code class="language-julia" data-lang="julia">
+<span class="k">using</span> <span class="n">CovarianceMatrices</span>
 <span class="c">## Simulated AR(1) and estimate it using OLS</span>
 <span class="n">srand</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">(</span><span class="kt">Float64</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
@@ -140,8 +141,8 @@
 
 <span class="c">## Truncated Kernel with optimal bandwidth</span>
 <span class="n">vcov</span><span class="p">(</span><span class="n">AR1</span><span class="p">,</span> <span class="n">TruncatedKernel</span><span class="p">())</span>
-</code></pre></div>
 
+</code></pre></div>
 
 
 <h2 id="divergences-jl-http-github-com-gragusa-divergences-jl"><a href="http://github.com/gragusa/Divergences.jl"><code>Divergences.jl</code></a></h2>
@@ -196,14 +197,14 @@ CR(::Real)
 The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alpha`, `CressieRead` correspond to a divergence that has a specific type defined. For instance `CR(1)` is equivalent to `ChiSquared` although the underlying code for evaluation and calculation of the gradient and Hessian are different. -->
 
 
-<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">Divergences</span>
+<div class="highlight"><pre class="chroma"><code class="language-julia" data-lang="julia">
+<span class="k">using</span> <span class="n">Divergences</span>
 <span class="n">p</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">q</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">scale!</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
 <span class="n">scale!</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">sum</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
 <span class="n">evaluate</span><span class="p">(</span><span class="n">CressieRead</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">),</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
 </code></pre></div>
-
 
 
 <h2 id="genoud-jl-http-github-org-gragusa-genoud-jl"><a href="http://github.org/gragusa/Genoud.jl"><code>Genoud.jl</code></a></h2>
@@ -218,7 +219,8 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 
 
 
-<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="k">using</span> <span class="n">Genoud</span>
+<div class="highlight"><pre class="chroma"><code class="language-julia" data-lang="julia">
+<span class="k">using</span> <span class="n">Genoud</span>
 <span class="k">using</span> <span class="n">Calculus</span>
 <span class="k">function</span> <span class="n">f8</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span>
     <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">xx</span>
@@ -236,7 +238,6 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
                     <span class="n">sense</span> <span class="o">=</span> <span class="o">:</span><span class="n">Min</span><span class="p">,</span>
                     <span class="n">domains</span> <span class="o">=</span> <span class="n">dom</span><span class="p">)</span>
 </code></pre></div>
-
 
 
 </div>
@@ -257,15 +258,15 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 </div>
 
 
-<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="n">Results</span> <span class="n">of</span> <span class="n">Genoud</span> <span class="n">Optimization</span> <span class="n">Algorithm</span>
+<div class="highlight"><pre class="chroma"><code class="language-julia" data-lang="julia">
+<span class="n">Results</span> <span class="n">of</span> <span class="n">Genoud</span> <span class="n">Optimization</span> <span class="n">Algorithm</span>
  <span class="o">*</span> <span class="n">Minimizer</span><span class="o">:</span> <span class="p">[</span><span class="mf">420.96874636091724</span><span class="p">,</span><span class="mf">420.9687462145861</span><span class="p">]</span>
  <span class="o">*</span> <span class="n">Minimum</span><span class="o">:</span> <span class="o">-</span><span class="mf">8.379658e+02</span>
  <span class="o">*</span> <span class="n">Pick</span> <span class="n">generation</span><span class="o">:</span> <span class="mi">20</span>
  <span class="o">*</span> <span class="n">Convergence</span><span class="o">:</span> <span class="kc">true</span>
-   <span class="o">*</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="o">&#39;</span><span class="p">)</span><span class="o">|</span> <span class="o">/</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">|</span> <span class="o">&lt;</span> <span class="mf">1.0e-03</span><span class="o">:</span> <span class="kc">true</span>
+   <span class="o">*</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="err">&#39;</span><span class="p">)</span><span class="o">|</span> <span class="o">/</span> <span class="o">|</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">|</span> <span class="o">&lt;</span> <span class="mf">1.0e-03</span><span class="o">:</span> <span class="kc">true</span>
    <span class="o">*</span> <span class="kt">Number</span> <span class="n">of</span> <span class="n">Generations</span><span class="o">:</span> <span class="mi">27</span>
 </code></pre></div>
-
 
 
 <h2 id="csminwel-jl-http-github-org-gragusa-csminwel-jl"><a href="http://github.org/gragusa/CsminWel.jl"><code>CsminWel.jl</code></a></h2>
@@ -280,9 +281,10 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 <p>Differently from the solvers in <code>Optim.jl</code>, <code>Csminwel</code> returns an estimate of the inverse of the Hessian at the solution which may be used for standard errors calculations and/or to scale a Monte Carlo sampler.</p>
 
 
-<div class="highlight"><pre><code class="language-julia" data-lang="julia"><span></span><span class="cm">#=</span>
-<span class="cm">Maximizing loglikelihood of logistic models</span>
-<span class="cm">=#</span>
+<div class="highlight"><pre class="chroma"><code class="language-julia" data-lang="julia">
+<span class="cm">#=
+</span><span class="cm">Maximizing loglikelihood of logistic models
+</span><span class="cm">=#</span>
 <span class="k">using</span> <span class="n">CsminWel</span>
 <span class="k">using</span> <span class="n">StatsFuns</span>
 <span class="c">## Generate fake data (true coefficient = 0)</span>
@@ -300,7 +302,7 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 <span class="k">function</span> <span class="n">dloglik</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
     <span class="n">xb</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">beta</span>
     <span class="n">px</span> <span class="o">=</span> <span class="n">logistic</span><span class="o">.</span><span class="p">(</span><span class="n">xb</span><span class="p">)</span>
-    <span class="o">-</span><span class="n">x</span><span class="o">&#39;*</span><span class="p">(</span><span class="n">y</span><span class="o">.-</span><span class="n">px</span><span class="p">)</span>
+    <span class="o">-</span><span class="n">x</span><span class="err">&#39;</span><span class="o">*</span><span class="p">(</span><span class="n">y</span><span class="o">.-</span><span class="n">px</span><span class="p">)</span>
 <span class="k">end</span>
 
 <span class="c">## Optim uses a mutating function for deriv</span>
@@ -323,7 +325,6 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 </code></pre></div>
 
 
-
       </article>
     </div>
   </div>
@@ -334,14 +335,20 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 <div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
   <div class="units-row units-padding">
     <div class="unit-40">
-      <h3>about</h3>
+        <h3>about</h3>
+        I teach economics at the University of Pisa (Department of Economics and Management).
       <figure class="image-left">
         <img class="avatar" src="https://gragusa.org/files/likelihood.png" height="120" width="120">
       </figure>
       
     </div>
     <div class="unit-30">
-      <h3>Where</h3>
+        <h3>Where</h3>
+        Department of Economics and Management
+        University of Pisa
+        Via Cosimo Ridolfi 10
+        56124 Pisa (PI)
+        Italy
       <ul class="compact fa-ul">
           <li><i class="fa-li fa fa-envelope fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href='mailto:&#103;&#105;&#117;&#115;&#101;&#112;&#112;&#101;&#046;&#114;&#097;&#103;&#117;&#115;&#097;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'>&#103;&#105;&#117;&#115;&#101;&#112;&#112;&#101;&#046;&#114;&#097;&#103;&#117;&#115;&#097;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
         <li><i class="fa-li fa fa-twitter-square fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://twitter.com/giuragusa">@giuragusa</a> on Twitter.</li>
@@ -372,7 +379,7 @@ The Hellinger divergence is obtained by `CR(-1/2)`. For a certain value of `alph
 
 
 <footer id="footer">
-<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Giuseppe Ragusa 2006&ndash;2018. 
+<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Giuseppe Ragusa 2006&ndash;2019. 
 </section>
 </footer>
 
