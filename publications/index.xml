@@ -5,10 +5,19 @@
     <link>https://gragusa.org/publications/</link>
     <description>Recent content in Publications on gragusa.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gragusa.org/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Measuring euro area monetary policy</title>
+      <link>https://gragusa.org/publications/euro/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gragusa.org/publications/euro/</guid>
+      <description>We map ECB policy communication into yield curve changes and study the information flow on policy dates. A byproduct is the publicly available Euro Area Monetary Policy Event-Study Database (EA-MPD), containing intraday asset price changes. We find that Policy Target, Forward Guidance and Quantitative Easing factors capture about all the variation in the yield curve, with different factors appearing in the windows covering the policy decision announcement and the press conference, and having time-varying variance shares.</description>
+    </item>
     
     <item>
       <title>From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics</title>
@@ -181,15 +190,6 @@ Results Median total nucleated cell (TNC) and CD34+ cell counts of the series we
       
       <guid>https://gragusa.org/publications/existence-uniqueness-pejections/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>From Empty Pews to Empty Cradles: Fertility Decline Among European Catholics</title>
-      <link>https://gragusa.org/publications/emptypew/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/publications/emptypew/</guid>
-      <description>Catholic countries of Europe pose a demographic puzzle –fertility is unprecedentedly low (total fertility$=$1.3) despite low female labor force participation. We model three channels of religious effects on demand for children: through changing norms, reduced market wages, and reduced costs of childrearing. We estimate their effects using new panel data on church attendance and clergy employment for thirteen European countries from 1960-2000, spanning the Second Vatican Council (1962-65). Catholic theology is uniform across countries.</description>
     </item>
     
   </channel>

@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gragusa.org/teaching/advmetrics/</loc>
-    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/teaching/intrometrics/</loc>
-    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+    <lastmod>2020-02-26T00:00:00+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://gragusa.org/teaching/tsmetrics/</loc>
-    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+    <lastmod>2020-02-26T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/teaching/advmetrics/</loc>
+    <lastmod>2020-02-25T00:00:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gragusa.org/publications/euro/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -242,12 +247,8 @@
   </url>
   
   <url>
-    <loc>https://gragusa.org/publications/emptypew/</loc>
-  </url>
-  
-  <url>
     <loc>https://gragusa.org/publications/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -257,13 +258,13 @@
   
   <url>
     <loc>https://gragusa.org/teaching/</loc>
-    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+    <lastmod>2020-02-26T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gragusa.org/</loc>
-    <lastmod>2019-02-25T00:00:00+11:00</lastmod>
+    <lastmod>2020-02-26T00:00:00+11:00</lastmod>
     <priority>0</priority>
   </url>
   
