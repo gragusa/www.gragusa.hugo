@@ -1,8 +1,8 @@
 ---
 title: Advanced Econometrics 
-date: 2019-02-25T00:00:00+11:00
-enddate: 2019-05-31T00:00:00+11:00
-publishdate: "2019-02-22"
+date: 2020-02-25T00:00:00+11:00
+enddate: 2020-05-22T00:00:00+11:00
+publishdate: "2020-02-20"
 host: "University of Pisa"
 duration: 7776000
 ---
@@ -14,5 +14,5 @@ considered.
 
 
 <!--more-->
-<span class="label error outline"><a href="../files/teaching/syllabus-ase-2017.pdf">Syllabus</a></span>
-<span class="label  outline"><a href="https://elearning.ec.unipi.it/enrol/index.php?id=999">Class website</a></span>
+<span class="label error outline"><a href="https://elearning.ec.unipi.it/mod/resource/view.php?id=21180">Syllabus</a></span>
+<span class="label  outline"><a href="https://elearning.ec.unipi.it/enrol/index.php?id=1266">Class website</a></span>
