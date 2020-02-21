@@ -5,39 +5,10 @@
     <link>https://gragusa.org/et/</link>
     <description>Recent content in Ets on gragusa.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Feb 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gragusa.org/et/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>tasessions et</title>
-      <link>https://gragusa.org/et/tasessions/</link>
-      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/tasessions/</guid>
-      <description>The TAs will lead a weekly practice session which will be held in the computer labs (301 and 306).
-The sessions are an important part of the course and regular and attendance is strongly advised. During these sessions, the TA will review the concepts introduced in class and solve applied problems using Julia. Sessions are also useful for asking questions about the problem sets.
-The following table gives the distribution of students across the two sessions:</description>
-    </item>
-    
-    <item>
-      <title>Problem sets et</title>
-      <link>https://gragusa.org/et/problemsets/</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/problemsets/</guid>
-      <description>There will be a weekly problem set. The assignments will involve both theoretical and empirical work. Group study and free discussion are encouraged. But you should submit your own answers. You will probably find the class very hard to follow if you fail to spend sufficient time on all of the problem sets. The problem sets are part of the final grade as explained in the next section below.</description>
-    </item>
-    
-    <item>
-      <title>alertet</title>
-      <link>https://gragusa.org/et/alert/</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/alert/</guid>
-      <description> Announcements  Final marks for June 15 exam  </description>
-    </item>
     
     <item>
       <title>topics et</title>
@@ -55,57 +26,6 @@ The following table gives the distribution of students across the two sessions:<
  Limited dependent variable models
  Panel Data models
  Univariate ARMA processes with stochastic and non-stochastic trends</description>
-    </item>
-    
-    <item>
-      <title>About ET</title>
-      <link>https://gragusa.org/et/body/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/body/</guid>
-      <description>&lt;p&gt;The course main objective is to provide students with a solid grasp of the
-probabilistic and statistical underpinnings of the most common econometric
-techniques. The topics studied will be of practical use to any student who plans
-on confronting data in their thesis or wishes to read and precisely understand
-the econometrics typically used in empirical research published in academic
-journals.
-
-&lt;strong&gt;Econometric theory&lt;/strong&gt; has two parts:&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>ComputerSoftwareJuliaET</title>
-      <link>https://gragusa.org/et/julia/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/julia/</guid>
-      <description>Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments. In particular, its syntax is similar to Matlab. The similarity of the syntax means that a lot of Matlab code will run almost unmodified.
-Julia has many advantages over other languages and for this reason is being extensively used in industries and in research.
-Recently, the Federal Reserve of New York has open sourced its macroeconomic model (used for producing forecast about key variables and to conduct policy experiment).</description>
-    </item>
-    
-    <item>
-      <title>infoet</title>
-      <link>https://gragusa.org/et/info/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/info/</guid>
-      <description> ET 2016-2017 Instructor: Giuseppe Ragusa
-Teaching assistants:
- Siria Angino Chiara Perricone  Office hours
- Angino: W, 16:00-17:00
- Perricone: W 10:30-11:30 (by appointment)
- Ragusa: T 11:30-13:00
-  </description>
-    </item>
-    
-    <item>
-      <title>materialet</title>
-      <link>https://gragusa.org/et/material/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gragusa.org/et/material/</guid>
-      <description> Teaching notes  Part 1  Julia notebooks  Linear model by simulations  </description>
     </item>
     
   </channel>
